@@ -807,7 +807,7 @@
           }
         }
       },
-      "container": {
+      "different-structure": {
         "primary": {
           "bg": {
             "value": "{core.colour.bt.indigo.700}",
@@ -837,7 +837,108 @@
               "description": "Brand indigo"
             },
             "fg": {
+              "value": "{core.colour.bt.amber.900}",
+              "type": "color"
+            }
+          },
+          "unselected": {
+            "bg": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "fg": {
               "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            }
+          }
+        },
+        "tertiary": {
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.800}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.600}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "container": {
+        "primary": {
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color",
+              "description": "Brand indigo"
+            }
+          },
+          "fg": {
+            "value": "{core.colour.bt.neutral.50}",
+            "type": "color"
+          },
+          "border-selected": {
+            "value": "{core.colour.bt.indigo.600}",
+            "type": "color",
+            "description": "Brand indigo"
+          },
+          "hover": {
+            "value": "{core.colour.bt.indigo.800}",
+            "type": "color",
+            "description": "This can be defined as secondary with all other statesand inside 'Selectables' not 'Container'"
+          }
+        },
+        "secondary": {
+          "selected": {
+            "bg": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "fg": {
+              "value": "{core.colour.bt.amber.900}",
               "type": "color"
             }
           },
