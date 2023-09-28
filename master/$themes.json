@@ -1,15 +1,22 @@
 [
   {
     "id": "caf3724a8eee906b63fc5b18fc907123f3ef8b0e",
-    "name": "Theme-testing",
+    "name": "Theme-multi-brand",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "enabled",
-      "themes/bt-light": "source",
       "themes/ee-light": "enabled",
-      "components/button": "disabled",
-      "components/input": "disabled",
-      "components/dropdown": "disabled"
+      "themes/bt-light": "source"
+    }
+  },
+  {
+    "id": "b4f292842d0755165830c9f66c55cc1451140c5a",
+    "name": "Theme-2",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "themes/ee-light": "source",
+      "themes/ee-dark": "enabled",
+      "core": "source"
     }
   }
 ]

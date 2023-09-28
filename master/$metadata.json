@@ -3,6 +3,7 @@
     "core",
     "themes/bt-light",
     "themes/ee-light",
+    "themes/ee-dark",
     "components/button",
     "components/input",
     "components/dropdown"

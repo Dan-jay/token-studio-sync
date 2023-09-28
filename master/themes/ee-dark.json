@@ -1,0 +1,477 @@
+{
+  "sem": {
+    "color": {
+      "different-structure": {
+        "primary": {
+          "bg": {
+            "value": "{core.colour.bt.indigo.700}",
+            "type": "color",
+            "description": "Brand indigo"
+          },
+          "fg": {
+            "value": "{core.colour.bt.neutral.50}",
+            "type": "color"
+          },
+          "border-selected": {
+            "value": "{core.colour.bt.indigo.600}",
+            "type": "color",
+            "description": "Brand indigo"
+          },
+          "hover": {
+            "value": "{core.colour.bt.indigo.800}",
+            "type": "color",
+            "description": "This can be defined as secondary with all other states"
+          }
+        },
+        "secondary": {
+          "selected": {
+            "bg": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "fg": {
+              "value": "{core.colour.bt.amber.900}",
+              "type": "color"
+            }
+          },
+          "unselected": {
+            "bg": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "fg": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            }
+          }
+        },
+        "tertiary": {
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.800}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.600}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "container": {
+        "primary": {
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color",
+              "description": "Brand indigo"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{core.colour.bt.indigo.600}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "selected": {
+              "value": "{core.colour.bt.indigo.800}",
+              "type": "color",
+              "description": "Brand indigo"
+            }
+          }
+        },
+        "secondary": {
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.800}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.600}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            }
+          }
+        },
+        "tertiary": {
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.800}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.600}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            }
+          }
+        },
+        "gradient": {
+          "border": {
+            "vibrant-1": {
+              "value": "{core.colour-gradient.bt.3}",
+              "type": "color"
+            },
+            "vibrant-2": {
+              "value": "{core.colour-gradient.bt.4}",
+              "type": "color"
+            },
+            "warm-1": {
+              "value": "{core.colour-gradient.bt.5}",
+              "type": "color"
+            },
+            "warm-2": {
+              "value": "{core.colour-gradient.bt.6}",
+              "type": "color"
+            },
+            "electric-1": {
+              "value": "{core.colour-gradient.bt.7}",
+              "type": "color"
+            },
+            "electric-2": {
+              "value": "{core.colour-gradient.bt.8}",
+              "type": "color"
+            }
+          },
+          "overlay": {
+            "electric-faded-1": {
+              "value": "{core.colour-overlay.bt.5}",
+              "type": "color"
+            },
+            "electric-faded-2": {
+              "value": "{core.colour-overlay.bt.6}",
+              "type": "color"
+            }
+          },
+          "bg": {
+            "vibrant": {
+              "value": "{core.colour-gradient.bt.4}",
+              "type": "color"
+            },
+            "electric": {
+              "value": "{core.colour-gradient.bt.7}",
+              "type": "color"
+            }
+          }
+        },
+        "brag": {
+          "info": {
+            "bg-light": {
+              "value": "{core.colour.bt.blue.50}",
+              "type": "color"
+            },
+            "bg": {
+              "value": "{core.colour.bt.blue.500}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{core.colour.bt.blue.800}",
+              "type": "color"
+            }
+          },
+          "error": {
+            "bg-light": {
+              "value": "{core.colour.bt.red.50}",
+              "type": "color"
+            },
+            "bg": {
+              "value": "{core.colour.bt.red.700}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{core.colour.bt.red.900}",
+              "type": "color"
+            }
+          },
+          "warning": {
+            "bg-light": {
+              "value": "{core.colour.bt.amber.100}",
+              "type": "color"
+            },
+            "bg": {
+              "value": "{core.colour.bt.amber.700}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{core.colour.bt.amber.800}",
+              "type": "color"
+            }
+          },
+          "success": {
+            "bg-light": {
+              "value": "{core.colour.bt.green.50}",
+              "type": "color"
+            },
+            "bg": {
+              "value": "{core.colour.bt.green.700}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{core.colour.bt.green.900}",
+              "type": "color"
+            }
+          }
+        }
+      },
+      "selectable": {
+        "primary": {
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.900}",
+              "type": "color",
+              "description": "Brand indigo"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{core.colour.ee.yellow.300}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{core.colour.bt.indigo.600}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "selected": {
+              "value": "{core.colour.bt.indigo.800}",
+              "type": "color",
+              "description": "Brand indigo"
+            }
+          }
+        },
+        "secondary": {
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.800}",
+              "type": "color"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.600}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            }
+          }
+        },
+        "gradient": {
+          "border": {
+            "vibrant": {
+              "value": "{core.colour-gradient.bt.3}",
+              "type": "color"
+            },
+            "warm": {
+              "value": "{core.colour-gradient.bt.5}",
+              "type": "color"
+            },
+            "electric": {
+              "value": "{core.colour-gradient.bt.7}",
+              "type": "color"
+            },
+            "electric-1": {
+              "value": "{core.colour-gradient.bt.7}",
+              "type": "color"
+            }
+          },
+          "bg": {
+            "vibrant": {
+              "value": "{core.colour-gradient.bt.4}",
+              "type": "color"
+            },
+            "electric": {
+              "value": "{core.colour-gradient.bt.7}",
+              "type": "color"
+            }
+          }
+        },
+        "states": {
+          "hover": {
+            "value": "{core.colour.bt.indigo.800}",
+            "type": "color",
+            "description": "Brand indigo"
+          },
+          "focus": {
+            "value": "{core.colour.bt.indigo.400}",
+            "type": "color",
+            "description": "Brand indigo"
+          },
+          "selected": {
+            "value": "{core.colour.bt.indigo.900}",
+            "type": "color",
+            "description": "Brand indigo"
+          },
+          "unselected": {
+            "value": "{core.colour.bt.neutral.700}",
+            "type": "color",
+            "description": "Brand indigo"
+          }
+        }
+      }
+    }
+  }
+}
