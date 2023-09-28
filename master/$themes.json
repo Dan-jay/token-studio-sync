@@ -6,7 +6,10 @@
     "selectedTokenSets": {
       "core": "enabled",
       "themes/bt-light": "source",
-      "themes/ee-light": "enabled"
+      "themes/ee-light": "enabled",
+      "components/button": "disabled",
+      "components/input": "disabled",
+      "components/dropdown": "disabled"
     }
   }
 ]

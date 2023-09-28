@@ -6,7 +6,7 @@
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Dottee",
+        "value": "Non-Dottee",
         "type": "fontFamilies"
       },
       "display": {
@@ -14,7 +14,7 @@
         "type": "fontFamilies"
       },
       "interface": {
-        "value": "BT Curve",
+        "value": "Dottee",
         "type": "fontFamilies"
       }
     },
@@ -514,24 +514,16 @@
           "value": "{core.border-radius.0}",
           "type": "borderRadius"
         },
-        "xs": {
-          "value": "{core.border-radius.50}",
+        "01": {
+          "value": "{core.border-radius.300}",
           "type": "borderRadius"
         },
-        "s": {
+        "02": {
           "value": "{core.border-radius.100}",
           "type": "borderRadius"
         },
-        "m": {
+        "03": {
           "value": "{core.border-radius.150}",
-          "type": "borderRadius"
-        },
-        "lg": {
-          "value": "{core.border-radius.200}",
-          "type": "borderRadius"
-        },
-        "pill": {
-          "value": "{core.border-radius.pill}",
           "type": "borderRadius"
         }
       }

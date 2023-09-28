@@ -2,6 +2,9 @@
   "tokenSetOrder": [
     "core",
     "themes/bt-light",
-    "themes/ee-light"
+    "themes/ee-light",
+    "components/button",
+    "components/input",
+    "components/dropdown"
   ]
 }

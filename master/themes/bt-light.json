@@ -510,23 +510,23 @@
           "value": "{core.border-radius.0}",
           "type": "borderRadius"
         },
-        "xs": {
+        "01": {
           "value": "{core.border-radius.50}",
           "type": "borderRadius"
         },
-        "s": {
+        "02": {
           "value": "{core.border-radius.100}",
           "type": "borderRadius"
         },
-        "m": {
+        "03": {
           "value": "{core.border-radius.150}",
           "type": "borderRadius"
         },
-        "lg": {
-          "value": "{core.border-radius.50}",
+        "04": {
+          "value": "{core.border-radius.200}",
           "type": "borderRadius"
         },
-        "pill": {
+        "05": {
           "value": "{core.border-radius.pill}",
           "type": "borderRadius"
         }
