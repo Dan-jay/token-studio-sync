@@ -1,17 +1,17 @@
 [
   {
     "id": "caf3724a8eee906b63fc5b18fc907123f3ef8b0e",
-    "name": "Theme-multi-brand",
+    "name": "Theme bt-ee",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "core": "enabled",
+      "core": "source",
       "themes/ee-light": "enabled",
       "themes/bt-light": "source"
     }
   },
   {
     "id": "b4f292842d0755165830c9f66c55cc1451140c5a",
-    "name": "Theme-2",
+    "name": "Theme light-dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "themes/ee-light": "source",
