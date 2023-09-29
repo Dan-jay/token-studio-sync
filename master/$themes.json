@@ -18,5 +18,14 @@
       "themes/ee-dark": "enabled",
       "core": "source"
     }
+  },
+  {
+    "id": "ca76e5baa806ce433840da284de594819f836f48",
+    "name": "Theme ee to bt",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "themes/bt-light": "enabled"
+    }
   }
 ]

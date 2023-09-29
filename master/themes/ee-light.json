@@ -766,6 +766,10 @@
             "default": {
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
+            },
+            "base": {
+              "value": "{core.colour.ee.yellow.300}",
+              "type": "color"
             }
           },
           "border": {

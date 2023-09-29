@@ -742,6 +742,10 @@
             "default": {
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
+            },
+            "base": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color"
             }
           },
           "border": {
@@ -785,7 +789,7 @@
               "value": "{core.colour.bt.neutral.100}",
               "type": "color"
             },
-            "dark": {
+            "subtle": {
               "value": "{core.colour.bt.neutral.400}",
               "type": "color"
             },
