@@ -1,31 +1,30 @@
 [
   {
-    "id": "caf3724a8eee906b63fc5b18fc907123f3ef8b0e",
-    "name": "Theme bt-ee",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "core": "source",
-      "themes/ee-light": "enabled",
-      "themes/bt-light": "source"
-    }
-  },
-  {
-    "id": "b4f292842d0755165830c9f66c55cc1451140c5a",
-    "name": "Theme light-dark",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "themes/ee-light": "source",
-      "themes/ee-dark": "enabled",
-      "core": "source"
-    }
-  },
-  {
-    "id": "ca76e5baa806ce433840da284de594819f836f48",
-    "name": "Theme ee to bt",
+    "id": "dd61ae32026583431c8c6f0afdc2643630466b47",
+    "name": "BT",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
       "themes/bt-light": "enabled"
+    }
+  },
+  {
+    "id": "48838660054b7cce1a6e1e7b1a1d60732e742e6d",
+    "name": "EE",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "themes/ee-light": "enabled"
+    }
+  },
+  {
+    "id": "8bc004494d00b39ec291ea8d6e0e0a4664c1a22c",
+    "name": "EE dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "themes/ee-light": "enabled",
+      "themes/ee-dark": "enabled"
     }
   }
 ]

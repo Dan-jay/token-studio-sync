@@ -788,7 +788,7 @@
         "secondary": {
           "bg": {
             "default": {
-              "value": "{core.colour.bt.neutral.800}",
+              "value": "{core.colour.ee.aqua.600}",
               "type": "color"
             },
             "light": {
