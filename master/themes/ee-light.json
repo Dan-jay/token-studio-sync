@@ -1076,36 +1076,6 @@
             }
           }
         },
-        "gradient": {
-          "border": {
-            "vibrant": {
-              "value": "{core.colour-gradient.bt.3}",
-              "type": "color"
-            },
-            "warm": {
-              "value": "{core.colour-gradient.bt.5}",
-              "type": "color"
-            },
-            "electric": {
-              "value": "{core.colour-gradient.bt.7}",
-              "type": "color"
-            },
-            "electric-1": {
-              "value": "{core.colour-gradient.bt.7}",
-              "type": "color"
-            }
-          },
-          "bg": {
-            "vibrant": {
-              "value": "{core.colour-gradient.bt.4}",
-              "type": "color"
-            },
-            "electric": {
-              "value": "{core.colour-gradient.bt.7}",
-              "type": "color"
-            }
-          }
-        },
         "states": {
           "hover": {
             "value": "{core.colour.bt.indigo.800}",
