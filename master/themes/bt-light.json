@@ -981,6 +981,10 @@
             "default": {
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
+            },
+            "base": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color"
             }
           },
           "border": {
@@ -1030,6 +1034,18 @@
             },
             "darker": {
               "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            },
+            "body-light": {
+              "value": "{core.colour.bt.neutral.600}",
+              "type": "color"
+            },
+            "body-lighter": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "body-dark": {
+              "value": "{core.colour.bt.neutral.800}",
               "type": "color"
             }
           },
