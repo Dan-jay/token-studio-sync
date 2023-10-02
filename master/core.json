@@ -696,6 +696,86 @@
             "value": "#005900",
             "type": "color"
           }
+        },
+        "overlay": {
+          "1": {
+            "value": "rgba(85,20,180,0.5)",
+            "type": "color",
+            "description": "neutral 900"
+          },
+          "2": {
+            "value": "rgba(255,128,255,0.5)",
+            "type": "color",
+            "description": "neutral 900"
+          },
+          "3": {
+            "value": "rgba(255,255,255,0.5)",
+            "type": "color",
+            "description": "neutral 50"
+          },
+          "4": {
+            "value": "rgba(0,0,0,0.5)",
+            "type": "color",
+            "description": "neutral 900"
+          },
+          "5": {
+            "value": "linear-gradient(-43deg, #ff80ff 0%, #1ec8e600 100%)",
+            "type": "color"
+          },
+          "6": {
+            "value": "linear-gradient(-59deg, #ff80ff 0%, #1ec8e600 100%)",
+            "type": "color"
+          }
+        },
+        "gradient": {
+          "1": {
+            "value": "linear-gradient(90deg, #5514b4 8.33%, #7e2ec6 100%)",
+            "type": "color"
+          },
+          "2": {
+            "value": "linear-gradient(53deg, #5514b4 0%, #ff80ff 100%)",
+            "type": "color"
+          },
+          "3": {
+            "value": "linear-gradient(-40deg, #1ec8e6 0%, #f200f5 100%)",
+            "type": "color"
+          },
+          "4": {
+            "value": "linear-gradient(244deg, #f200f5 0%, #1ec8e6 100%)",
+            "type": "color"
+          },
+          "5": {
+            "value": "linear-gradient(46deg, #f29db4 0%, #ca00dc 100%)",
+            "type": "color"
+          },
+          "6": {
+            "value": "linear-gradient(135deg, #f29db4 0%, #ca00dc 100%)",
+            "type": "color"
+          },
+          "7": {
+            "value": "linear-gradient(-45deg, #ff80ff 0%, #72d4e9 100%)",
+            "type": "color"
+          },
+          "8": {
+            "value": "linear-gradient(-44deg, #72d4e9 0%, #ff80ff 100%)",
+            "type": "color"
+          },
+          "9": {
+            "value": "linear-gradient(135deg, #c8ebf3 0%, #f8efff 100%)",
+            "type": "color"
+          },
+          "10": {
+            "value": "linear-gradient(135deg, #f8efff 0%, #c8ebf3 100%)",
+            "type": "color"
+          },
+          "11": {
+            "value": "linear-gradient(115deg, #fadde8 0%, #f8efff 100%)",
+            "type": "color"
+          },
+          "12": {
+            "value": "linear-gradient(135deg, #f8efff 0%, #fadde8 100%)",
+            "type": "color"
+          }
         }
       },
       "ee": {
@@ -748,96 +828,12 @@
             "value": "#B14D00",
             "type": "color"
           }
-        }
-      }
-    },
-    "colour-gradient": {
-      "bt": {
-        "1": {
-          "value": "linear-gradient(90deg, #5514b4 8.33%, #7e2ec6 100%)",
-          "type": "color"
         },
-        "2": {
-          "value": "linear-gradient(53deg, #5514b4 0%, #ff80ff 100%)",
-          "type": "color"
-        },
-        "3": {
-          "value": "linear-gradient(-40deg, #1ec8e6 0%, #f200f5 100%)",
-          "type": "color"
-        },
-        "4": {
-          "value": "linear-gradient(244deg, #f200f5 0%, #1ec8e6 100%)",
-          "type": "color"
-        },
-        "5": {
-          "value": "linear-gradient(46deg, #f29db4 0%, #ca00dc 100%)",
-          "type": "color"
-        },
-        "6": {
-          "value": "linear-gradient(135deg, #f29db4 0%, #ca00dc 100%)",
-          "type": "color"
-        },
-        "7": {
-          "value": "linear-gradient(-45deg, #ff80ff 0%, #72d4e9 100%)",
-          "type": "color"
-        },
-        "8": {
-          "value": "linear-gradient(-44deg, #72d4e9 0%, #ff80ff 100%)",
-          "type": "color"
-        },
-        "9": {
-          "value": "linear-gradient(135deg, #c8ebf3 0%, #f8efff 100%)",
-          "type": "color"
-        },
-        "10": {
-          "value": "linear-gradient(135deg, #f8efff 0%, #c8ebf3 100%)",
-          "type": "color"
-        },
-        "11": {
-          "value": "linear-gradient(115deg, #fadde8 0%, #f8efff 100%)",
-          "type": "color"
-        },
-        "12": {
-          "value": "linear-gradient(135deg, #f8efff 0%, #fadde8 100%)",
-          "type": "color"
-        }
-      }
-    },
-    "colour-overlay": {
-      "bt": {
-        "1": {
-          "value": "rgba(85,20,180,0.5)",
-          "type": "color",
-          "description": "neutral 900"
-        },
-        "2": {
-          "value": "rgba(255,128,255,0.5)",
-          "type": "color",
-          "description": "neutral 900"
-        },
-        "3": {
-          "value": "rgba(255,255,255,0.5)",
-          "type": "color",
-          "description": "neutral 50"
-        },
-        "4": {
-          "value": "rgba(0,0,0,0.5)",
-          "type": "color",
-          "description": "neutral 900"
-        },
-        "5": {
-          "value": "linear-gradient(-43deg, #ff80ff 0%, #1ec8e600 100%)",
-          "type": "color"
-        },
-        "6": {
-          "value": "linear-gradient(-59deg, #ff80ff 0%, #1ec8e600 100%)",
-          "type": "color"
-        }
-      },
-      "ee": {
-        "1": {
-          "value": "rgba(5,115,130,0.5)",
-          "type": "color"
+        "overlay": {
+          "1": {
+            "value": "rgba(5,115,130,0.5)",
+            "type": "color"
+          }
         }
       }
     },

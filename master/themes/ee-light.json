@@ -514,15 +514,15 @@
           "value": "{core.border-radius.0}",
           "type": "borderRadius"
         },
-        "01": {
-          "value": "{core.border-radius.300}",
+        "minimal": {
+          "value": "{core.border-radius.25}",
           "type": "borderRadius"
         },
-        "02": {
+        "subtle": {
           "value": "{core.border-radius.100}",
           "type": "borderRadius"
         },
-        "03": {
+        "default": {
           "value": "{core.border-radius.50}",
           "type": "borderRadius"
         }
@@ -757,7 +757,12 @@
         "primary": {
           "bg": {
             "default": {
-              "value": "{core.colour.bt.indigo.700}",
+              "value": "{core.colour.ee.aqua.600}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "bold": {
+              "value": "{core.colour.bt.neutral.50}",
               "type": "color",
               "description": "Brand indigo"
             }
@@ -767,14 +772,18 @@
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
             },
-            "base": {
+            "bold": {
+              "value": "{core.colour.ee.aqua.600}",
+              "type": "color"
+            },
+            "strong": {
               "value": "{core.colour.ee.yellow.300}",
               "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{core.colour.bt.indigo.600}",
+              "value": "{core.colour.ee.aqua.600}",
               "type": "color",
               "description": "Brand indigo"
             },
@@ -892,47 +901,47 @@
         "gradient": {
           "border": {
             "vibrant-1": {
-              "value": "{core.colour-gradient.bt.3}",
+              "value": "{core.colour.bt.gradient.3}",
               "type": "color"
             },
             "vibrant-2": {
-              "value": "{core.colour-gradient.bt.4}",
+              "value": "{core.colour.bt.gradient.4}",
               "type": "color"
             },
             "warm-1": {
-              "value": "{core.colour-gradient.bt.5}",
+              "value": "{core.colour.bt.gradient.5}",
               "type": "color"
             },
             "warm-2": {
-              "value": "{core.colour-gradient.bt.6}",
+              "value": "{core.colour.bt.gradient.6}",
               "type": "color"
             },
             "electric-1": {
-              "value": "{core.colour-gradient.bt.7}",
+              "value": "{core.colour.bt.gradient.7}",
               "type": "color"
             },
             "electric-2": {
-              "value": "{core.colour-gradient.bt.8}",
+              "value": "{core.colour.bt.gradient.8}",
               "type": "color"
             }
           },
           "overlay": {
             "electric-faded-1": {
-              "value": "{core.colour-overlay.bt.5}",
+              "value": "{core.colour.bt.overlay.5}",
               "type": "color"
             },
             "electric-faded-2": {
-              "value": "{core.colour-overlay.bt.6}",
+              "value": "{core.colour.bt.overlay.6}",
               "type": "color"
             }
           },
           "bg": {
             "vibrant": {
-              "value": "{core.colour-gradient.bt.4}",
+              "value": "{core.colour.bt.gradient.4}",
               "type": "color"
             },
             "electric": {
-              "value": "{core.colour-gradient.bt.7}",
+              "value": "{core.colour.bt.gradient.7}",
               "type": "color"
             }
           }
