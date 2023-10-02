@@ -937,7 +937,7 @@
             }
           }
         },
-        "brag": {
+        "status": {
           "info": {
             "bg-light": {
               "value": "{core.colour.bt.blue.50}",

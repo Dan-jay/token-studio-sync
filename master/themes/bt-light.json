@@ -736,6 +736,11 @@
               "value": "{core.colour.bt.indigo.700}",
               "type": "color",
               "description": "Brand indigo"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color",
+              "description": "Brand indigo"
             }
           },
           "fg": {
@@ -743,7 +748,7 @@
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
             },
-            "base": {
+            "dark": {
               "value": "{core.colour.bt.indigo.700}",
               "type": "color"
             }
@@ -913,7 +918,7 @@
             }
           }
         },
-        "brag": {
+        "status": {
           "info": {
             "bg-light": {
               "value": "{core.colour.bt.blue.50}",
@@ -979,6 +984,11 @@
               "value": "{core.colour.bt.indigo.700}",
               "type": "color",
               "description": "Brand indigo"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color",
+              "description": "Brand indigo"
             }
           },
           "fg": {
@@ -986,7 +996,7 @@
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
             },
-            "base": {
+            "dark": {
               "value": "{core.colour.bt.indigo.700}",
               "type": "color"
             }
