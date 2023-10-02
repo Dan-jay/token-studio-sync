@@ -1,9 +1,9 @@
 {
   "tokenSetOrder": [
     "core",
-    "themes/bt-light",
-    "themes/ee-light",
-    "themes/ee-dark",
+    "themes/BT",
+    "themes/EE",
+    "themes/EE dark",
     "components/button",
     "components/input",
     "components/dropdown"

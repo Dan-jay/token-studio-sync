@@ -761,7 +761,7 @@
               "type": "color",
               "description": "Brand indigo"
             },
-            "bold": {
+            "light": {
               "value": "{core.colour.bt.neutral.50}",
               "type": "color",
               "description": "Brand indigo"
@@ -773,10 +773,6 @@
               "type": "color"
             },
             "bold": {
-              "value": "{core.colour.ee.aqua.600}",
-              "type": "color"
-            },
-            "strong": {
               "value": "{core.colour.ee.yellow.300}",
               "type": "color"
             }

@@ -5,7 +5,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "themes/bt-light": "enabled"
+      "themes/BT": "enabled",
+      "themes/EE": "disabled",
+      "themes/EE dark": "disabled"
     }
   },
   {
@@ -14,7 +16,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "themes/ee-light": "enabled"
+      "themes/BT": "disabled",
+      "themes/EE": "enabled",
+      "themes/EE dark": "disabled"
     }
   },
   {
@@ -23,8 +27,9 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "themes/ee-light": "enabled",
-      "themes/ee-dark": "enabled"
+      "themes/BT": "disabled",
+      "themes/EE": "enabled",
+      "themes/EE dark": "enabled"
     }
   }
 ]

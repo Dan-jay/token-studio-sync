@@ -736,11 +736,6 @@
               "value": "{core.colour.bt.neutral.50}",
               "type": "color",
               "description": "Brand indigo"
-            },
-            "bold": {
-              "value": "{core.colour.bt.indigo.700}",
-              "type": "color",
-              "description": "Brand indigo"
             }
           },
           "fg": {
@@ -976,12 +971,22 @@
         "primary": {
           "bg": {
             "default": {
-              "value": "{core.colour.bt.neutral.50}",
+              "value": "{core.colour.bt.indigo.600}",
               "type": "color",
               "description": "Brand indigo"
             },
             "bold": {
-              "value": "{core.colour.bt.indigo.700}",
+              "value": "{core.colour.bt.indigo.800}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "strong": {
+              "value": "{core.colour.bt.indigo.900}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.50}",
               "type": "color",
               "description": "Brand indigo"
             }
@@ -994,16 +999,15 @@
             "bold": {
               "value": "{core.colour.bt.indigo.700}",
               "type": "color"
+            },
+            "strong": {
+              "value": "{core.colour.bt.indigo.800}",
+              "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{core.colour.bt.indigo.600}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "hover": {
-              "value": "{core.colour.bt.indigo.800}",
+              "value": "{core.colour.bt.indigo.700}",
               "type": "color",
               "description": "Brand indigo"
             },
@@ -1060,15 +1064,7 @@
               "value": "{core.colour.bt.neutral.700}",
               "type": "color"
             },
-            "body-light": {
-              "value": "{core.colour.bt.neutral.600}",
-              "type": "color"
-            },
-            "body-lighter": {
-              "value": "{core.colour.bt.neutral.400}",
-              "type": "color"
-            },
-            "body-dark": {
+            "body": {
               "value": "{core.colour.bt.neutral.800}",
               "type": "color"
             }
