@@ -740,7 +740,7 @@
           },
           "fg": {
             "default": {
-              "value": "{core.colour.bt.neutral.50}",
+              "value": "{core.colour.bt.neutral.800}",
               "type": "color"
             },
             "bold": {
@@ -776,56 +776,12 @@
               "value": "{core.colour.bt.neutral.800}",
               "type": "color"
             },
-            "light": {
-              "value": "{core.colour.bt.neutral.200}",
-              "type": "color"
-            },
-            "lighter": {
-              "value": "{core.colour.bt.neutral.100}",
-              "type": "color"
-            },
             "subtle": {
               "value": "{core.colour.bt.neutral.400}",
               "type": "color"
             },
-            "darker": {
+            "bold": {
               "value": "{core.colour.bt.neutral.700}",
-              "type": "color"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "{core.colour.bt.neutral.400}",
-              "type": "color"
-            },
-            "dark": {
-              "value": "{core.colour.bt.neutral.600}",
-              "type": "color"
-            },
-            "darker": {
-              "value": "{core.colour.bt.neutral.700}",
-              "type": "color"
-            }
-          }
-        },
-        "tertiary": {
-          "bg": {
-            "default": {
-              "value": "{core.colour.bt.neutral.50}",
-              "type": "color"
-            },
-            "light": {
-              "value": "{core.colour.bt.neutral.200}",
-              "type": "color"
-            },
-            "lighter": {
-              "value": "{core.colour.bt.neutral.100}",
-              "type": "color"
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{core.colour.bt.neutral.800}",
               "type": "color"
             },
             "light": {
@@ -971,7 +927,7 @@
         "primary": {
           "bg": {
             "default": {
-              "value": "{core.colour.bt.indigo.600}",
+              "value": "{core.colour.bt.indigo.700}",
               "type": "color",
               "description": "Brand indigo"
             },
@@ -982,6 +938,11 @@
             },
             "strong": {
               "value": "{core.colour.bt.indigo.900}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "subtle": {
+              "value": "{core.colour.bt.indigo.400}",
               "type": "color",
               "description": "Brand indigo"
             },
@@ -1011,17 +972,12 @@
               "type": "color",
               "description": "Brand indigo"
             },
-            "focus": {
-              "value": "{core.colour.bt.indigo.400}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "selected": {
+            "strong": {
               "value": "{core.colour.bt.indigo.900}",
               "type": "color",
               "description": "Brand indigo"
             },
-            "unselected": {
+            "darker": {
               "value": "{core.colour.bt.neutral.700}",
               "type": "color",
               "description": "Brand indigo"
@@ -1048,6 +1004,14 @@
               "value": "{core.colour.bt.neutral.800}",
               "type": "color"
             },
+            "subtle": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "bold": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            },
             "light": {
               "value": "{core.colour.bt.neutral.200}",
               "type": "color"
@@ -1062,10 +1026,6 @@
             },
             "darker": {
               "value": "{core.colour.bt.neutral.700}",
-              "type": "color"
-            },
-            "body": {
-              "value": "{core.colour.bt.neutral.800}",
               "type": "color"
             }
           },

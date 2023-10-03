@@ -8,6 +8,11 @@
               "value": "{core.colour.bt.neutral.800}",
               "type": "color",
               "description": "Brand indigo"
+            },
+            "light": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color",
+              "description": "Brand indigo"
             }
           },
           "fg": {
@@ -15,19 +20,19 @@
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
             },
-            "base": {
+            "bold": {
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{core.colour.bt.indigo.600}",
+              "value": "{core.colour.bt.neutral.800}",
               "type": "color",
               "description": "Brand indigo"
             },
-            "selected": {
-              "value": "{core.colour.bt.indigo.800}",
+            "bold": {
+              "value": "{core.colour.ee.yellow.300}",
               "type": "color",
               "description": "Brand indigo"
             }
@@ -53,56 +58,12 @@
               "value": "{core.colour.ee.yellow.300}",
               "type": "color"
             },
-            "light": {
-              "value": "{core.colour.bt.neutral.200}",
-              "type": "color"
-            },
-            "lighter": {
-              "value": "{core.colour.bt.neutral.100}",
-              "type": "color"
-            },
-            "dark": {
+            "subtle": {
               "value": "{core.colour.bt.neutral.400}",
               "type": "color"
             },
-            "darker": {
+            "bold": {
               "value": "{core.colour.bt.neutral.700}",
-              "type": "color"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "{core.colour.bt.neutral.400}",
-              "type": "color"
-            },
-            "dark": {
-              "value": "{core.colour.bt.neutral.600}",
-              "type": "color"
-            },
-            "darker": {
-              "value": "{core.colour.bt.neutral.700}",
-              "type": "color"
-            }
-          }
-        },
-        "tertiary": {
-          "bg": {
-            "default": {
-              "value": "{core.colour.bt.neutral.50}",
-              "type": "color"
-            },
-            "light": {
-              "value": "{core.colour.bt.neutral.200}",
-              "type": "color"
-            },
-            "lighter": {
-              "value": "{core.colour.bt.neutral.100}",
-              "type": "color"
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{core.colour.bt.neutral.800}",
               "type": "color"
             },
             "light": {
@@ -133,54 +94,6 @@
             },
             "darker": {
               "value": "{core.colour.bt.neutral.700}",
-              "type": "color"
-            }
-          }
-        },
-        "gradient": {
-          "border": {
-            "vibrant-1": {
-              "value": "{core.colour.bt.gradient.3}",
-              "type": "color"
-            },
-            "vibrant-2": {
-              "value": "{core.colour.bt.gradient.4}",
-              "type": "color"
-            },
-            "warm-1": {
-              "value": "{core.colour.bt.gradient.5}",
-              "type": "color"
-            },
-            "electric-1": {
-              "value": "{core.colour.bt.gradient.7}",
-              "type": "color"
-            },
-            "warm-2": {
-              "value": "{core.colour.bt.gradient.6}",
-              "type": "color"
-            },
-            "electric-2": {
-              "value": "{core.colour.bt.gradient.8}",
-              "type": "color"
-            }
-          },
-          "overlay": {
-            "electric-faded-1": {
-              "value": "{core.colour.bt.overlay.5}",
-              "type": "color"
-            },
-            "electric-faded-2": {
-              "value": "{core.colour.bt.overlay.6}",
-              "type": "color"
-            }
-          },
-          "bg": {
-            "vibrant": {
-              "value": "{core.colour.bt.gradient.4}",
-              "type": "color"
-            },
-            "electric": {
-              "value": "{core.colour.bt.gradient.7}",
               "type": "color"
             }
           }
