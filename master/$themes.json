@@ -5,9 +5,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "themes/BT": "enabled",
-      "themes/EE": "disabled",
-      "themes/EE dark": "disabled"
+      "themes/BT": "enabled"
     }
   },
   {
@@ -16,9 +14,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "themes/BT": "disabled",
-      "themes/EE": "enabled",
-      "themes/EE dark": "disabled"
+      "themes/EE": "enabled"
     }
   },
   {
@@ -27,7 +23,6 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "themes/BT": "disabled",
       "themes/EE": "enabled",
       "themes/EE dark": "enabled"
     }
