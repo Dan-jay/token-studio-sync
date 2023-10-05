@@ -2,37 +2,34 @@
   "comp": {
     "button": {
       "color": {
-        "primary": {
-          "bg": {
-            "default": {
-              "value": "{sem.color.selectable.primary.bg.default}",
-              "type": "color"
-            },
-            "hover": {
-              "value": "{sem.color.selectable.primary.bg.bold}",
-              "type": "color",
-              "$extensions": {}
-            },
-            "selected": {
-              "value": "{sem.color.selectable.primary.bg.strong}",
-              "type": "color"
-            }
+        "bg": {
+          "default": {
+            "value": "{sem.color.selectable.primary.bg.default}",
+            "type": "color"
           },
-          "fg": {
-            "default": {
-              "value": "{sem.color.selectable.primary.fg.default}",
-              "type": "color"
-            },
-            "bold": {
-              "value": "{sem.color.selectable.primary.fg.bold}",
-              "type": "color"
-            }
+          "hover": {
+            "value": "{sem.color.selectable.primary.bg.bold}",
+            "type": "color"
           },
-          "border": {
-            "default": {
-              "value": "{sem.color.selectable.primary.border.default}",
-              "type": "color"
-            }
+          "selected": {
+            "value": "{sem.color.selectable.primary.bg.strong}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color.selectable.primary.fg.default}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{sem.color.selectable.primary.fg.bold}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{sem.color.selectable.primary.border.default}",
+            "type": "color"
           }
         }
       }

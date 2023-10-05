@@ -230,6 +230,10 @@
         "value": "{core.dimension.base} * 125",
         "type": "dimension"
       },
+      "137": {
+        "value": "{core.dimension.base} * 137.5",
+        "type": "dimension"
+      },
       "150": {
         "value": "{core.dimension.base} * 150",
         "type": "dimension"
