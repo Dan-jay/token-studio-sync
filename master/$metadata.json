@@ -1,0 +1,10 @@
+{
+  "tokenSetOrder": [
+    "core",
+    "themes/BT",
+    "components/button/primary",
+    "components/button/error",
+    "components/input",
+    "components/dropdown"
+  ]
+}

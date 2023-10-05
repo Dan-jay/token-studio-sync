@@ -1,0 +1,21 @@
+[
+  {
+    "id": "dd61ae32026583431c8c6f0afdc2643630466b47",
+    "name": "BT",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "themes/BT": "enabled"
+    }
+  },
+  {
+    "id": "47d8d55efc8f257a8fcec2a8de21a02f59a92d27",
+    "name": "components",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "themes/BT": "enabled"
+    },
+    "group": "BT-All"
+  }
+]
