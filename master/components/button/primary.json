@@ -10,7 +10,8 @@
             },
             "hover": {
               "value": "{sem.color.selectable.primary.bg.bold}",
-              "type": "color"
+              "type": "color",
+              "$extensions": {}
             },
             "selected": {
               "value": "{sem.color.selectable.primary.bg.strong}",
@@ -19,7 +20,7 @@
           },
           "fg": {
             "default": {
-              "value": "{core.colour.bt.amber.300}",
+              "value": "{sem.color.selectable.primary.fg.default}",
               "type": "color"
             },
             "bold": {
@@ -29,7 +30,7 @@
           },
           "border": {
             "default": {
-              "value": "{sem.color.selectable.primary.bg.default}",
+              "value": "{sem.color.selectable.primary.border.default}",
               "type": "color"
             }
           }

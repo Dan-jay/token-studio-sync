@@ -1,10 +1,10 @@
 {
   "tokenSetOrder": [
     "core",
-    "themes/BT",
+    "themes/BT-arc-11",
+    "themes/BT-arc-12",
+    "themes/BT-arc-13",
     "components/button/primary",
-    "components/button/error",
-    "components/input",
-    "components/dropdown"
+    "components/button/border-radius"
   ]
 }

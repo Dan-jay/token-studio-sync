@@ -1,0 +1,12 @@
+{
+  "comp": {
+    "button": {
+      "border-radius": {
+        "default": {
+          "value": "{sem.border-radius.selectable.default}",
+          "type": "borderRadius"
+        }
+      }
+    }
+  }
+}

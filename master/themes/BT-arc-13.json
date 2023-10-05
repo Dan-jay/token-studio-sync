@@ -744,7 +744,7 @@
           },
           "fg": {
             "default": {
-              "value": "{core.colour.bt.neutral.800}",
+              "value": "{core.colour.bt.amber.400}",
               "type": "color"
             },
             "bold": {
@@ -958,11 +958,11 @@
           },
           "fg": {
             "default": {
-              "value": "{core.colour.bt.neutral.50}",
+              "value": "{core.colour.bt.pink.400}",
               "type": "color"
             },
             "bold": {
-              "value": "{core.colour.bt.indigo.700}",
+              "value": "{core.colour.bt.amber.900}",
               "type": "color"
             },
             "strong": {
@@ -972,17 +972,12 @@
           },
           "border": {
             "default": {
-              "value": "{core.colour.bt.indigo.700}",
+              "value": "{core.colour.bt.amber.900}",
               "type": "color",
               "description": "Brand indigo"
             },
             "strong": {
               "value": "{core.colour.bt.indigo.900}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "darker": {
-              "value": "{core.colour.bt.neutral.700}",
               "type": "color",
               "description": "Brand indigo"
             }
@@ -1095,7 +1090,7 @@
           "type": "borderRadius"
         },
         "default": {
-          "value": "{core.border-radius.150}",
+          "value": "{core.border-radius.0}",
           "type": "borderRadius"
         }
       }
