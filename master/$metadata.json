@@ -3,7 +3,7 @@
     "core",
     "themes/BT-arc-11",
     "themes/BT-arc-12",
-    "components/button/primary",
+    "components/button/color",
     "components/button/border-radius"
   ]
 }

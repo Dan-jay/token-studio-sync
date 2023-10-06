@@ -6,8 +6,8 @@
     "selectedTokenSets": {
       "core": "source",
       "themes/BT-arc-11": "source",
-      "components/button/primary": "enabled",
-      "components/button/border-radius": "enabled"
+      "components/button/border-radius": "enabled",
+      "components/button/color": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6:1781",
     "$figmaModeId": "6:9",
@@ -29,8 +29,8 @@
     "selectedTokenSets": {
       "core": "source",
       "themes/BT-arc-12": "source",
-      "components/button/primary": "enabled",
-      "components/button/border-radius": "enabled"
+      "components/button/border-radius": "enabled",
+      "components/button/color": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6:1781",
     "$figmaModeId": "6:10",
