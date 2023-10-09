@@ -5,9 +5,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "themes/BT-arc-11": "source",
-      "components/button/border-radius": "enabled",
-      "components/button/color": "enabled"
+      "themes/BT-arc-11": "enabled",
+      "components/button/color/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6:1781",
     "$figmaModeId": "6:9",
@@ -28,9 +27,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core": "source",
-      "themes/BT-arc-12": "source",
-      "components/button/border-radius": "enabled",
-      "components/button/color": "enabled"
+      "themes/BT-arc-12": "enabled",
+      "components/button/color/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:6:1781",
     "$figmaModeId": "6:10",
@@ -42,6 +40,28 @@
       "comp.button.color.fg.default": "c905a93071db9d49b61fa9a9bc66bf4f2d8a76aa",
       "comp.button.color.fg.text": "c1319258b7c2f93b05d93648b72f8bc7c49fef7d",
       "comp.button.color.border.default": "f7867aa48e3e7bf7f5c2e3866663d4c8cb1d5ab4"
+    },
+    "group": "BT"
+  },
+  {
+    "id": "95b0b4ce68a876778cbacf1789e416d8d49f5730",
+    "name": "arc-11 dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "themes/BT-arc-11": "enabled",
+      "components/button/color/light": "enabled"
+    },
+    "group": "BT"
+  },
+  {
+    "id": "aca5028012720e4b04e4d2914194421d7eeecf27",
+    "name": "arc-12 dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "themes/BT-arc-12": "enabled",
+      "components/button/color/light": "enabled"
     },
     "group": "BT"
   }

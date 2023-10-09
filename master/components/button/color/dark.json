@@ -1,0 +1,38 @@
+{
+  "comp": {
+    "button": {
+      "color": {
+        "bg": {
+          "default": {
+            "value": "{sem.color..pathway.dark.bg.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color..pathway.dark.bg.emphasis}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{sem.color..primary.bg.strong}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color..primary.fg.default}",
+            "type": "color"
+          },
+          "emphasis": {
+            "value": "{sem.color..primary.fg.emphasis}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{sem.color..primary.border.default}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}
