@@ -1,0 +1,54 @@
+{
+  "button": {
+    "padding": {
+      "ml": {
+        "value": "{sem.space.container.padding.137}",
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "s": {
+        "value": "{sem.space.container.gap.50}",
+        "type": "spacing"
+      }
+    },
+    "border-radius": {
+      "default": {
+        "value": "{sem.border-radius.container.default}",
+        "type": "borderRadius"
+      }
+    },
+    "typography": {
+      "interface": {
+        "default": {
+          "lg": {
+            "value": "{sem.typography.interface.default.lg}",
+            "type": "typography"
+          }
+        }
+      }
+    },
+    "size": {
+      "container": {
+        "xl": {
+          "value": "{sem.size.container.400}",
+          "type": "sizing"
+        }
+      },
+      "icon": {
+        "ml": {
+          "value": "{sem.size.icon.ml}",
+          "type": "sizing"
+        }
+      }
+    }
+  },
+  "alert": {
+    "border-radius": {
+      "default": {
+        "value": "{sem.border-radius.container.default}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

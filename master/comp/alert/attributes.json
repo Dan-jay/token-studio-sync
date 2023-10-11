@@ -1,0 +1,28 @@
+{
+  "alert": {
+    "padding": {
+      "s": {
+        "value": "{sem.space.container.padding.50}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.container.padding.75}",
+        "type": "spacing"
+      }
+    },
+    "size": {
+      "icon": {
+        "m": {
+          "value": "{sem.size.icon.m}",
+          "type": "sizing"
+        }
+      }
+    },
+    "border-radius": {
+      "minimal": {
+        "value": "{sem.border-radius.container.minimal}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

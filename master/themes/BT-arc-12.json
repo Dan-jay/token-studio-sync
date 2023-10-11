@@ -506,7 +506,7 @@
     },
     "space": {
       "container": {
-        "inset-padding": {
+        "padding": {
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"
@@ -536,7 +536,7 @@
             "type": "spacing"
           }
         },
-        "inside": {
+        "gap": {
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"
@@ -658,6 +658,26 @@
         }
       }
     },
+    "border-radius": {
+      "container": {
+        "default": {
+          "value": "{core.border-radius.pill}",
+          "type": "borderRadius"
+        },
+        "none": {
+          "value": "{core.border-radius.0}",
+          "type": "borderRadius"
+        },
+        "minimal": {
+          "value": "{core.border-radius.25}",
+          "type": "borderRadius"
+        },
+        "subtle": {
+          "value": "{core.border-radius.100}",
+          "type": "borderRadius"
+        }
+      }
+    },
     "color": {
       "light": {
         "primary": {
@@ -667,7 +687,7 @@
               "type": "color",
               "description": "Brand indigo"
             },
-            "emphasis": {
+            "subtle": {
               "value": "{core.colour.bt.indigo.800}",
               "type": "color",
               "description": "Brand indigo"
@@ -677,7 +697,7 @@
               "type": "color",
               "description": "Brand indigo"
             },
-            "subtle": {
+            "emphasis": {
               "value": "{core.colour.bt.indigo.400}",
               "type": "color",
               "description": "Brand indigo"
@@ -688,7 +708,34 @@
               "description": "Brand indigo"
             }
           },
-          "fg": {
+          "action": {
+            "subtle": {
+              "value": "{core.colour.bt.indigo.800}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "default": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "strong": {
+              "value": "{core.colour.bt.indigo.900}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "emphasis": {
+              "value": "{core.colour.bt.indigo.400}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "minimal": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color",
+              "description": "Brand indigo"
+            }
+          },
+          "text": {
             "default": {
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
@@ -724,6 +771,10 @@
           "bg": {
             "default": {
               "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "subtle": {
+              "value": "{core.colour.bt.neutral.300}",
               "type": "color"
             },
             "light": {
@@ -770,48 +821,20 @@
         },
         "gradient": {
           "border": {
-            "vibrant-1": {
-              "value": "{core.colour.bt.gradient.3}",
-              "type": "color"
-            },
-            "vibrant-2": {
-              "value": "{core.colour.bt.gradient.4}",
-              "type": "color"
-            },
-            "warm-1": {
-              "value": "{core.colour.bt.gradient.5}",
-              "type": "color"
-            },
-            "warm-2": {
-              "value": "{core.colour.bt.gradient.6}",
-              "type": "color"
-            },
-            "electric-1": {
-              "value": "{core.colour.bt.gradient.7}",
-              "type": "color"
-            },
-            "electric-2": {
-              "value": "{core.colour.bt.gradient.8}",
+            "default": {
+              "value": "{core.colour.bt.gradient.1}",
               "type": "color"
             }
           },
           "overlay": {
-            "electric-faded-1": {
-              "value": "{core.colour.bt.overlay.5}",
-              "type": "color"
-            },
-            "electric-faded-2": {
-              "value": "{core.colour.bt.overlay.6}",
+            "faded": {
+              "value": "{core.colour.bt.overlay.1}",
               "type": "color"
             }
           },
           "bg": {
-            "vibrant": {
-              "value": "{core.colour.bt.gradient.4}",
-              "type": "color"
-            },
-            "electric": {
-              "value": "{core.colour.bt.gradient.7}",
+            "default": {
+              "value": "{core.colour.bt.gradient.1}",
               "type": "color"
             }
           }
@@ -921,47 +944,19 @@
         "gradient": {
           "border": {
             "vibrant-1": {
-              "value": "{core.colour.bt.gradient.3}",
-              "type": "color"
-            },
-            "vibrant-2": {
-              "value": "{core.colour.bt.gradient.4}",
-              "type": "color"
-            },
-            "warm-1": {
-              "value": "{core.colour.bt.gradient.5}",
-              "type": "color"
-            },
-            "warm-2": {
-              "value": "{core.colour.bt.gradient.6}",
-              "type": "color"
-            },
-            "electric-1": {
-              "value": "{core.colour.bt.gradient.7}",
-              "type": "color"
-            },
-            "electric-2": {
-              "value": "{core.colour.bt.gradient.8}",
+              "value": "{core.colour.bt.gradient.2}",
               "type": "color"
             }
           },
           "overlay": {
             "electric-faded-1": {
-              "value": "{core.colour.bt.overlay.5}",
-              "type": "color"
-            },
-            "electric-faded-2": {
-              "value": "{core.colour.bt.overlay.6}",
+              "value": "{core.colour.bt.overlay.2}",
               "type": "color"
             }
           },
           "bg": {
             "vibrant": {
-              "value": "{core.colour.bt.gradient.4}",
-              "type": "color"
-            },
-            "electric": {
-              "value": "{core.colour.bt.gradient.7}",
+              "value": "{core.colour.bt.gradient.2}",
               "type": "color"
             }
           }
@@ -1023,26 +1018,6 @@
             "value": "{core.colour.bt.green.900}",
             "type": "color"
           }
-        }
-      }
-    },
-    "border-radius": {
-      "container": {
-        "default": {
-          "value": "{core.border-radius.pill}",
-          "type": "borderRadius"
-        },
-        "none": {
-          "value": "{core.border-radius.0}",
-          "type": "borderRadius"
-        },
-        "minimal": {
-          "value": "{core.border-radius.25}",
-          "type": "borderRadius"
-        },
-        "subtle": {
-          "value": "{core.border-radius.100}",
-          "type": "borderRadius"
         }
       }
     }
