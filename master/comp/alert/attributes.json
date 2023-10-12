@@ -23,6 +23,46 @@
         "value": "{sem.border-radius.container.minimal}",
         "type": "borderRadius"
       }
+    },
+    "border-width": {
+      "none": {
+        "value": "{sem.border-width.container.none}",
+        "type": "borderWidth"
+      },
+      "xs": {
+        "value": "{sem.border-width.container.xs}",
+        "type": "borderWidth"
+      },
+      "ml": {
+        "value": "{sem.border-width.container.ml}",
+        "type": "borderWidth"
+      }
+    },
+    "typography": {
+      "interface": {
+        "regular": {
+          "s": {
+            "value": "{sem.typography.body.default.s}",
+            "type": "typography"
+          },
+          "m": {
+            "value": "{sem.typography.interface.default.m}",
+            "type": "typography"
+          }
+        },
+        "bold": {
+          "m": {
+            "value": "{sem.typography.body.strong.m}",
+            "type": "typography"
+          }
+        }
+      }
+    },
+    "box-shadow": {
+      "01": {
+        "value": "{core.box-shadow.sharp.01}",
+        "type": "boxShadow"
+      }
     }
   }
 }

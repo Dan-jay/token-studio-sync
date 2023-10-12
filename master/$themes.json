@@ -69,7 +69,6 @@
       "sem.color.light.primary.border.dark": "45f0d560ef38af131761039da90eb6c71e62fae8",
       "sem.color.light.secondary.bg.default": "4192bf8359bbbe46d5f1883f3d6c05aa4cdb87c7",
       "sem.color.light.secondary.bg.subtle": "134fdd191a718007d99f62d0b764bd3aeb5da2da",
-      "sem.color.light.secondary.bg.light": "f3759b92958abecabb495e132d01bfa26e8abe2e",
       "sem.color.light.secondary.bg.lighter": "3de168090e1bd602a83928d3c084b7e7d58277ff",
       "sem.color.light.secondary.fg.default": "da1dc2e75c254692447388f0e210088e86dee5fd",
       "sem.color.light.secondary.fg.strong": "79df5652a87d2dff35945bac8e9c2c47c10af7c8",
@@ -143,7 +142,8 @@
       "sem.space.container.stack.137": "49a74bdb2d6c1475fcb341242a1258972ed9d41f",
       "sem.space.container.stack.200": "314c19fe9d645120394f92df737442c4f4ba11aa",
       "sem.space.container.stack.250": "e52d052d32706a9ba9935b66488b70cb4bcbbf85",
-      "sem.space.container.stack.300": "6ae5e4fd8e70fa938bb116dcbd9321e9bf5fa583"
+      "sem.space.container.stack.300": "6ae5e4fd8e70fa938bb116dcbd9321e9bf5fa583",
+      "sem.color.light.secondary.bg.strong": "f3759b92958abecabb495e132d01bfa26e8abe2e"
     },
     "group": "BT"
   },
@@ -218,7 +218,6 @@
       "sem.color.light.primary.border.dark": "45f0d560ef38af131761039da90eb6c71e62fae8",
       "sem.color.light.secondary.bg.default": "4192bf8359bbbe46d5f1883f3d6c05aa4cdb87c7",
       "sem.color.light.secondary.bg.subtle": "134fdd191a718007d99f62d0b764bd3aeb5da2da",
-      "sem.color.light.secondary.bg.light": "f3759b92958abecabb495e132d01bfa26e8abe2e",
       "sem.color.light.secondary.bg.lighter": "3de168090e1bd602a83928d3c084b7e7d58277ff",
       "sem.color.light.secondary.fg.default": "da1dc2e75c254692447388f0e210088e86dee5fd",
       "sem.color.light.secondary.fg.strong": "79df5652a87d2dff35945bac8e9c2c47c10af7c8",
@@ -292,7 +291,8 @@
       "sem.space.container.stack.137": "49a74bdb2d6c1475fcb341242a1258972ed9d41f",
       "sem.space.container.stack.200": "314c19fe9d645120394f92df737442c4f4ba11aa",
       "sem.space.container.stack.250": "e52d052d32706a9ba9935b66488b70cb4bcbbf85",
-      "sem.space.container.stack.300": "6ae5e4fd8e70fa938bb116dcbd9321e9bf5fa583"
+      "sem.space.container.stack.300": "6ae5e4fd8e70fa938bb116dcbd9321e9bf5fa583",
+      "sem.color.light.secondary.bg.strong": "f3759b92958abecabb495e132d01bfa26e8abe2e"
     }
   }
 ]

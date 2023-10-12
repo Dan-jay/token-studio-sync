@@ -709,13 +709,13 @@
             }
           },
           "action": {
-            "subtle": {
-              "value": "{core.colour.bt.indigo.800}",
+            "default": {
+              "value": "{core.colour.bt.indigo.700}",
               "type": "color",
               "description": "Brand indigo"
             },
-            "default": {
-              "value": "{core.colour.bt.indigo.700}",
+            "subtle": {
+              "value": "{core.colour.bt.indigo.800}",
               "type": "color",
               "description": "Brand indigo"
             },

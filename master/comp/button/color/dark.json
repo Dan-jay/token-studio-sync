@@ -59,6 +59,16 @@
             "value": "{sem.color.dark.action.secondary.subtle}",
             "type": "color"
           }
+        },
+        "icon": {
+          "default": {
+            "value": "{sem.color.dark.action.secondary.default}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.dark.action.secondary.lighter}",
+            "type": "color"
+          }
         }
       }
     }

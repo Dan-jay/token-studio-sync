@@ -1,62 +1,60 @@
 {
   "alert": {
     "color": {
-      "primary": {
+      "secondary": {
         "bg": {
           "default": {
-            "value": "{sem.color.light.action.primary.default}",
+            "value": "{sem.color.light.action.secondary.bg.subtle}",
             "type": "color"
           },
-          "hover": {
-            "value": "{sem.color.light.action.primary.strong}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{sem.color.light.action.primary.subtle}",
-            "type": "color"
-          },
-          "focus": {
-            "value": "{sem.color.light.action.primary.emphasis}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{sem.color.light.action.secondary.subtle}",
+          "default-alt": {
+            "value": "{sem.color.light.secondary.bg.minimal}",
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{sem.color.light.action.primary.default}",
-            "type": "color"
-          },
-          "hover": {
-            "value": "{sem.color.light.action.primary.strong}",
-            "type": "color"
-          },
-          "selected": {
-            "value": "{sem.color.light.action.primary.subtle}",
-            "type": "color"
-          },
-          "focus": {
-            "value": "{sem.color.light.action.primary.emphasis}",
-            "type": "color"
-          },
-          "disabled": {
-            "value": "{sem.color.light.action.secondary.strong}",
+            "value": "{sem.color.light.action.secondary.fg.default}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.light.action.primary.minimal}",
+            "value": "{sem.color.light.action.secondary.fg.default}",
+            "type": "color"
+          }
+        },
+        "icon": {
+          "default": {
+            "value": "{sem.color.light.action.secondary.fg.default}",
+            "type": "color"
+          }
+        }
+      },
+      "status": {
+        "bg": {
+          "info": {
+            "value": "{core.colour.bt.blue.50}",
             "type": "color"
           },
-          "emphasis": {
-            "value": "{sem.color.light.action.primary.default}",
+          "info-2-copy": {
+            "value": "{core.colour.bt.blue.50}",
             "type": "color"
           },
-          "disabled": {
-            "value": "{sem.color.light.action.secondary.strong}",
+          "info-2-copy-copy": {
+            "value": "{core.colour.bt.blue.50}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{core.colour.bt.red.100}",
+            "type": "color"
+          },
+          "warning": {
+            "value": "{core.colour.bt.amber.100}",
+            "type": "color"
+          },
+          "success": {
+            "value": "{core.colour.bt.green.100}",
             "type": "color"
           }
         }

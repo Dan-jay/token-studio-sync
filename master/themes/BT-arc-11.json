@@ -646,22 +646,6 @@
         }
       }
     },
-    "box-shadow": {
-      "container": {
-        "s": {
-          "value": "{core.box-shadow.soft.01}",
-          "type": "boxShadow"
-        },
-        "m": {
-          "value": "{core.box-shadow.soft.02}",
-          "type": "boxShadow"
-        },
-        "lg": {
-          "value": "{core.box-shadow.soft.03}",
-          "type": "boxShadow"
-        }
-      }
-    },
     "border-radius": {
       "container": {
         "default": {
@@ -707,7 +691,7 @@
               "description": "Brand indigo"
             },
             "minimal": {
-              "value": "{core.colour.bt.neutral.50}",
+              "value": "{core.colour.bt.indigo.50}",
               "type": "color",
               "description": "Brand indigo"
             }
@@ -751,10 +735,14 @@
               "type": "color"
             },
             "subtle": {
-              "value": "{core.colour.bt.neutral.300}",
+              "value": "{core.colour.bt.neutral.200}",
               "type": "color"
             },
-            "light": {
+            "minimal": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            },
+            "strong": {
               "value": "{core.colour.bt.neutral.600}",
               "type": "color"
             },
@@ -818,11 +806,15 @@
         },
         "status": {
           "info": {
-            "bg-light": {
+            "bg-subtle": {
               "value": "{core.colour.bt.blue.50}",
               "type": "color"
             },
-            "bg": {
+            "bg-minimal": {
+              "value": "{core.colour.bt.blue.50}",
+              "type": "color"
+            },
+            "bg-strong": {
               "value": "{core.colour.bt.blue.500}",
               "type": "color"
             },
@@ -832,11 +824,15 @@
             }
           },
           "error": {
-            "bg-light": {
+            "bg-subtle": {
+              "value": "{core.colour.bt.red.100}",
+              "type": "color"
+            },
+            "bg-minimal": {
               "value": "{core.colour.bt.red.50}",
               "type": "color"
             },
-            "bg": {
+            "bg-strong": {
               "value": "{core.colour.bt.red.700}",
               "type": "color"
             },
@@ -846,11 +842,15 @@
             }
           },
           "warning": {
-            "bg-light": {
+            "bg-subtle": {
               "value": "{core.colour.bt.amber.100}",
               "type": "color"
             },
-            "bg": {
+            "bg-minimal": {
+              "value": "{core.colour.bt.amber.50}",
+              "type": "color"
+            },
+            "bg-strong": {
               "value": "{core.colour.bt.amber.700}",
               "type": "color"
             },
@@ -860,11 +860,15 @@
             }
           },
           "success": {
-            "bg-light": {
+            "bg-subtle": {
+              "value": "{core.colour.bt.green.100}",
+              "type": "color"
+            },
+            "bg-minimal": {
               "value": "{core.colour.bt.green.50}",
               "type": "color"
             },
-            "bg": {
+            "bg-strong": {
               "value": "{core.colour.bt.green.700}",
               "type": "color"
             },
@@ -876,52 +880,74 @@
         },
         "action": {
           "primary": {
-            "default": {
-              "value": "{core.colour.bt.indigo.700}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "subtle": {
-              "value": "{core.colour.bt.indigo.800}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "strong": {
-              "value": "{core.colour.bt.indigo.900}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "emphasis": {
-              "value": "{core.colour.bt.indigo.400}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "minimal": {
-              "value": "{core.colour.bt.neutral.50}",
-              "type": "color",
-              "description": "Brand indigo"
+            "bg": {
+              "default": {
+                "value": "{core.colour.bt.indigo.700}",
+                "type": "color",
+                "description": "Brand indigo"
+              },
+              "subtle": {
+                "value": "{core.colour.bt.indigo.800}",
+                "type": "color",
+                "description": "Brand indigo"
+              },
+              "strong": {
+                "value": "{core.colour.bt.indigo.900}",
+                "type": "color",
+                "description": "Brand indigo"
+              },
+              "emphasis": {
+                "value": "{core.colour.bt.indigo.400}",
+                "type": "color",
+                "description": "Brand indigo"
+              },
+              "minimal": {
+                "value": "{core.colour.bt.indigo.50}",
+                "type": "color",
+                "description": "Brand indigo"
+              }
             }
           },
           "secondary": {
-            "default": {
-              "value": "{core.colour.bt.neutral.50}",
-              "type": "color"
+            "bg": {
+              "default": {
+                "value": "{core.colour.bt.neutral.50}",
+                "type": "color"
+              },
+              "subtle": {
+                "value": "{core.colour.bt.neutral.200}",
+                "type": "color"
+              },
+              "minimal": {
+                "value": "{core.colour.bt.neutral.100}",
+                "type": "color"
+              },
+              "strong": {
+                "value": "{core.colour.bt.neutral.700}",
+                "type": "color"
+              },
+              "lighter": {
+                "value": "{core.colour.bt.neutral.500}",
+                "type": "color"
+              }
             },
-            "subtle": {
-              "value": "{core.colour.bt.neutral.300}",
-              "type": "color"
-            },
-            "strong": {
-              "value": "{core.colour.bt.neutral.700}",
-              "type": "color"
-            },
-            "light": {
-              "value": "{core.colour.bt.neutral.600}",
-              "type": "color"
-            },
-            "lighter": {
-              "value": "{core.colour.bt.neutral.500}",
-              "type": "color"
+            "fg": {
+              "default": {
+                "value": "{core.colour.bt.neutral.800}",
+                "type": "color"
+              },
+              "subtle": {
+                "value": "{core.colour.bt.neutral.700}",
+                "type": "color"
+              },
+              "strong": {
+                "value": "{core.colour.bt.neutral.700}",
+                "type": "color"
+              },
+              "minimal": {
+                "value": "{core.colour.bt.neutral.400}",
+                "type": "color"
+              }
             }
           }
         }
@@ -1154,6 +1180,26 @@
               "type": "color"
             }
           }
+        }
+      }
+    },
+    "box-shadow": {
+      "sharp": {
+        "01": {
+          "value": "{core.box-shadow.sharp.01}",
+          "type": "boxShadow"
+        }
+      },
+      "soft": {
+        "01": {
+          "value": "{core.box-shadow.soft.03}",
+          "type": "boxShadow"
+        }
+      },
+      "inner": {
+        "01": {
+          "value": "{core.box-shadow.inner.01}",
+          "type": "boxShadow"
         }
       }
     }

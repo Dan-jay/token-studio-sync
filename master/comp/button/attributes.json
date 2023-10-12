@@ -20,7 +20,7 @@
     },
     "typography": {
       "interface": {
-        "default": {
+        "regular": {
           "lg": {
             "value": "{sem.typography.interface.default.lg}",
             "type": "typography"
@@ -40,14 +40,6 @@
           "value": "{sem.size.icon.ml}",
           "type": "sizing"
         }
-      }
-    }
-  },
-  "alert": {
-    "border-radius": {
-      "default": {
-        "value": "{sem.border-radius.container.default}",
-        "type": "borderRadius"
       }
     }
   }

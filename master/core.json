@@ -865,49 +865,39 @@
       "sharp": {
         "01": {
           "value": {
-            "x": "0",
-            "y": "-1",
-            "blur": "0",
-            "spread": "0",
-            "color": "{core.colour.bt.neutral.400}",
-            "type": "innerShadow"
-          },
-          "type": "boxShadow",
-          "description": "GLB Shadow ref: Inner divide, Inner dropmenu,"
-        },
-        "02": {
-          "value": [
-            {
-              "color": "#2a2a2a33",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "0",
-              "blur": "1",
-              "spread": "0"
-            },
-            {
-              "color": "#2a2a2a1f",
-              "type": "dropShadow",
-              "x": "0",
-              "y": "2",
-              "blur": "4",
-              "spread": "0"
-            }
-          ],
-          "type": "boxShadow",
-          "description": "GLB Shadow ref: Productive elevation"
-        },
-        "03": {
-          "value": {
-            "x": "0",
+            "0": "{",
+            "1": "s",
+            "2": "e",
+            "3": "m",
+            "4": ".",
+            "5": "b",
+            "6": "o",
+            "7": "x",
+            "8": "-",
+            "9": "s",
+            "10": "h",
+            "11": "a",
+            "12": "d",
+            "13": "o",
+            "14": "w",
+            "15": ".",
+            "16": "s",
+            "17": "h",
+            "18": "a",
+            "19": "r",
+            "20": "p",
+            "21": ".",
+            "22": "0",
+            "23": "1",
+            "24": "}",
+            "x": "1",
             "y": "4",
             "blur": "4",
             "spread": "0",
             "color": "{core.colour.bt.neutral.300}",
             "type": "dropShadow"
           },
-          "type": "boxShadow",
-          "description": "GLB Shadow ref: Counter "
+          "type": "boxShadow"
         }
       },
       "soft": {
@@ -946,6 +936,20 @@
           },
           "type": "boxShadow",
           "description": "GLB Shadow ref: Card elevation"
+        }
+      },
+      "inner": {
+        "01": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "6",
+            "spread": "0",
+            "color": "{core.colour.bt.neutral.400}",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "GLB Shadow ref: Inner divide, Inner dropmenu,"
         }
       }
     }
