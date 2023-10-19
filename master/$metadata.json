@@ -1,12 +1,11 @@
 {
   "tokenSetOrder": [
     "core",
-    "themes/BT-arc-11",
-    "themes/BT-arc-12",
-    "comp/button/attributes",
-    "comp/button/color/light",
-    "comp/button/color/dark",
+    "theme/arc-11",
+    "theme/arc-12",
+    "comp/actions/attributes",
+    "comp/actions/color",
     "comp/alert/attributes",
-    "comp/alert/color/light"
+    "comp/alert/color"
   ]
 }

@@ -19,8 +19,8 @@
       }
     },
     "border-radius": {
-      "minimal": {
-        "value": "{sem.border-radius.container.minimal}",
+      "default": {
+        "value": "{sem.border-radius.container.xs}",
         "type": "borderRadius"
       }
     },
@@ -34,7 +34,7 @@
         "type": "borderWidth"
       },
       "ml": {
-        "value": "{sem.border-width.container.ml}",
+        "value": "{sem.border-width.container.lg}",
         "type": "borderWidth"
       }
     },
