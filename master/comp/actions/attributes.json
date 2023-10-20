@@ -1,14 +1,86 @@
 {
   "actions": {
     "padding": {
+      "xs": {
+        "value": "{sem.space.container.padding.25}",
+        "type": "spacing"
+      },
+      "s": {
+        "value": "{sem.space.container.padding.50}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.container.gap.75}",
+        "type": "spacing"
+      },
       "ml": {
+        "value": "{sem.space.container.gap.100}",
+        "type": "spacing"
+      },
+      "lg": {
         "value": "{sem.space.container.padding.137}",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "{sem.space.container.gap.150}",
+        "type": "spacing"
+      },
+      "2xl": {
+        "value": "{sem.space.container.gap.200}",
+        "type": "spacing"
+      },
+      "3xl": {
+        "value": "{sem.space.container.gap.250}",
+        "type": "spacing"
+      },
+      "4xl": {
+        "value": "{sem.space.container.gap.275}",
+        "type": "spacing"
+      },
+      "5xl": {
+        "value": "{sem.space.container.gap.300}",
         "type": "spacing"
       }
     },
     "gap": {
+      "xs": {
+        "value": "{sem.space.container.gap.25}",
+        "type": "spacing"
+      },
       "s": {
         "value": "{sem.space.container.gap.50}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.container.gap.75}",
+        "type": "spacing"
+      },
+      "ml": {
+        "value": "{sem.space.container.gap.100}",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "{sem.space.container.gap.137}",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "{sem.space.container.gap.150}",
+        "type": "spacing"
+      },
+      "2xl": {
+        "value": "{sem.space.container.gap.200}",
+        "type": "spacing"
+      },
+      "3xl": {
+        "value": "{sem.space.container.gap.250}",
+        "type": "spacing"
+      },
+      "4xl": {
+        "value": "{sem.space.container.gap.275}",
+        "type": "spacing"
+      },
+      "5xl": {
+        "value": "{sem.space.container.gap.300}",
         "type": "spacing"
       }
     },
@@ -46,18 +118,136 @@
         "type": "borderRadius"
       }
     },
-    "typography": {
+    "type": {
       "interface": {
-        "regular": {
-          "lg": {
-            "value": "{sem.typography.interface.default.lg}",
-            "type": "typography"
-          }
+        "xs": {
+          "value": "{sem.typography.body.subtle.xs}",
+          "type": "typography"
+        },
+        "s": {
+          "value": "{sem.typography.body.subtle.s}",
+          "type": "typography"
+        },
+        "m": {
+          "value": "{sem.typography.interface.subtle.m}",
+          "type": "typography"
+        },
+        "lg": {
+          "value": "{sem.typography.interface.subtle.lg}",
+          "type": "typography"
+        },
+        "xs-medium": {
+          "value": "{sem.typography.interface.medium.xs}",
+          "type": "typography"
+        },
+        "s-medium": {
+          "value": "{sem.typography.interface.medium.s}",
+          "type": "typography"
+        },
+        "m-medium": {
+          "value": "{sem.typography.interface.medium.m}",
+          "type": "typography"
+        },
+        "lg-medium": {
+          "value": "{sem.typography.interface.medium.lg}",
+          "type": "typography"
+        }
+      },
+      "title": {
+        "s": {
+          "value": "{sem.typography.title.m}",
+          "type": "typography"
+        },
+        "m": {
+          "value": "{sem.typography.title.ml}",
+          "type": "typography"
+        },
+        "ml": {
+          "value": "{sem.typography.title.lg}",
+          "type": "typography"
+        },
+        "lg": {
+          "value": "{sem.typography.title.xl}",
+          "type": "typography"
+        },
+        "xl": {
+          "value": "{sem.typography.title.2xl}",
+          "type": "typography"
+        },
+        "2xl": {
+          "value": "{sem.typography.title.3xl}",
+          "type": "typography"
+        },
+        "3xl": {
+          "value": "{sem.typography.title.4xl}",
+          "type": "typography"
+        },
+        "4xl": {
+          "value": "{sem.typography.title.5xl}",
+          "type": "typography"
+        },
+        "5xl": {
+          "value": "{sem.typography.title.6xl}",
+          "type": "typography"
+        },
+        "6xl": {
+          "value": "{sem.typography.title.7xl}",
+          "type": "typography"
+        }
+      },
+      "body": {
+        "xs": {
+          "value": "{sem.typography.body.subtle.xs}",
+          "type": "typography"
+        },
+        "s": {
+          "value": "{sem.typography.body.subtle.s}",
+          "type": "typography"
+        },
+        "m": {
+          "value": "{sem.typography.body.subtle.m}",
+          "type": "typography"
+        },
+        "ml": {
+          "value": "{sem.typography.body.subtle.ml}",
+          "type": "typography"
+        },
+        "lg": {
+          "value": "{sem.typography.body.subtle.lg}",
+          "type": "typography"
+        },
+        "xl": {
+          "value": "{sem.typography.body.subtle.xl}",
+          "type": "typography"
+        },
+        "xs-strong": {
+          "value": "{sem.typography.body.strong.xs}",
+          "type": "typography"
+        },
+        "s-strong": {
+          "value": "{sem.typography.body.strong.s}",
+          "type": "typography"
+        },
+        "m-strong": {
+          "value": "{sem.typography.body.strong.m}",
+          "type": "typography"
+        },
+        "ml-strong": {
+          "value": "{sem.typography.body.strong.ml}",
+          "type": "typography"
+        },
+        "lg-strong": {
+          "value": "{sem.typography.body.strong.lg}",
+          "type": "typography"
+        },
+        "xl-strong": {
+          "value": "{sem.typography.body.strong.xl}",
+          "type": "typography"
         }
       }
     },
     "size": {
-      "container": {
+      "height": {
         "xs": {
           "value": "{sem.size.height.100}",
           "type": "sizing"
@@ -138,6 +328,44 @@
       "xl": {
         "value": "{sem.border-width.container.xl}",
         "type": "borderWidth"
+      }
+    },
+    "stack": {
+      "s": {
+        "value": "{sem.space.container.stack.50}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.container.gap.75}",
+        "type": "spacing"
+      },
+      "ml": {
+        "value": "{sem.space.container.stack.100}",
+        "type": "spacing"
+      },
+      "lg": {
+        "value": "{sem.space.container.stack.150}",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "{sem.space.container.stack.200}",
+        "type": "spacing"
+      },
+      "2xl": {
+        "value": "{sem.space.container.stack.250}",
+        "type": "spacing"
+      },
+      "3xl": {
+        "value": "{sem.space.container.gap.300}",
+        "type": "spacing"
+      },
+      "4xl": {
+        "value": "{sem.space.container.gap.350}",
+        "type": "spacing"
+      },
+      "5xl": {
+        "value": "{sem.space.container.gap.400}",
+        "type": "spacing"
       }
     }
   }

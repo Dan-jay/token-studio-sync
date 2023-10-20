@@ -129,69 +129,69 @@
         "type": "fontSizes",
         "description": "REM is the base-size of all font-sizes. The default is 16(px), so it relates to 1rem = 16(px). If you change it, it will change all font-related tokens."
       },
-      "scaled": {
+      "scale": {
         "50": {
-          "value": "{core.font-size.scaled.base} * 50",
+          "value": "{core.font-size.scale.base} * 50",
           "type": "fontSizes"
         },
         "75": {
-          "value": "{core.font-size.scaled.base} * 75",
+          "value": "{core.font-size.scale.base} * 75",
           "type": "fontSizes"
         },
         "87": {
-          "value": "{core.font-size.scaled.base} * 87.5",
+          "value": "{core.font-size.scale.base} * 87.5",
           "type": "fontSizes"
         },
         "100": {
-          "value": "{core.font-size.scaled.base} * 100",
+          "value": "{core.font-size.scale.base} * 100",
           "type": "fontSizes"
         },
         "125": {
-          "value": "{core.font-size.scaled.base} * 125",
+          "value": "{core.font-size.scale.base} * 125",
           "type": "fontSizes"
         },
         "150": {
-          "value": "{core.font-size.scaled.base} * 150",
+          "value": "{core.font-size.scale.base} * 150",
           "type": "fontSizes"
         },
         "175": {
-          "value": "{core.font-size.scaled.base} * 175",
+          "value": "{core.font-size.scale.base} * 175",
           "type": "fontSizes"
         },
         "200": {
-          "value": "{core.font-size.scaled.base} * 200",
+          "value": "{core.font-size.scale.base} * 200",
           "type": "fontSizes"
         },
         "225": {
-          "value": "{core.font-size.scaled.base} * 225",
+          "value": "{core.font-size.scale.base} * 225",
           "type": "fontSizes"
         },
         "250": {
-          "value": "{core.font-size.scaled.base} * 250",
+          "value": "{core.font-size.scale.base} * 250",
           "type": "fontSizes"
         },
         "300": {
-          "value": "{core.font-size.scaled.base} * 300",
+          "value": "{core.font-size.scale.base} * 300",
           "type": "fontSizes"
         },
         "350": {
-          "value": "{core.font-size.scaled.base} * 350",
+          "value": "{core.font-size.scale.base} * 350",
           "type": "fontSizes"
         },
         "400": {
-          "value": "{core.font-size.scaled.base} * 400",
+          "value": "{core.font-size.scale.base} * 400",
           "type": "fontSizes"
         },
         "450": {
-          "value": "{core.font-size.scaled.base} * 450",
+          "value": "{core.font-size.scale.base} * 450",
           "type": "fontSizes"
         },
         "500": {
-          "value": "{core.font-size.scaled.base} * 500",
+          "value": "{core.font-size.scale.base} * 500",
           "type": "fontSizes"
         },
         "600": {
-          "value": "{core.font-size.scaled.base} * 600",
+          "value": "{core.font-size.scale.base} * 600",
           "type": "fontSizes"
         },
         "base": {

@@ -42,11 +42,11 @@
       "interface": {
         "regular": {
           "s": {
-            "value": "{sem.typography.body.default.s}",
+            "value": "{sem.typography.body.subtle.s}",
             "type": "typography"
           },
           "m": {
-            "value": "{sem.typography.interface.default.m}",
+            "value": "{sem.typography.interface.subtle.m}",
             "type": "typography"
           }
         },

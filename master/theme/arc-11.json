@@ -35,7 +35,7 @@
         "value": "400",
         "type": "fontWeights"
       },
-      "interface-strong": {
+      "interface-medium": {
         "value": "Headline",
         "type": "fontWeights"
       }
@@ -121,10 +121,30 @@
             "paragraphSpacing": "{sem.paragraph-spacing.title}"
           },
           "type": "typography"
+        },
+        "6xl": {
+          "value": {
+            "fontFamily": "{sem.font-family.title}",
+            "fontWeight": "{sem.font-weight.title}",
+            "fontSize": "{sem.font-size.400}",
+            "lineHeight": "{sem.line-height.title}",
+            "paragraphSpacing": "{sem.paragraph-spacing.title}"
+          },
+          "type": "typography"
+        },
+        "7xl": {
+          "value": {
+            "fontFamily": "{sem.font-family.title}",
+            "fontWeight": "{sem.font-weight.title}",
+            "fontSize": "{sem.font-size.500}",
+            "lineHeight": "{sem.line-height.title}",
+            "paragraphSpacing": "{sem.paragraph-spacing.title}"
+          },
+          "type": "typography"
         }
       },
       "body": {
-        "default": {
+        "subtle": {
           "xs": {
             "value": {
               "fontFamily": "{sem.font-family.body}",
@@ -236,36 +256,34 @@
               "paragraphSpacing": "{sem.paragraph-spacing.body}"
             },
             "type": "typography"
+          },
+          "xl": {
+            "value": {
+              "fontFamily": "{sem.font-family.body}",
+              "fontWeight": "{sem.font-weight.body-strong}",
+              "fontSize": "{core.font-size.scale.175}",
+              "lineHeight": "{sem.line-height.body-s}",
+              "paragraphSpacing": "{sem.paragraph-spacing.body}"
+            },
+            "type": "typography"
           }
         }
       },
-      "display": {
-        "s": {
-          "value": {
-            "fontFamily": "{sem.font-family.title}",
-            "fontWeight": "{sem.font-weight.title}",
-            "fontSize": "{sem.font-size.400}",
-            "lineHeight": "{sem.line-height.title}",
-            "paragraphSpacing": "{sem.paragraph-spacing.title}"
-          },
-          "type": "typography"
-        },
-        "lg": {
-          "value": {
-            "fontFamily": "{sem.font-family.title}",
-            "fontWeight": "{sem.font-weight.title}",
-            "fontSize": "{sem.font-size.500}",
-            "lineHeight": "{sem.line-height.title}",
-            "paragraphSpacing": "{sem.paragraph-spacing.title}"
-          },
-          "type": "typography"
-        }
-      },
       "interface": {
-        "default": {
+        "subtle": {
+          "xs": {
+            "value": {
+              "fontFamily": "{sem.font-family.interface}",
+              "fontWeight": "{sem.font-weight.interface}",
+              "fontSize": "{core.font-size.scale.75}",
+              "lineHeight": "{sem.line-height.interface}",
+              "paragraphSpacing": "{sem.paragraph-spacing.interface}"
+            },
+            "type": "typography"
+          },
           "s": {
             "value": {
-              "fontFamily": "{sem.font-family.title}",
+              "fontFamily": "{sem.font-family.interface}",
               "fontWeight": "{sem.font-weight.interface}",
               "fontSize": "{sem.font-size.87}",
               "lineHeight": "{sem.line-height.interface}",
@@ -275,7 +293,7 @@
           },
           "m": {
             "value": {
-              "fontFamily": "{sem.font-family.title}",
+              "fontFamily": "{sem.font-family.interface}",
               "fontWeight": "{sem.font-weight.interface}",
               "fontSize": "{sem.font-size.100}",
               "lineHeight": "{sem.line-height.interface}",
@@ -285,7 +303,7 @@
           },
           "lg": {
             "value": {
-              "fontFamily": "{sem.font-family.title}",
+              "fontFamily": "{sem.font-family.interface}",
               "fontWeight": "{sem.font-weight.interface}",
               "fontSize": "{sem.font-size.125}",
               "lineHeight": "{sem.line-height.interface}",
@@ -294,11 +312,22 @@
             "type": "typography"
           }
         },
-        "strong": {
+        "medium": {
+          "xs": {
+            "value": {
+              "fontFamily": "{sem.font-family.interface}",
+              "fontWeight": "{sem.font-weight.interface-medium}",
+              "fontSize": "{core.font-size.scale.75}",
+              "lineHeight": "{sem.line-height.interface}",
+              "paragraphSpacing": "{sem.paragraph-spacing.interface}"
+            },
+            "type": "typography",
+            "description": "Headline option is needed for label weights etc and possibly buttons until brand direction is clarified."
+          },
           "s": {
             "value": {
-              "fontFamily": "{sem.font-family.title}",
-              "fontWeight": "{sem.font-weight.interface-strong}",
+              "fontFamily": "{sem.font-family.interface}",
+              "fontWeight": "{sem.font-weight.interface-medium}",
               "fontSize": "{sem.font-size.87}",
               "lineHeight": "{sem.line-height.interface}",
               "paragraphSpacing": "{sem.paragraph-spacing.interface}"
@@ -309,7 +338,7 @@
           "m": {
             "value": {
               "fontFamily": "{sem.font-family.title}",
-              "fontWeight": "{sem.font-weight.interface-strong}",
+              "fontWeight": "{sem.font-weight.interface-medium}",
               "fontSize": "{sem.font-size.100}",
               "lineHeight": "{sem.line-height.interface}",
               "paragraphSpacing": "{sem.paragraph-spacing.interface}"
@@ -320,7 +349,7 @@
           "lg": {
             "value": {
               "fontFamily": "{sem.font-family.title}",
-              "fontWeight": "{sem.font-weight.interface-strong}",
+              "fontWeight": "{sem.font-weight.interface-medium}",
               "fontSize": "{sem.font-size.125}",
               "lineHeight": "{sem.line-height.interface}",
               "paragraphSpacing": "{sem.paragraph-spacing.interface}"
@@ -333,51 +362,51 @@
     },
     "font-size": {
       "75": {
-        "value": "{core.font-size.scaled.75}",
+        "value": "{core.font-size.scale.75}",
         "type": "fontSizes"
       },
       "87": {
-        "value": "{core.font-size.scaled.87}",
+        "value": "{core.font-size.scale.87}",
         "type": "fontSizes"
       },
       "100": {
-        "value": "{core.font-size.scaled.100}",
+        "value": "{core.font-size.scale.100}",
         "type": "fontSizes"
       },
       "125": {
-        "value": "{core.font-size.scaled.125}",
+        "value": "{core.font-size.scale.125}",
         "type": "fontSizes"
       },
       "150": {
-        "value": "{core.font-size.scaled.150}",
+        "value": "{core.font-size.scale.150}",
         "type": "fontSizes"
       },
       "175": {
-        "value": "{core.font-size.scaled.175}",
+        "value": "{core.font-size.scale.175}",
         "type": "fontSizes"
       },
       "200": {
-        "value": "{core.font-size.scaled.200}",
+        "value": "{core.font-size.scale.200}",
         "type": "fontSizes"
       },
       "250": {
-        "value": "{core.font-size.scaled.250}",
+        "value": "{core.font-size.scale.250}",
         "type": "fontSizes"
       },
       "300": {
-        "value": "{core.font-size.scaled.300}",
+        "value": "{core.font-size.scale.300}",
         "type": "fontSizes"
       },
       "350": {
-        "value": "{core.font-size.scaled.350}",
+        "value": "{core.font-size.scale.350}",
         "type": "fontSizes"
       },
       "400": {
-        "value": "{core.font-size.scaled.400}",
+        "value": "{core.font-size.scale.400}",
         "type": "fontSizes"
       },
       "500": {
-        "value": "{core.font-size.scaled.500}",
+        "value": "{core.font-size.scale.500}",
         "type": "fontSizes"
       }
     },
@@ -453,6 +482,11 @@
         }
       },
       "height": {
+        "50": {
+          "value": "{core.dimension.50}",
+          "type": "sizing",
+          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+        },
         "100": {
           "value": "{core.dimension.100}",
           "type": "sizing",
@@ -473,6 +507,10 @@
         },
         "300": {
           "value": "{core.dimension.300}",
+          "type": "sizing"
+        },
+        "350": {
+          "value": "{core.dimension.350}",
           "type": "sizing"
         },
         "400": {
@@ -516,6 +554,14 @@
     "space": {
       "container": {
         "padding": {
+          "12": {
+            "value": "{core.dimension.12}",
+            "type": "spacing"
+          },
+          "25": {
+            "value": "{core.dimension.25}",
+            "type": "spacing"
+          },
           "50": {
             "value": "{core.dimension.50}",
             "type": "spacing"
@@ -544,6 +590,26 @@
             "value": "{core.dimension.200}",
             "type": "spacing"
           },
+          "250": {
+            "value": "{core.dimension.250}",
+            "type": "spacing"
+          },
+          "275": {
+            "value": "{core.dimension.275}",
+            "type": "spacing"
+          },
+          "300": {
+            "value": "{core.dimension.300}",
+            "type": "spacing"
+          },
+          "350": {
+            "value": "{core.dimension.350}",
+            "type": "spacing"
+          },
+          "400": {
+            "value": "{core.dimension.400}",
+            "type": "spacing"
+          },
           "none": {
             "value": "{core.dimension.0}",
             "type": "spacing"
@@ -560,6 +626,10 @@
           },
           "50": {
             "value": "{core.dimension.50}",
+            "type": "spacing"
+          },
+          "75": {
+            "value": "{core.dimension.75}",
             "type": "spacing"
           },
           "100": {
@@ -586,8 +656,16 @@
             "value": "{core.dimension.250}",
             "type": "spacing"
           },
+          "275": {
+            "value": "{core.dimension.275}",
+            "type": "spacing"
+          },
           "300": {
             "value": "{core.dimension.300}",
+            "type": "spacing"
+          },
+          "350": {
+            "value": "{core.dimension.350}",
             "type": "spacing"
           },
           "400": {
@@ -600,6 +678,22 @@
           }
         },
         "stack": {
+          "12": {
+            "value": "{core.dimension.12}",
+            "type": "spacing"
+          },
+          "25": {
+            "value": "{core.dimension.25}",
+            "type": "spacing"
+          },
+          "50": {
+            "value": "{core.dimension.50}",
+            "type": "spacing"
+          },
+          "75": {
+            "value": "{core.dimension.75}",
+            "type": "spacing"
+          },
           "100": {
             "value": "{core.dimension.100}",
             "type": "spacing"
@@ -612,16 +706,60 @@
             "value": "{core.dimension.150}",
             "type": "spacing"
           },
+          "175": {
+            "value": "{core.dimension.175}",
+            "type": "spacing"
+          },
           "200": {
             "value": "{core.dimension.200}",
+            "type": "spacing"
+          },
+          "225": {
+            "value": "{core.dimension.225}",
             "type": "spacing"
           },
           "250": {
             "value": "{core.dimension.250}",
             "type": "spacing"
           },
+          "275": {
+            "value": "{core.dimension.275}",
+            "type": "spacing"
+          },
           "300": {
             "value": "{core.dimension.300}",
+            "type": "spacing"
+          },
+          "350": {
+            "value": "{core.dimension.350}",
+            "type": "spacing"
+          },
+          "400": {
+            "value": "{core.dimension.400}",
+            "type": "spacing"
+          },
+          "450": {
+            "value": "{core.dimension.450}",
+            "type": "spacing"
+          },
+          "500": {
+            "value": "{core.dimension.500}",
+            "type": "spacing"
+          },
+          "600": {
+            "value": "{core.dimension.600}",
+            "type": "spacing"
+          },
+          "700": {
+            "value": "{core.dimension.700}",
+            "type": "spacing"
+          },
+          "800": {
+            "value": "{core.dimension.800}",
+            "type": "spacing"
+          },
+          "none": {
+            "value": "{core.dimension.0}",
             "type": "spacing"
           }
         }
@@ -701,122 +839,6 @@
     },
     "color": {
       "light": {
-        "primary": {
-          "bg": {
-            "default": {
-              "value": "{core.colour.bt.indigo.700}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "subtle": {
-              "value": "{core.colour.bt.indigo.800}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "strong": {
-              "value": "{core.colour.bt.indigo.900}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "emphasis": {
-              "value": "{core.colour.bt.indigo.400}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "minimal": {
-              "value": "{core.colour.bt.indigo.50}",
-              "type": "color",
-              "description": "Brand indigo"
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{core.colour.bt.neutral.50}",
-              "type": "color"
-            },
-            "emphasis": {
-              "value": "{core.colour.bt.indigo.700}",
-              "type": "color"
-            },
-            "strong": {
-              "value": "{core.colour.bt.indigo.800}",
-              "type": "color"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "{core.colour.bt.indigo.700}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "strong": {
-              "value": "{core.colour.bt.indigo.900}",
-              "type": "color",
-              "description": "Brand indigo"
-            },
-            "dark": {
-              "value": "{core.colour.bt.neutral.700}",
-              "type": "color",
-              "description": "Brand indigo"
-            }
-          }
-        },
-        "secondary": {
-          "bg": {
-            "default": {
-              "value": "{core.colour.bt.neutral.50}",
-              "type": "color"
-            },
-            "subtle": {
-              "value": "{core.colour.bt.neutral.200}",
-              "type": "color"
-            },
-            "minimal": {
-              "value": "{core.colour.bt.neutral.100}",
-              "type": "color"
-            },
-            "strong": {
-              "value": "{core.colour.bt.neutral.600}",
-              "type": "color"
-            },
-            "lighter": {
-              "value": "{core.colour.bt.neutral.500}",
-              "type": "color"
-            }
-          },
-          "fg": {
-            "default": {
-              "value": "{core.colour.bt.neutral.800}",
-              "type": "color"
-            },
-            "subtle": {
-              "value": "{core.colour.bt.neutral.700}",
-              "type": "color"
-            },
-            "strong": {
-              "value": "{core.colour.bt.neutral.700}",
-              "type": "color"
-            },
-            "minimal": {
-              "value": "{core.colour.bt.neutral.400}",
-              "type": "color"
-            }
-          },
-          "border": {
-            "default": {
-              "value": "{core.colour.bt.neutral.400}",
-              "type": "color"
-            },
-            "dark": {
-              "value": "{core.colour.bt.neutral.600}",
-              "type": "color"
-            },
-            "darker": {
-              "value": "{core.colour.bt.neutral.700}",
-              "type": "color"
-            }
-          }
-        },
         "gradient": {
           "border": {
             "default": {
@@ -895,76 +917,119 @@
             }
           }
         },
-        "action": {
-          "primary": {
-            "bg": {
-              "default": {
-                "value": "{core.colour.bt.indigo.700}",
-                "type": "color",
-                "description": "Brand indigo"
-              },
-              "subtle": {
-                "value": "{core.colour.bt.indigo.800}",
-                "type": "color",
-                "description": "Brand indigo"
-              },
-              "strong": {
-                "value": "{core.colour.bt.indigo.900}",
-                "type": "color",
-                "description": "Brand indigo"
-              },
-              "emphasis": {
-                "value": "{core.colour.bt.indigo.400}",
-                "type": "color",
-                "description": "Brand indigo"
-              },
-              "minimal": {
-                "value": "{core.colour.bt.indigo.50}",
-                "type": "color",
-                "description": "Brand indigo"
-              }
+        "primary": {
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "subtle": {
+              "value": "{core.colour.bt.indigo.800}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "strong": {
+              "value": "{core.colour.bt.indigo.900}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "emphasis": {
+              "value": "{core.colour.bt.indigo.400}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "minimal": {
+              "value": "{core.colour.bt.indigo.50}",
+              "type": "color",
+              "description": "Brand indigo"
             }
           },
-          "secondary": {
-            "bg": {
-              "default": {
-                "value": "{core.colour.bt.neutral.50}",
-                "type": "color"
-              },
-              "subtle": {
-                "value": "{core.colour.bt.neutral.200}",
-                "type": "color"
-              },
-              "minimal": {
-                "value": "{core.colour.bt.neutral.100}",
-                "type": "color"
-              },
-              "strong": {
-                "value": "{core.colour.bt.neutral.700}",
-                "type": "color"
-              },
-              "lighter": {
-                "value": "{core.colour.bt.neutral.500}",
-                "type": "color"
-              }
+          "fg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
             },
-            "fg": {
-              "default": {
-                "value": "{core.colour.bt.neutral.800}",
-                "type": "color"
-              },
-              "subtle": {
-                "value": "{core.colour.bt.neutral.700}",
-                "type": "color"
-              },
-              "strong": {
-                "value": "{core.colour.bt.neutral.700}",
-                "type": "color"
-              },
-              "minimal": {
-                "value": "{core.colour.bt.neutral.400}",
-                "type": "color"
-              }
+            "emphasis": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color"
+            },
+            "strong": {
+              "value": "{core.colour.bt.indigo.800}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{core.colour.bt.indigo.700}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "strong": {
+              "value": "{core.colour.bt.indigo.900}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color",
+              "description": "Brand indigo"
+            }
+          }
+        },
+        "secondary": {
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "subtle": {
+              "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            },
+            "minimal": {
+              "value": "{core.colour.bt.neutral.100}",
+              "type": "color"
+            },
+            "strong": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            },
+            "lighter": {
+              "value": "{core.colour.bt.neutral.500}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{core.colour.bt.neutral.800}",
+              "type": "color"
+            },
+            "subtle": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            },
+            "strong": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            },
+            "minimal": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{core.colour.bt.neutral.400}",
+              "type": "color"
+            },
+            "dark": {
+              "value": "{core.colour.bt.neutral.600}",
+              "type": "color"
+            },
+            "darker": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
             }
           }
         }
@@ -1024,6 +1089,26 @@
             },
             "border": {
               "value": "{core.colour.bt.neutral.200}",
+              "type": "color"
+            }
+          }
+        },
+        "gradient": {
+          "border": {
+            "default": {
+              "value": "{core.colour.bt.gradient.2}",
+              "type": "color"
+            }
+          },
+          "overlay": {
+            "faded": {
+              "value": "{core.colour.bt.overlay.2}",
+              "type": "color"
+            }
+          },
+          "bg": {
+            "default": {
+              "value": "{core.colour.bt.gradient.2}",
               "type": "color"
             }
           }
@@ -1090,8 +1175,12 @@
               "value": "{core.colour.bt.neutral.700}",
               "type": "color"
             },
+            "minimal": {
+              "value": "{core.colour.bt.neutral.900}",
+              "type": "color"
+            },
             "light": {
-              "value": "{core.colour.bt.neutral.400}",
+              "value": "{core.colour.bt.neutral.600}",
               "type": "color"
             },
             "lighter": {
@@ -1109,11 +1198,11 @@
               "type": "color"
             },
             "strong": {
-              "value": "{core.colour.bt.neutral.900}",
+              "value": "{core.colour.bt.neutral.700}",
               "type": "color"
             },
             "minimal": {
-              "value": "{core.colour.bt.neutral.500}",
+              "value": "{core.colour.bt.neutral.400}",
               "type": "color"
             }
           },
@@ -1129,92 +1218,6 @@
             "lighter": {
               "value": "{core.colour.bt.neutral.400}",
               "type": "color"
-            }
-          }
-        },
-        "gradient": {
-          "border": {
-            "default": {
-              "value": "{core.colour.bt.gradient.2}",
-              "type": "color"
-            }
-          },
-          "overlay": {
-            "faded": {
-              "value": "{core.colour.bt.overlay.2}",
-              "type": "color"
-            }
-          },
-          "bg": {
-            "default": {
-              "value": "{core.colour.bt.gradient.2}",
-              "type": "color"
-            }
-          }
-        },
-        "action": {
-          "primary": {
-            "default": {
-              "value": "{core.colour.bt.pink.300}",
-              "type": "color"
-            },
-            "subtle": {
-              "value": "{core.colour.bt.pink.100}",
-              "type": "color"
-            },
-            "strong": {
-              "value": "{core.colour.bt.pink.200}",
-              "type": "color"
-            },
-            "emphasis": {
-              "value": "{core.colour.bt.pink.400}",
-              "type": "color"
-            },
-            "minimal": {
-              "value": "{core.colour.bt.pink.50}",
-              "type": "color"
-            }
-          },
-          "secondary": {
-            "bg": {
-              "default": {
-                "value": "{core.colour.bt.neutral.800}",
-                "type": "color"
-              },
-              "subtle": {
-                "value": "{core.colour.bt.neutral.700}",
-                "type": "color"
-              },
-              "minimal": {
-                "value": "{core.colour.bt.neutral.900}",
-                "type": "color"
-              },
-              "light": {
-                "value": "{core.colour.bt.neutral.600}",
-                "type": "color"
-              },
-              "lighter": {
-                "value": "{core.colour.bt.neutral.500}",
-                "type": "color"
-              }
-            },
-            "fg": {
-              "default": {
-                "value": "{core.colour.bt.neutral.50}",
-                "type": "color"
-              },
-              "subtle": {
-                "value": "{core.colour.bt.neutral.700}",
-                "type": "color"
-              },
-              "strong": {
-                "value": "{core.colour.bt.neutral.700}",
-                "type": "color"
-              },
-              "minimal": {
-                "value": "{core.colour.bt.neutral.400}",
-                "type": "color"
-              }
             }
           }
         }
