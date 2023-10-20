@@ -5,7 +5,15 @@
     "theme/arc-12",
     "comp/actions/attributes",
     "comp/actions/color",
-    "comp/alert/attributes",
-    "comp/alert/color"
+    "comp/input/attributes",
+    "comp/input/color",
+    "comp/feedback/attributes",
+    "comp/feedback/color",
+    "comp/status/attributes",
+    "comp/status/color",
+    "comp/navigation/attributes",
+    "comp/navigation/color",
+    "comp/container/attributes",
+    "comp/container/color"
   ]
 }
