@@ -234,7 +234,7 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.dark.secondary.bg.subtle}",
+            "value": "{sem.color.dark.secondary.bg.strong}",
             "type": "color"
           }
         },

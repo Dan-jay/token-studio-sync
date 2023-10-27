@@ -121,19 +121,19 @@
     "type": {
       "interface": {
         "xs": {
-          "value": "{sem.typography.body.subtle.xs}",
+          "value": "{sem.typography.body.reg.xs}",
           "type": "typography"
         },
         "s": {
-          "value": "{sem.typography.body.subtle.s}",
+          "value": "{sem.typography.body.reg.s}",
           "type": "typography"
         },
         "m": {
-          "value": "{sem.typography.interface.subtle.m}",
+          "value": "{sem.typography.interface.reg.m}",
           "type": "typography"
         },
         "lg": {
-          "value": "{sem.typography.interface.subtle.lg}",
+          "value": "{sem.typography.interface.reg.lg}",
           "type": "typography"
         },
         "xs-medium": {
@@ -153,95 +153,95 @@
           "type": "typography"
         }
       },
-      "title": {
+      "heading": {
         "s": {
-          "value": "{sem.typography.title.m}",
+          "value": "{sem.typography.heading.m}",
           "type": "typography"
         },
         "m": {
-          "value": "{sem.typography.title.ml}",
+          "value": "{sem.typography.heading.ml}",
           "type": "typography"
         },
         "ml": {
-          "value": "{sem.typography.title.lg}",
+          "value": "{sem.typography.heading.lg}",
           "type": "typography"
         },
         "lg": {
-          "value": "{sem.typography.title.xl}",
+          "value": "{sem.typography.heading.xl}",
           "type": "typography"
         },
         "xl": {
-          "value": "{sem.typography.title.2xl}",
+          "value": "{sem.typography.heading.2xl}",
           "type": "typography"
         },
         "2xl": {
-          "value": "{sem.typography.title.3xl}",
+          "value": "{sem.typography.heading.3xl}",
           "type": "typography"
         },
         "3xl": {
-          "value": "{sem.typography.title.4xl}",
+          "value": "{sem.typography.heading.4xl}",
           "type": "typography"
         },
         "4xl": {
-          "value": "{sem.typography.title.5xl}",
+          "value": "{sem.typography.heading.5xl}",
           "type": "typography"
         },
         "5xl": {
-          "value": "{sem.typography.title.6xl}",
+          "value": "{sem.typography.heading.6xl}",
           "type": "typography"
         },
         "6xl": {
-          "value": "{sem.typography.title.7xl}",
+          "value": "{sem.typography.heading.7xl}",
           "type": "typography"
         }
       },
       "body": {
         "xs": {
-          "value": "{sem.typography.body.subtle.xs}",
+          "value": "{sem.typography.body.reg.xs}",
           "type": "typography"
         },
         "s": {
-          "value": "{sem.typography.body.subtle.s}",
+          "value": "{sem.typography.body.reg.s}",
           "type": "typography"
         },
         "m": {
-          "value": "{sem.typography.body.subtle.m}",
+          "value": "{sem.typography.body.reg.m}",
           "type": "typography"
         },
         "ml": {
-          "value": "{sem.typography.body.subtle.ml}",
+          "value": "{sem.typography.body.reg.ml}",
           "type": "typography"
         },
         "lg": {
-          "value": "{sem.typography.body.subtle.lg}",
+          "value": "{sem.typography.body.reg.lg}",
           "type": "typography"
         },
         "xl": {
-          "value": "{sem.typography.body.subtle.xl}",
+          "value": "{sem.typography.body.reg.xl}",
           "type": "typography"
         },
-        "xs-strong": {
-          "value": "{sem.typography.body.strong.xs}",
+        "xs-bold": {
+          "value": "{sem.typography.body.bold.xs}",
           "type": "typography"
         },
-        "s-strong": {
-          "value": "{sem.typography.body.strong.s}",
+        "s-bold": {
+          "value": "{sem.typography.body.bold.s}",
           "type": "typography"
         },
-        "m-strong": {
-          "value": "{sem.typography.body.strong.m}",
+        "m-bold": {
+          "value": "{sem.typography.body.bold.m}",
           "type": "typography"
         },
-        "ml-strong": {
-          "value": "{sem.typography.body.strong.ml}",
+        "ml-bold": {
+          "value": "{sem.typography.body.bold.ml}",
           "type": "typography"
         },
-        "lg-strong": {
-          "value": "{sem.typography.body.strong.lg}",
+        "lg-bold": {
+          "value": "{sem.typography.body.bold.lg}",
           "type": "typography"
         },
-        "xl-strong": {
-          "value": "{sem.typography.body.strong.xl}",
+        "xl-bold": {
+          "value": "{sem.typography.body.bold.xl}",
           "type": "typography"
         }
       }

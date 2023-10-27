@@ -417,7 +417,7 @@
             "type": "color"
           },
           "200": {
-            "value": "#fadde8",
+            "value": "#f8c8da",
             "type": "color"
           },
           "300": {
@@ -800,94 +800,92 @@
       }
     },
     "box-shadow": {
-      "sharp": {
-        "01": {
-          "value": {
-            "0": "{",
-            "1": "s",
-            "2": "e",
-            "3": "m",
-            "4": ".",
-            "5": "b",
-            "6": "o",
-            "7": "x",
-            "8": "-",
-            "9": "s",
-            "10": "h",
-            "11": "a",
-            "12": "d",
-            "13": "o",
-            "14": "w",
-            "15": ".",
-            "16": "s",
-            "17": "h",
-            "18": "a",
-            "19": "r",
-            "20": "p",
-            "21": ".",
-            "22": "0",
-            "23": "1",
-            "24": "}",
-            "x": "1",
-            "y": "4",
-            "blur": "4",
-            "spread": "0",
-            "color": "{core.colour.bt.neutral.300}",
-            "type": "dropShadow"
-          },
-          "type": "boxShadow"
-        }
-      },
-      "soft": {
-        "01": {
-          "value": {
-            "color": "#3f187f1f",
-            "type": "dropShadow",
-            "x": "-12",
-            "y": "12",
-            "blur": "36",
-            "spread": "0"
-          },
-          "type": "boxShadow",
-          "description": "GLB Shadow ref: Light elevation"
-        },
-        "02": {
-          "value": {
-            "color": "#3f187f3d",
-            "type": "dropShadow",
-            "x": "-8",
-            "y": "8",
-            "blur": "36",
-            "spread": "0"
-          },
-          "type": "boxShadow",
-          "description": "GLB Shadow ref: Card elevation"
-        },
-        "03": {
-          "value": {
-            "color": "#3f187f24",
-            "type": "dropShadow",
-            "x": "0",
-            "y": "64",
-            "blur": "64",
-            "spread": "0"
-          },
-          "type": "boxShadow",
-          "description": "GLB Shadow ref: Card elevation"
-        }
-      },
-      "inner": {
+      "inner-shadow": {
         "01": {
           "value": {
             "x": "0",
-            "y": "2",
-            "blur": "6",
+            "y": "1",
+            "blur": "0",
             "spread": "0",
             "color": "{core.colour.bt.neutral.400}",
             "type": "innerShadow"
           },
           "type": "boxShadow",
-          "description": "GLB Shadow ref: Inner divide, Inner dropmenu,"
+          "description": "Inner divide"
+        },
+        "02": {
+          "value": {
+            "x": "0",
+            "y": "1",
+            "blur": "0",
+            "spread": "0",
+            "color": "{core.colour.bt.neutral.200}",
+            "type": "innerShadow"
+          },
+          "type": "boxShadow",
+          "description": "Inner drop-menu"
+        }
+      },
+      "drop-shadow": {
+        "03": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
+            "color": "{core.colour.bt.neutral.400}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Productive elevation"
+        },
+        "04": {
+          "value": {
+            "x": "0",
+            "y": "4",
+            "blur": "4",
+            "spread": "0",
+            "color": "{core.colour.bt.neutral.400}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Counter"
+        },
+        "05": {
+          "value": {
+            "x": "-12",
+            "y": "12",
+            "blur": "36",
+            "spread": "0",
+            "color": "{core.colour.bt.neutral.400}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Light elevation"
+        },
+        "06": {
+          "value": {
+            "x": "-8",
+            "y": "8",
+            "blur": "36",
+            "spread": "0",
+            "color": "{core.colour.bt.neutral.400}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "card hover"
+        },
+        "07": {
+          "value": {
+            "x": "0",
+            "y": "64",
+            "blur": "64",
+            "spread": "0",
+            "color": "{core.colour.bt.neutral.400}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "card hover alt"
         }
       }
     }

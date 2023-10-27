@@ -3,17 +3,18 @@
     "core",
     "theme/arc-11",
     "theme/arc-12",
+    "comp/colors",
     "comp/actions/attributes",
     "comp/actions/color",
-    "comp/input/attributes",
-    "comp/input/color",
-    "comp/feedback/attributes",
-    "comp/feedback/color",
-    "comp/status/attributes",
-    "comp/status/color",
+    "comp/inputs/attributes",
+    "comp/inputs/color",
     "comp/navigation/attributes",
     "comp/navigation/color",
     "comp/container/attributes",
-    "comp/container/color"
+    "comp/container/color",
+    "comp/status/attributes",
+    "comp/status/color",
+    "comp/feedback/attributes",
+    "comp/feedback/color"
   ]
 }
