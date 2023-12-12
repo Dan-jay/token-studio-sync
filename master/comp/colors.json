@@ -5,11 +5,19 @@
         "value": "{sem.color.bg.primary.default}",
         "type": "color"
       },
+      "default-alt": {
+        "value": "{sem.color.bg.secondary.default}",
+        "type": "color"
+      },
       "subtle": {
         "value": "{sem.color.bg.secondary.minimal}",
         "type": "color"
       },
-      "light": {
+      "minimal": {
+        "value": "{sem.color.bg.secondary.muted-alt}",
+        "type": "color"
+      },
+      "muted": {
         "value": "{sem.color.bg.secondary.muted}",
         "type": "color"
       },
@@ -37,12 +45,16 @@
         "value": "{sem.color.bg.primary.dark-default}",
         "type": "color"
       },
+      "dark-default-alt": {
+        "value": "{sem.color.bg.secondary.dark-default}",
+        "type": "color"
+      },
       "dark-subtle": {
         "value": "{sem.color.bg.secondary.dark-minimal}",
         "type": "color"
       },
-      "dark-light": {
-        "value": "{sem.color.bg.secondary.dark-muted}",
+      "dark-muted": {
+        "value": "{sem.color.bg.secondary.dark-muted-alt}",
         "type": "color"
       },
       "dark-strong": {
@@ -62,7 +74,37 @@
         "type": "color"
       },
       "dark-disabled": {
-        "value": "{sem.color.bg.secondary.dark-alt}",
+        "value": "{sem.color.bg.secondary.dark-muted}",
+        "type": "color"
+      }
+    },
+    "surface": {
+      "white": {
+        "value": "{sem.color.bg.secondary.default}",
+        "type": "color"
+      },
+      "brand-flat": {
+        "value": "{sem.color.bg.primary.default}",
+        "type": "color"
+      },
+      "brand": {
+        "value": "{sem.color.bg.gradient.default}",
+        "type": "color"
+      },
+      "light": {
+        "value": "{sem.color.bg.secondary.muted}",
+        "type": "color"
+      },
+      "lighter": {
+        "value": "{core.colour.bt.neutral.100}",
+        "type": "color"
+      },
+      "darker": {
+        "value": "{sem.color.bg.secondary.alt}",
+        "type": "color"
+      },
+      "dark": {
+        "value": "{sem.color.bg.secondary.dark-muted}",
         "type": "color"
       }
     },
@@ -77,6 +119,10 @@
       },
       "subtle": {
         "value": "{sem.color.fg.secondary.strong}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{sem.color.fg.secondary.muted}",
         "type": "color"
       },
       "strong": {
@@ -111,6 +157,10 @@
         "value": "{sem.color.fg.secondary.dark-strong}",
         "type": "color"
       },
+      "dark-muted": {
+        "value": "{sem.color.fg.secondary.dark-muted}",
+        "type": "color"
+      },
       "dark-strong": {
         "value": "{sem.color.fg.secondary.dark-default}",
         "type": "color"
@@ -128,7 +178,7 @@
         "type": "color"
       },
       "dark-disabled": {
-        "value": "{sem.color.bg.secondary.dark-strong}",
+        "value": "{sem.color.fg.secondary.dark-strong}",
         "type": "color"
       }
     },
@@ -139,6 +189,10 @@
       },
       "subtle": {
         "value": "{sem.color.border.secondary.minimal}",
+        "type": "color"
+      },
+      "minimal": {
+        "value": "{sem.color.border.primary.minimal}",
         "type": "color"
       },
       "strong": {
@@ -158,7 +212,7 @@
         "type": "color"
       },
       "disabled": {
-        "value": "{sem.color.border.secondary.strong}",
+        "value": "{sem.color.border.secondary.subtle}",
         "type": "color"
       },
       "dark-default": {
@@ -167,6 +221,10 @@
       },
       "dark-subtle": {
         "value": "{sem.color.border.secondary.dark-minimal}",
+        "type": "color"
+      },
+      "dark-minimal": {
+        "value": "{sem.color.border.primary.dark-minimal}",
         "type": "color"
       },
       "dark-strong": {
@@ -186,13 +244,17 @@
         "type": "color"
       },
       "dark-disabled": {
-        "value": "{sem.color.bg.secondary.dark-strong}",
+        "value": "{sem.color.border.secondary.dark-subtle}",
         "type": "color"
       }
     },
     "status": {
       "bg-subtle-default": {
-        "value": "{sem.color.bg.status.default}",
+        "value": "{sem.color.bg.secondary.default}",
+        "type": "color"
+      },
+      "bg-subtle-general": {
+        "value": "{sem.color.bg.status.general}",
         "type": "color"
       },
       "bg-subtle-error": {
@@ -207,8 +269,8 @@
         "value": "{sem.color.bg.status.success}",
         "type": "color"
       },
-      "bg-default": {
-        "value": "{sem.color.fg.status.default}",
+      "bg-general": {
+        "value": "{sem.color.fg.status.general}",
         "type": "color"
       },
       "bg-error": {
@@ -223,8 +285,8 @@
         "value": "{sem.color.fg.status.success}",
         "type": "color"
       },
-      "fg-default": {
-        "value": "{sem.color.fg.status.default}",
+      "fg-general": {
+        "value": "{sem.color.fg.secondary.default}",
         "type": "color"
       },
       "fg-error": {
@@ -239,8 +301,20 @@
         "value": "{sem.color.fg.status.success}",
         "type": "color"
       },
-      "border-default": {
-        "value": "{sem.color.border.status.default}",
+      "fg-default-alt": {
+        "value": "{sem.color.fg.secondary.alt}",
+        "type": "color"
+      },
+      "fg-error-alt": {
+        "value": "{sem.color.bg.status.dark-error-strong}",
+        "type": "color"
+      },
+      "fg-success-alt": {
+        "value": "{sem.color.fg.status.dark-success}",
+        "type": "color"
+      },
+      "border-general": {
+        "value": "{sem.color.border.status.general}",
         "type": "color"
       },
       "border-error": {
@@ -255,8 +329,24 @@
         "value": "{sem.color.border.status.success}",
         "type": "color"
       },
-      "dark-bg-subtle-default": {
-        "value": "{sem.color.bg.status.dark-default}",
+      "border-default": {
+        "value": "{sem.color.border.secondary.alt}",
+        "type": "color"
+      },
+      "border-error-alt": {
+        "value": "{sem.color.bg.status.dark-error-strong}",
+        "type": "color"
+      },
+      "border-warning-alt": {
+        "value": "{sem.color.fg.status.dark-warning}",
+        "type": "color"
+      },
+      "border-success-alt": {
+        "value": "{sem.color.fg.status.dark-success}",
+        "type": "color"
+      },
+      "dark-bg-subtle-general": {
+        "value": "{sem.color.bg.status.dark-general}",
         "type": "color"
       },
       "dark-bg-subtle-error": {
@@ -271,58 +361,116 @@
         "value": "{sem.color.bg.status.dark-success}",
         "type": "color"
       },
+      "dark-bg-general": {
+        "value": "{sem.color.fg.status.dark-general}",
+        "type": "color"
+      },
       "dark-bg-default": {
-        "value": "{sem.color.fg.status.dark-default}",
-        "type": "color"
-      },
-      "dark-bg-error": {
-        "value": "{sem.color.fg.status.dark-error}",
-        "type": "color"
-      },
-      "dark-bg-warning": {
-        "value": "{sem.color.fg.status.dark-warning}",
+        "value": "{sem.color.bg.status.dark-default}",
         "type": "color"
       },
       "dark-bg-success": {
         "value": "{sem.color.fg.status.dark-success}",
         "type": "color"
       },
-      "dark-fg-default": {
-        "value": "{sem.color.fg.status.dark-default}",
-        "type": "color"
-      },
-      "dark-fg-error": {
-        "value": "{sem.color.fg.status.dark-error}",
-        "type": "color"
-      },
-      "dark-fg-warning": {
+      "dark-bg-warning": {
         "value": "{sem.color.fg.status.dark-warning}",
+        "type": "color"
+      },
+      "dark-bg-error-subtle": {
+        "value": "{sem.color.fg.status.dark-error-subtle}",
+        "type": "color"
+      },
+      "dark-bg-error": {
+        "value": "{sem.color.bg.status.dark-error-strong}",
+        "type": "color"
+      },
+      "dark-fg-general": {
+        "value": "{sem.color.fg.status.dark-general}",
         "type": "color"
       },
       "dark-fg-success": {
         "value": "{sem.color.fg.status.dark-success}",
         "type": "color"
       },
-      "dark-border-default": {
-        "value": "{sem.color.border.status.dark-default}",
+      "dark-fg-success-subtle": {
+        "value": "{sem.color.border.status.dark-success-subtle}",
         "type": "color"
       },
-      "dark-border-error": {
-        "value": "{sem.color.border.status.dark-error}",
+      "dark-fg-warning": {
+        "value": "{sem.color.fg.status.dark-warning}",
+        "type": "color"
+      },
+      "dark-fg-error": {
+        "value": "{sem.color.fg.status.dark-error}",
+        "type": "color"
+      },
+      "dark-fg-error-subtle": {
+        "value": "{sem.color.fg.status.dark-error-subtle}",
+        "type": "color"
+      },
+      "dark-fg-error-minimal": {
+        "value": "{sem.color.border.status.dark-error-minimal}",
+        "type": "color"
+      },
+      "dark-fg-default": {
+        "value": "{sem.color.fg.secondary.dark-default}",
+        "type": "color"
+      },
+      "dark-fg-default-alt": {
+        "value": "{sem.color.fg.secondary.dark-alt}",
+        "type": "color"
+      },
+      "dark-border-general": {
+        "value": "{sem.color.border.status.dark-general}",
+        "type": "color"
+      },
+      "dark-border-success": {
+        "value": "{sem.color.border.status.dark-success}",
+        "type": "color"
+      },
+      "dark-border-success-subtle": {
+        "value": "{sem.color.border.status.dark-success-subtle}",
         "type": "color"
       },
       "dark-border-warning": {
         "value": "{sem.color.border.status.dark-warning}",
         "type": "color"
       },
-      "dark-border-success": {
-        "value": "{sem.color.border.status.dark-success}",
+      "dark-border-warning-subtle": {
+        "value": "{sem.color.border.status.dark-warning-subtle}",
+        "type": "color"
+      },
+      "dark-border-error": {
+        "value": "{sem.color.border.status.dark-error}",
+        "type": "color"
+      },
+      "dark-border-error-subtle": {
+        "value": "{sem.color.border.status.dark-error-subtle}",
+        "type": "color"
+      },
+      "dark-border-error-minimal": {
+        "value": "{sem.color.border.status.dark-error-minimal}",
+        "type": "color"
+      },
+      "dark-border-default": {
+        "value": "{sem.color.border.secondary.dark-default}",
+        "type": "color"
+      },
+      "dark-border-default-alt": {
+        "value": "{sem.color.fg.secondary.dark-alt}",
         "type": "color"
       }
     },
     "gradient": {
       "default": {
         "value": "{sem.color.bg.gradient.default}",
+        "type": "color"
+      }
+    },
+    "overlay": {
+      "default": {
+        "value": "{sem.color.overlay.flat.default}",
         "type": "color"
       }
     }

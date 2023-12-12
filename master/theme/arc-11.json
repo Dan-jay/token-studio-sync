@@ -34,6 +34,10 @@
       "interface-medium": {
         "value": "Headline",
         "type": "fontWeights"
+      },
+      "interface-bold": {
+        "value": "700",
+        "type": "fontWeights"
       }
     },
     "type": {
@@ -111,22 +115,22 @@
             },
             "type": "typography"
           },
-          "s": {
-            "value": {
-              "fontFamily": "{sem.font-family.body}",
-              "fontWeight": "{sem.font-weight.body-bold}",
-              "fontSize": "{sem.font-size.87}",
-              "lineHeight": "{sem.line-height.body-s}",
-              "paragraphSpacing": "{sem.paragraph-spacing.body}"
-            },
-            "type": "typography"
-          },
           "m": {
             "value": {
               "fontFamily": "{sem.font-family.body}",
               "fontWeight": "{sem.font-weight.body-bold}",
               "fontSize": "{sem.font-size.100}",
               "lineHeight": "{sem.line-height.body-m}",
+              "paragraphSpacing": "{sem.paragraph-spacing.body}"
+            },
+            "type": "typography"
+          },
+          "s": {
+            "value": {
+              "fontFamily": "{sem.font-family.body}",
+              "fontWeight": "{sem.font-weight.body-bold}",
+              "fontSize": "{sem.font-size.87}",
+              "lineHeight": "{sem.line-height.body-s}",
               "paragraphSpacing": "{sem.paragraph-spacing.body}"
             },
             "type": "typography"
@@ -250,6 +254,51 @@
             },
             "type": "typography",
             "description": "Headline option is needed for label weights etc and possibly buttons until brand direction is clarified."
+          }
+        },
+        "bold": {
+          "xs": {
+            "value": {
+              "fontFamily": "{sem.font-family.interface}",
+              "fontWeight": "{sem.font-weight.interface-bold}",
+              "fontSize": "{core.font-size.scale.75}",
+              "lineHeight": "{sem.line-height.interface-xs}",
+              "paragraphSpacing": "{sem.paragraph-spacing.interface}"
+            },
+            "type": "typography",
+            "description": "Headline option is needed for label weights etc and possibly buttons until brand direction is clarified."
+          },
+          "s": {
+            "value": {
+              "fontFamily": "{sem.font-family.interface}",
+              "fontWeight": "{sem.font-weight.interface-bold}",
+              "fontSize": "{sem.font-size.87}",
+              "lineHeight": "{sem.line-height.interface-xs}",
+              "paragraphSpacing": "{sem.paragraph-spacing.interface}"
+            },
+            "type": "typography",
+            "description": "Headline option is needed for label weights etc and possibly buttons until brand direction is clarified."
+          },
+          "m": {
+            "value": {
+              "fontFamily": "{sem.font-family.heading}",
+              "fontWeight": "{sem.font-weight.interface-bold}",
+              "fontSize": "{sem.font-size.100}",
+              "lineHeight": "{sem.line-height.interface-xs}",
+              "paragraphSpacing": "{sem.paragraph-spacing.interface}"
+            },
+            "type": "typography",
+            "description": "Headline option is needed for label weights etc and possibly buttons until brand direction is clarified."
+          },
+          "lg": {
+            "value": {
+              "fontFamily": "{sem.font-family.interface}",
+              "fontWeight": "{sem.font-weight.interface-bold}",
+              "fontSize": "{sem.font-size.125}",
+              "lineHeight": "{sem.line-height.interface-s}",
+              "paragraphSpacing": "{sem.paragraph-spacing.interface}"
+            },
+            "type": "typography"
           }
         }
       },
@@ -496,8 +545,18 @@
         }
       },
       "height": {
+        "25": {
+          "value": "{core.dimension.25}",
+          "type": "sizing",
+          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+        },
         "50": {
           "value": "{core.dimension.50}",
+          "type": "sizing",
+          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+        },
+        "75": {
+          "value": "{core.dimension.75}",
           "type": "sizing",
           "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
         },
@@ -506,13 +565,27 @@
           "type": "sizing",
           "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
         },
+        "125": {
+          "value": "{core.dimension.125}",
+          "type": "sizing",
+          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+        },
         "150": {
           "value": "{core.dimension.150}",
           "type": "sizing",
           "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
         },
+        "175": {
+          "value": "{core.dimension.175}",
+          "type": "sizing",
+          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+        },
         "200": {
           "value": "{core.dimension.200}",
+          "type": "sizing"
+        },
+        "250": {
+          "value": "{core.dimension.250}",
           "type": "sizing"
         },
         "275": {
@@ -529,6 +602,14 @@
         },
         "400": {
           "value": "{core.dimension.400}",
+          "type": "sizing"
+        },
+        "600": {
+          "value": "{core.dimension.600}",
+          "type": "sizing"
+        },
+        "800": {
+          "value": "{core.dimension.800}",
           "type": "sizing"
         }
       },
@@ -577,6 +658,10 @@
         },
         "50": {
           "value": "{core.dimension.50}",
+          "type": "spacing"
+        },
+        "62": {
+          "value": "{core.dimension.62}",
           "type": "spacing"
         },
         "75": {
@@ -886,23 +971,39 @@
             "value": "{core.colour.bt.green.700}",
             "type": "color"
           },
-          "default": {
+          "general": {
             "value": "{core.colour.bt.neutral.800}",
             "type": "color"
           },
-          "dark-error": {
+          "dark-error-minimal": {
+            "value": "{core.colour.bt.red.700}",
+            "type": "color"
+          },
+          "dark-error-subtle": {
             "value": "{core.colour.bt.red.500}",
+            "type": "color"
+          },
+          "dark-error": {
+            "value": "{core.colour.bt.red.200}",
             "type": "color"
           },
           "dark-warning": {
             "value": "{core.colour.bt.amber.700}",
             "type": "color"
           },
+          "dark-warning-subtle": {
+            "value": "{core.colour.bt.amber.800}",
+            "type": "color"
+          },
           "dark-success": {
             "value": "{core.colour.bt.green.300}",
             "type": "color"
           },
-          "dark-default": {
+          "dark-success-subtle": {
+            "value": "{core.colour.bt.green.700}",
+            "type": "color"
+          },
+          "dark-general": {
             "value": "{core.colour.bt.neutral.200}",
             "type": "color"
           }
@@ -915,6 +1016,10 @@
           },
           "subtle": {
             "value": "{core.colour.bt.indigo.900}",
+            "type": "color"
+          },
+          "minimal": {
+            "value": "{core.colour.bt.indigo.200}",
             "type": "color"
           },
           "strong": {
@@ -933,6 +1038,10 @@
           },
           "dark-subtle": {
             "value": "{core.colour.bt.pink.100}",
+            "type": "color"
+          },
+          "dark-minimal": {
+            "value": "{core.colour.bt.pink.900}",
             "type": "color"
           },
           "dark-strong": {
@@ -974,7 +1083,7 @@
             "type": "color"
           },
           "dark-subtle": {
-            "value": "{core.colour.bt.neutral.600}",
+            "value": "{core.colour.bt.neutral.650}",
             "type": "color"
           },
           "dark-minimal": {
@@ -1003,15 +1112,15 @@
             "value": "{core.colour.bt.red.50}",
             "type": "color"
           },
-          "warning": {
-            "value": "{core.colour.bt.amber.50}",
-            "type": "color"
-          },
           "success": {
             "value": "{core.colour.bt.green.50}",
             "type": "color"
           },
-          "default": {
+          "warning": {
+            "value": "{core.colour.bt.amber.50}",
+            "type": "color"
+          },
+          "general": {
             "value": "{core.colour.bt.neutral.100}",
             "type": "color"
           },
@@ -1019,16 +1128,24 @@
             "value": "{core.colour.bt.red.1000}",
             "type": "color"
           },
-          "dark-warning": {
-            "value": "{core.colour.bt.amber.1000}",
+          "dark-error-strong": {
+            "value": "{core.colour.bt.red.200}",
             "type": "color"
           },
           "dark-success": {
             "value": "{core.colour.bt.green.1000}",
             "type": "color"
           },
-          "dark-default": {
+          "dark-warning": {
+            "value": "{core.colour.bt.amber.1000}",
+            "type": "color"
+          },
+          "dark-general": {
             "value": "{core.colour.bt.neutral.800}",
+            "type": "color"
+          },
+          "dark-default": {
+            "value": "{core.colour.bt.neutral.50}",
             "type": "color"
           }
         },
@@ -1100,12 +1217,16 @@
             "value": "{core.colour.bt.neutral.200}",
             "type": "color"
           },
+          "muted-alt": {
+            "value": "{core.colour.bt.neutral.250}",
+            "type": "color"
+          },
           "alt": {
             "value": "{core.colour.bt.neutral.800}",
             "type": "color"
           },
           "dark-default": {
-            "value": "{core.colour.bt.neutral.800}",
+            "value": "{core.colour.bt.neutral.900}",
             "type": "color"
           },
           "dark-strong": {
@@ -1121,6 +1242,10 @@
             "type": "color"
           },
           "dark-muted": {
+            "value": "{core.colour.bt.neutral.750}",
+            "type": "color"
+          },
+          "dark-muted-alt": {
             "value": "{core.colour.bt.neutral.800}",
             "type": "color"
           },
@@ -1144,12 +1269,20 @@
             "value": "{core.colour.bt.green.700}",
             "type": "color"
           },
-          "default": {
+          "general": {
             "value": "{core.colour.bt.neutral.800}",
             "type": "color"
           },
-          "dark-error": {
+          "dark-error-minimal": {
+            "value": "{core.colour.bt.red.700}",
+            "type": "color"
+          },
+          "dark-error-subtle": {
             "value": "{core.colour.bt.red.500}",
+            "type": "color"
+          },
+          "dark-error": {
+            "value": "{core.colour.bt.red.200}",
             "type": "color"
           },
           "dark-warning": {
@@ -1160,7 +1293,11 @@
             "value": "{core.colour.bt.green.300}",
             "type": "color"
           },
-          "dark-default": {
+          "dark-success-subtle": {
+            "value": "{core.colour.bt.green.700}",
+            "type": "color"
+          },
+          "dark-general": {
             "value": "{core.colour.bt.neutral.200}",
             "type": "color"
           }
@@ -1205,6 +1342,10 @@
             "value": "{core.colour.bt.neutral.800}",
             "type": "color"
           },
+          "muted": {
+            "value": "{core.colour.bt.neutral.750}",
+            "type": "color"
+          },
           "strong": {
             "value": "{core.colour.bt.neutral.700}",
             "type": "color"
@@ -1223,6 +1364,10 @@
           },
           "dark-default": {
             "value": "{core.colour.bt.neutral.50}",
+            "type": "color"
+          },
+          "dark-muted": {
+            "value": "{core.colour.bt.neutral.250}",
             "type": "color"
           },
           "dark-strong": {
@@ -1251,6 +1396,12 @@
           },
           "dark-faded": {
             "value": "{core.colour.bt.overlay.2}",
+            "type": "color"
+          }
+        },
+        "flat": {
+          "default": {
+            "value": "{core.colour.bt.overlay.4}",
             "type": "color"
           }
         }
@@ -1286,12 +1437,18 @@
         "type": "boxShadow"
       }
     },
+    "dark-box-shadow": {
+      "productive-elevation-dark": {
+        "value": "{core.box-shadow.darkpathway.03}",
+        "type": "boxShadow"
+      }
+    },
     "underline": {
-      "value": "underline",
+      "value": "{core.text-underline}",
       "type": "textDecoration"
     },
     "line-through": {
-      "value": "line-through",
+      "value": "{core.text-line-through}",
       "type": "textDecoration"
     }
   }

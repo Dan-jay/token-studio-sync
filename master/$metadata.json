@@ -2,11 +2,9 @@
   "tokenSetOrder": [
     "core",
     "theme/arc-11",
-    "theme/arc-12",
     "comp/actions",
     "comp/navigation",
     "comp/container",
-    "comp/status",
     "comp/feedback",
     "comp/inputs",
     "comp/colors"

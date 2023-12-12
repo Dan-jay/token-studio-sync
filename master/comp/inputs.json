@@ -14,35 +14,31 @@
         "type": "spacing"
       },
       "m": {
-        "value": "{sem.space.gap.75}",
+        "value": "{sem.space.padding.62}",
         "type": "spacing"
       },
       "ml": {
-        "value": "{sem.space.gap.100}",
+        "value": "{sem.space.gap.75}",
         "type": "spacing"
       },
       "lg": {
-        "value": "{sem.space.padding.112}",
+        "value": "{sem.space.gap.100}",
         "type": "spacing"
       },
       "xl": {
-        "value": "{sem.space.gap.150}",
+        "value": "{sem.space.padding.112}",
         "type": "spacing"
       },
       "2xl": {
-        "value": "{sem.space.gap.200}",
+        "value": "{sem.space.gap.150}",
         "type": "spacing"
       },
       "3xl": {
-        "value": "{sem.space.gap.250}",
+        "value": "{sem.space.gap.200}",
         "type": "spacing"
       },
       "4xl": {
-        "value": "{sem.space.gap.275}",
-        "type": "spacing"
-      },
-      "5xl": {
-        "value": "{sem.space.gap.300}",
+        "value": "{sem.space.gap.250}",
         "type": "spacing"
       }
     },
@@ -81,14 +77,6 @@
       },
       "3xl": {
         "value": "{sem.space.gap.250}",
-        "type": "spacing"
-      },
-      "4xl": {
-        "value": "{sem.space.gap.275}",
-        "type": "spacing"
-      },
-      "5xl": {
-        "value": "{sem.space.gap.300}",
         "type": "spacing"
       }
     },

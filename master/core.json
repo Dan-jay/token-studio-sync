@@ -242,6 +242,10 @@
         "value": "{core.dimension.base} * 50",
         "type": "dimension"
       },
+      "62": {
+        "value": "{core.dimension.base} * 62.5",
+        "type": "dimension"
+      },
       "75": {
         "value": "{core.dimension.base} * 75",
         "type": "dimension"
@@ -883,8 +887,8 @@
           "value": {
             "x": "0",
             "y": "2",
-            "blur": "4",
-            "spread": "0",
+            "blur": "6",
+            "spread": "2",
             "color": "{core.colour.bt.neutral.400}",
             "type": "dropShadow"
           },
@@ -939,7 +943,29 @@
           "type": "boxShadow",
           "description": "card hover alt"
         }
+      },
+      "darkpathway": {
+        "03": {
+          "value": {
+            "x": "0",
+            "y": "2",
+            "blur": "6",
+            "spread": "2",
+            "color": "{core.colour.bt.neutral.900}",
+            "type": "dropShadow"
+          },
+          "type": "boxShadow",
+          "description": "Productive elevation"
+        }
       }
+    },
+    "text-underline": {
+      "value": "underline",
+      "type": "textDecoration"
+    },
+    "text-line-through": {
+      "value": "line-through",
+      "type": "textDecoration"
     }
   }
 }
