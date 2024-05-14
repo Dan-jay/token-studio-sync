@@ -1,0 +1,60 @@
+{
+  "badge": {
+    "size": {
+      "s": {
+        "value": "{sem.size.height.70}",
+        "type": "sizing"
+      }
+    },
+    "padding": {
+      "s": {
+        "value": "{sem.space.padding.40}",
+        "type": "spacing"
+      }
+    },
+    "border-radius": {
+      "s": {
+        "value": "{sem.border-radius.xxl}",
+        "type": "borderRadius"
+      }
+    },
+    "colors": {
+      "bg": {
+        "default": {
+          "value": "{sem.color.bg.status.general-alt}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{sem.color.bg.status.error-alt}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{sem.color.bg.status.warning-alt}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{sem.color.bg.status.success-alt}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default": {
+          "value": "{sem.color.fg.status.text.default}",
+          "type": "color"
+        },
+        "error": {
+          "value": "{sem.color.fg.status.text.error}",
+          "type": "color"
+        },
+        "success": {
+          "value": "{sem.color.fg.status.text.warning}",
+          "type": "color"
+        },
+        "warning": {
+          "value": "{sem.color.fg.status.text.success}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

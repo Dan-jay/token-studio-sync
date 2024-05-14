@@ -1,0 +1,68 @@
+{
+  "avatar": {
+    "size": {
+      "s": {
+        "value": "{sem.size.height.90}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{sem.size.height.140}",
+        "type": "sizing"
+      },
+      "l": {
+        "value": "{sem.size.height.160}",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{sem.size.height.165}",
+        "type": "sizing"
+      }
+    },
+    "size-icon": {
+      "s": {
+        "value": "{sem.size.icon.xs}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{sem.size.icon.m}",
+        "type": "sizing"
+      },
+      "l": {
+        "value": "{sem.size.icon.xl}",
+        "type": "sizing"
+      },
+      "xl": {
+        "value": "{sem.size.icon.xxl}",
+        "type": "sizing"
+      }
+    },
+    "border-weight": {
+      "s": {
+        "value": "{sem.border-width.xs}",
+        "type": "borderWidth"
+      }
+    },
+    "colors": {
+      "light": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.primary.default}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default-alt": {
+            "value": "{sem.color.fg.secondary.alt}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default-alt": {
+            "value": "{sem.color.fg.secondary.alt}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

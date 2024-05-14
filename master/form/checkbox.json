@@ -1,0 +1,166 @@
+{
+  "checkbox": {
+    "size": {
+      "s": {
+        "value": "{sem.size.height.70}",
+        "type": "sizing"
+      },
+      "l": {
+        "value": "{sem.size.height.100}",
+        "type": "sizing"
+      }
+    },
+    "padding": {
+      "s": {
+        "value": "{sem.space.padding.10}",
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "s": {
+        "value": "{sem.space.gap.40}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.gap.60}",
+        "type": "spacing"
+      }
+    },
+    "border-radius": {
+      "xs": {
+        "value": "{sem.border-radius.xxxs}",
+        "type": "borderRadius"
+      },
+      "s": {
+        "value": "{sem.border-radius.xxs}",
+        "type": "borderRadius"
+      }
+    },
+    "border-weight": {
+      "s": {
+        "value": "{sem.border-width.s}",
+        "type": "borderWidth"
+      }
+    },
+    "size-icon": {
+      "s": {
+        "value": "{sem.size.icon.s}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{sem.size.icon.xl}",
+        "type": "sizing"
+      }
+    },
+    "colors": {
+      "light": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.primary.default-alt}",
+            "type": "color"
+          },
+          "default-alt": {
+            "value": "{sem.color.bg.secondary.default}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.bg.secondary.muted}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.bg.status.error}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.secondary.alt}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.fg.secondary.strong}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{sem.color.border.secondary.default-alt}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.border.secondary.subtle}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.border.status.error}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.fg.secondary.default}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.fg.secondary.strong}",
+            "type": "color"
+          }
+        }
+      },
+      "dark": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.primary.dark-default}",
+            "type": "color"
+          },
+          "default-alt": {
+            "value": "{sem.color.bg.secondary.dark-default}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.bg.secondary.dark-muted}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.bg.status.dark-error}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.secondary.dark-alt}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.fg.secondary.dark-strong}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{sem.color.border.secondary.dark-default}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.border.secondary.dark-subtle}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.border.status.dark-error}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.fg.secondary.dark-default}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.fg.secondary.dark-strong}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,12 +1,33 @@
 {
   "tokenSetOrder": [
     "core",
-    "theme/arc-11",
+    "theme/bt-enterprise",
+    "theme/bt-business",
+    "theme/ee",
     "comp/actions",
     "comp/navigation",
-    "comp/container",
-    "comp/feedback",
     "comp/inputs",
-    "comp/colors"
+    "comp/feedback",
+    "comp/buttons",
+    "comp/cards",
+    "comp/container",
+    "comp/colors",
+    "container/disclosure-mini",
+    "container/disclosure",
+    "container/avatar",
+    "container/modal",
+    "container/overlay",
+    "feedback/stepper",
+    "feedback/progress-bar",
+    "feedback/toast",
+    "feedback/tag",
+    "feedback/badge",
+    "feedback/alert",
+    "form/switch",
+    "form/radio",
+    "form/checkbox",
+    "form/textinput",
+    "form/select",
+    "form/textarea"
   ]
 }

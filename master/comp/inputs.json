@@ -1,12 +1,24 @@
 {
   "inputs": {
     "padding": {
+      "xxxxxs": {
+        "value": "{sem.space.padding.5}",
+        "type": "spacing"
+      },
+      "xxxxs": {
+        "value": "{sem.space.padding.10}",
+        "type": "spacing"
+      },
+      "xxxs": {
+        "value": "{sem.space.padding.15}",
+        "type": "spacing"
+      },
       "xxs": {
-        "value": "{sem.space.padding.12}",
+        "value": "{sem.space.padding.20}",
         "type": "spacing"
       },
       "xs": {
-        "value": "{sem.space.padding.25}",
+        "value": "{sem.space.padding.40}",
         "type": "spacing"
       },
       "s": {
@@ -14,79 +26,83 @@
         "type": "spacing"
       },
       "m": {
-        "value": "{sem.space.padding.62}",
+        "value": "{sem.space.padding.60}",
         "type": "spacing"
       },
-      "ml": {
-        "value": "{sem.space.gap.75}",
-        "type": "spacing"
-      },
-      "lg": {
-        "value": "{sem.space.gap.100}",
+      "l": {
+        "value": "{sem.space.padding.70}",
         "type": "spacing"
       },
       "xl": {
-        "value": "{sem.space.padding.112}",
+        "value": "{sem.space.padding.80}",
         "type": "spacing"
       },
-      "2xl": {
-        "value": "{sem.space.gap.150}",
+      "xxl": {
+        "value": "{sem.space.padding.100}",
         "type": "spacing"
       },
-      "3xl": {
-        "value": "{sem.space.gap.200}",
+      "xxxl": {
+        "value": "{sem.space.padding.110}",
         "type": "spacing"
       },
-      "4xl": {
-        "value": "{sem.space.gap.250}",
+      "xxxxl": {
+        "value": "{sem.space.padding.120}",
+        "type": "spacing"
+      },
+      "xxxxxl": {
+        "value": "{sem.space.padding.130}",
+        "type": "spacing"
+      },
+      "xxxxxxl": {
+        "value": "{sem.space.padding.140}",
         "type": "spacing"
       }
     },
     "gap": {
       "xxs": {
-        "value": "{sem.space.gap.12}",
+        "value": "{sem.space.gap.10}",
         "type": "spacing"
       },
       "xs": {
-        "value": "{sem.space.gap.25}",
+        "value": "{sem.space.gap.20}",
         "type": "spacing"
       },
       "s": {
-        "value": "{sem.space.gap.50}",
+        "value": "{sem.space.gap.40}",
         "type": "spacing"
       },
       "m": {
-        "value": "{sem.space.gap.75}",
+        "value": "{sem.space.gap.60}",
         "type": "spacing"
       },
-      "ml": {
-        "value": "{sem.space.gap.100}",
-        "type": "spacing"
-      },
-      "lg": {
-        "value": "{sem.space.gap.137}",
+      "l": {
+        "value": "{sem.space.gap.70}",
         "type": "spacing"
       },
       "xl": {
-        "value": "{sem.space.gap.150}",
+        "value": "{sem.space.gap.100}",
         "type": "spacing"
       },
-      "2xl": {
-        "value": "{sem.space.gap.200}",
+      "xxl": {
+        "value": "{sem.space.gap.110}",
         "type": "spacing"
       },
-      "3xl": {
-        "value": "{sem.space.gap.250}",
+      "xxxl": {
+        "value": "{sem.space.gap.130}",
+        "type": "spacing"
+      },
+      "xxxxl": {
+        "value": "{sem.space.gap.140}",
         "type": "spacing"
       }
     },
     "border-radius": {
-      "none": {
+      "xxs": {
         "value": "{sem.border-radius.none}",
         "type": "borderRadius"
       },
       "xs": {
-        "value": "{actions.border-radius.xs}",
+        "value": "{sem.border-radius.xs}",
         "type": "borderRadius"
       },
       "s": {
@@ -97,73 +113,101 @@
         "value": "{sem.border-radius.m}",
         "type": "borderRadius"
       },
-      "lg": {
-        "value": "{sem.border-radius.lg}",
+      "l": {
+        "value": "{sem.border-radius.l}",
         "type": "borderRadius"
       },
       "xl": {
         "value": "{sem.border-radius.xl}",
         "type": "borderRadius"
       },
-      "pill": {
-        "value": "{sem.border-radius.2xl}",
+      "xxl": {
+        "value": "{sem.border-radius.xxl}",
         "type": "borderRadius"
       }
     },
-    "size-height": {
+    "size": {
+      "xxxxs": {
+        "value": "{sem.size.height.10}",
+        "type": "sizing"
+      },
+      "xxxs": {
+        "value": "{sem.size.height.40}",
+        "type": "sizing"
+      },
+      "xxs": {
+        "value": "{sem.size.height.50}",
+        "type": "sizing"
+      },
       "xs": {
-        "value": "{sem.size.height.100}",
+        "value": "{sem.size.height.60}",
         "type": "sizing"
       },
       "s": {
-        "value": "{sem.size.height.150}",
+        "value": "{sem.size.height.70}",
         "type": "sizing"
       },
       "m": {
-        "value": "{sem.size.height.200}",
+        "value": "{sem.size.height.90}",
         "type": "sizing"
       },
-      "ml": {
-        "value": "{sem.size.height.275}",
-        "type": "sizing"
-      },
-      "lg": {
-        "value": "{sem.size.height.300}",
+      "l": {
+        "value": "{sem.size.height.95}",
         "type": "sizing"
       },
       "xl": {
-        "value": "{sem.size.height.400}",
+        "value": "{sem.size.height.100}",
+        "type": "sizing"
+      },
+      "xxl": {
+        "value": "{sem.size.height.110}",
+        "type": "sizing"
+      },
+      "xxxl": {
+        "value": "{sem.size.height.130}",
+        "type": "sizing"
+      },
+      "xxxxl": {
+        "value": "{sem.size.height.140}",
+        "type": "sizing"
+      },
+      "xxxxxl": {
+        "value": "{sem.size.height.160}",
         "type": "sizing"
       }
     },
     "size-icon": {
+      "xxs": {
+        "value": "{sem.size.icon.xs}",
+        "type": "sizing"
+      },
+      "xs": {
+        "value": "{sem.size.icon.s}",
+        "type": "sizing"
+      },
       "s": {
         "value": "{sem.size.icon.m}",
         "type": "sizing"
       },
       "m": {
-        "value": "{sem.size.icon.lg}",
-        "type": "sizing"
-      },
-      "ml": {
         "value": "{sem.size.icon.xl}",
         "type": "sizing"
       },
-      "lg": {
-        "value": "{sem.size.icon.2xl}",
+      "l": {
+        "value": "{sem.size.icon.xxl}",
         "type": "sizing"
       },
       "xl": {
-        "value": "{sem.size.icon.3xl}",
+        "value": "{sem.size.icon.xxxl}",
         "type": "sizing"
       },
-      "2xl": {
-        "value": "{sem.size.icon.4xl}",
+      "xxl": {
+        "value": "{sem.size.icon.xxxxl}",
         "type": "sizing"
       }
     },
     "border-weight": {
-      "none": {
+      "xxs": {
         "value": "{sem.border-width.none}",
         "type": "borderWidth"
       },
@@ -176,49 +220,49 @@
         "type": "borderWidth"
       },
       "m": {
-        "value": "{sem.border-width.lg}",
+        "value": "{sem.border-width.l}",
         "type": "borderWidth"
       },
-      "lg": {
+      "l": {
         "value": "{sem.border-width.xl}",
         "type": "borderWidth"
       }
     },
     "stack": {
+      "xs": {
+        "value": "{sem.space.stack.30}",
+        "type": "spacing"
+      },
       "s": {
-        "value": "{sem.space.stack.50}",
+        "value": "{sem.space.stack.40}",
         "type": "spacing"
       },
       "m": {
-        "value": "{sem.space.gap.75}",
+        "value": "{sem.space.stack.50}",
         "type": "spacing"
       },
-      "ml": {
-        "value": "{sem.space.stack.100}",
-        "type": "spacing"
-      },
-      "lg": {
-        "value": "{sem.space.stack.150}",
+      "l": {
+        "value": "{sem.space.stack.90}",
         "type": "spacing"
       },
       "xl": {
-        "value": "{sem.space.stack.200}",
+        "value": "{sem.space.stack.110}",
         "type": "spacing"
       },
-      "2xl": {
-        "value": "{sem.space.stack.250}",
+      "xxl": {
+        "value": "{sem.space.stack.130}",
         "type": "spacing"
       },
-      "3xl": {
-        "value": "{sem.space.gap.300}",
+      "xxxl": {
+        "value": "{sem.space.stack.150}",
         "type": "spacing"
       },
-      "4xl": {
-        "value": "{sem.space.gap.350}",
+      "xxxxl": {
+        "value": "{sem.space.stack.160}",
         "type": "spacing"
       },
-      "5xl": {
-        "value": "{sem.space.gap.400}",
+      "xxxxxl": {
+        "value": "{sem.space.stack.170}",
         "type": "spacing"
       }
     }

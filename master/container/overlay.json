@@ -1,0 +1,12 @@
+{
+  "overlay": {
+    "colors": {
+      "overlay": {
+        "default": {
+          "value": "{sem.color.overlay.flat.default}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "textinput": {
+    "size": {
+      "s": {
+        "value": "{sem.size.height.90}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{sem.size.height.130}",
+        "type": "sizing"
+      },
+      "l": {
+        "value": "{sem.size.height.160}",
+        "type": "sizing"
+      }
+    },
+    "border-radius": {
+      "s": {
+        "value": "{sem.border-radius.xxxs}",
+        "type": "borderRadius"
+      },
+      "m": {
+        "value": "{sem.border-radius.xxs}",
+        "type": "borderRadius"
+      },
+      "l": {
+        "value": "{sem.border-radius.xs}",
+        "type": "borderRadius"
+      }
+    },
+    "padding": {
+      "s": {
+        "value": "{sem.space.padding.40}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.padding.60}",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "{sem.space.padding.70}",
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "s": {
+        "value": "{sem.space.gap.20}",
+        "type": "spacing"
+      }
+    },
+    "border-weight": {
+      "s": {
+        "value": "{sem.border-width.s}",
+        "type": "borderWidth"
+      },
+      "m": {
+        "value": "{sem.border-width.s}",
+        "type": "borderWidth"
+      },
+      "l": {
+        "value": "{sem.border-width.l}",
+        "type": "borderWidth"
+      }
+    },
+    "size-icon": {
+      "m": {
+        "value": "{sem.size.icon.m}",
+        "type": "sizing"
+      }
+    },
+    "colors": {
+      "light": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.secondary.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.bg.secondary.minimal-alt}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.bg.secondary.muted}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.bg.status.error}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{sem.color.border.secondary.default-alt}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.border.primary.strong}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{sem.color.border.primary.emphasis}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.border.secondary.subtle}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.border.status.error}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "strong": {
+            "value": "{sem.color.fg.secondary.default}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.fg.secondary.strong}",
+            "type": "color"
+          }
+        }
+      },
+      "dark": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.secondary.dark-default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.bg.secondary.dark-default}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.bg.secondary.dark-muted}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.bg.status.dark-error}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "default": {
+            "value": "{sem.color.border.secondary.dark-default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.border.primary.dark-strong}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{sem.color.border.primary.dark-emphasis}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.border.secondary.dark-subtle}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.border.status.dark-error}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "strong": {
+            "value": "{sem.color.fg.secondary.dark-default}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.fg.secondary.dark-strong}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

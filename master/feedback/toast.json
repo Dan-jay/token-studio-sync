@@ -1,0 +1,168 @@
+{
+  "toast": {
+    "size": {
+      "s": {
+        "value": "{sem.size.height.110}",
+        "type": "sizing"
+      }
+    },
+    "padding": {
+      "s": {
+        "value": "{sem.space.padding.40}",
+        "type": "spacing"
+      }
+    },
+    "border-radius": {
+      "s": {
+        "value": "{sem.border-radius.xs}",
+        "type": "borderRadius"
+      }
+    },
+    "gap": {
+      "s": {
+        "value": "{sem.space.gap.40}",
+        "type": "spacing"
+      }
+    },
+    "size-icon": {
+      "s": {
+        "value": "{sem.size.icon.m}",
+        "type": "sizing"
+      }
+    },
+    "border-weight": {
+      "s": {
+        "value": "{sem.border-width.xs}",
+        "type": "borderWidth"
+      }
+    },
+    "colors": {
+      "status": {
+        "light": {
+          "bg": {
+            "default": {
+              "value": "{sem.color.variant.bg.general}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{sem.color.variant.bg.error}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{sem.color.variant.bg.warning}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{sem.color.variant.bg.success}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{sem.color.border.secondary.alt}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{sem.color.border.status.dark-error}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{sem.color.border.status.dark-warning}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{sem.color.border.status.dark-success}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{sem.color.fg.secondary.alt}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{sem.color.fg.status.dark-error}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{sem.color.fg.status.dark-warning-alt}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{sem.color.fg.status.dark-success}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{sem.color.fg.status.text.default}",
+              "type": "color"
+            }
+          }
+        },
+        "dark": {
+          "bg": {
+            "default": {
+              "value": "{sem.color.bg.status.dark-general-alt}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{sem.color.bg.status.dark-general-alt}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{sem.color.bg.status.dark-general-alt}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{sem.color.bg.status.dark-general-alt}",
+              "type": "color"
+            }
+          },
+          "border": {
+            "default": {
+              "value": "{sem.color.border.status.general}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{sem.color.border.status.dark-error-minimal}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{sem.color.border.status.dark-warning-subtle}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{sem.color.border.status.dark-success-subtle}",
+              "type": "color"
+            }
+          },
+          "fg": {
+            "default": {
+              "value": "{sem.color.fg.secondary.dark-alt}",
+              "type": "color"
+            },
+            "error": {
+              "value": "{sem.color.fg.status.dark-error-minimal}",
+              "type": "color"
+            },
+            "warning": {
+              "value": "{sem.color.fg.status.dark-warning-alt}",
+              "type": "color"
+            },
+            "success": {
+              "value": "{sem.color.fg.status.success}",
+              "type": "color"
+            }
+          },
+          "text": {
+            "default": {
+              "value": "{sem.color.fg.status.text.dark-default}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  }
+}
