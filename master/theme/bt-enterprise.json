@@ -1185,6 +1185,14 @@
           "type": "sizing",
           "description": "Extra Large (XXL) - Used for very large desktop screens."
         }
+      },
+      "variant": {
+        "icon": {
+          "l": {
+            "value": "{core.dimension.260}",
+            "type": "sizing"
+          }
+        }
       }
     },
     "space": {
@@ -1725,7 +1733,7 @@
         },
         "status": {
           "error-alt": {
-            "value": "{core.colour.bt.red.700}",
+            "value": "{core.colour.bt.red.100}",
             "type": "color"
           },
           "warning-alt": {
@@ -1758,6 +1766,10 @@
           },
           "general": {
             "value": "{core.colour.bt.neutral.100}",
+            "type": "color"
+          },
+          "error-subtle": {
+            "value": "{core.colour.bt.red.100}",
             "type": "color"
           },
           "general-alt": {

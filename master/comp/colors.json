@@ -407,20 +407,24 @@
             "value": "{sem.color.bg.status.error-alt}",
             "type": "color"
           },
-          "subtle-default": {
+          "default-subtle": {
             "value": "{sem.color.bg.status.general}",
             "type": "color"
           },
-          "subtle-success": {
+          "success-subtle": {
             "value": "{sem.color.bg.status.success-alt}",
             "type": "color"
           },
-          "subtle-warning": {
+          "warning-subtle": {
             "value": "{sem.color.bg.status.warning}",
             "type": "color"
           },
-          "subtle-error": {
+          "error-subtle": {
             "value": "{sem.color.bg.status.error}",
+            "type": "color"
+          },
+          "error-alt": {
+            "value": "{sem.color.bg.status.error-subtle}",
             "type": "color"
           }
         },
@@ -476,10 +480,6 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.border.status.error}",
-            "type": "color"
-          },
-          "error-copy": {
             "value": "{sem.color.border.status.error}",
             "type": "color"
           },

@@ -1,0 +1,104 @@
+{
+  "card-impact": {
+    "size-icon": {
+      "l": {
+        "value": "{sem.size.variant.icon.l}",
+        "type": "sizing"
+      }
+    },
+    "padding": {
+      "m": {
+        "value": "{sem.space.padding.110}",
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "m": {
+        "value": "{sem.space.gap.70}",
+        "type": "spacing"
+      }
+    },
+    "border-radius": {
+      "s": {
+        "value": "{sem.border-radius.s}",
+        "type": "borderRadius"
+      }
+    },
+    "border-weight": {
+      "m": {
+        "value": "{sem.border-width.s}",
+        "type": "borderWidth"
+      }
+    },
+    "colors": {
+      "light": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.primary.default}",
+            "type": "color"
+          },
+          "default-alt": {
+            "value": "{sem.color.bg.secondary.default}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.primary.default-alt}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "hover": {
+            "value": "{sem.color.border.primary.strong}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.fg.secondary.default}",
+            "type": "color"
+          },
+          "support": {
+            "value": "{sem.color.fg.secondary.strong}",
+            "type": "color"
+          }
+        }
+      },
+      "dark": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.primary.dark-default}",
+            "type": "color"
+          },
+          "default-alt": {
+            "value": "{sem.color.bg.secondary.dark-default}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default-alt": {
+            "value": "{sem.color.fg.secondary.dark-default}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "hover": {
+            "value": "{sem.color.bg.primary.dark-strong}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.fg.secondary.dark-default}",
+            "type": "color"
+          },
+          "support": {
+            "value": "{sem.color.fg.secondary.dark-muted}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

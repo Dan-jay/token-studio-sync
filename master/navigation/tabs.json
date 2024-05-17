@@ -1,0 +1,178 @@
+{
+  "tabs": {
+    "border-weight": {
+      "s": {
+        "value": "{sem.border-width.none}",
+        "type": "borderWidth"
+      },
+      "m": {
+        "value": "{sem.border-width.xs}",
+        "type": "borderWidth"
+      },
+      "l": {
+        "value": "{sem.border-width.s}",
+        "type": "borderWidth"
+      }
+    },
+    "border-radius": {
+      "s": {
+        "value": "{sem.border-radius.s}",
+        "type": "borderRadius"
+      }
+    },
+    "padding": {
+      "s": {
+        "value": "{sem.space.padding.20}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.gap.60}",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "{sem.space.gap.70}",
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "s": {
+        "value": "{sem.space.gap.20}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.gap.30}",
+        "type": "spacing"
+      }
+    },
+    "size": {
+      "s": {
+        "value": "{sem.size.height.120}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{sem.size.height.140}",
+        "type": "sizing"
+      }
+    },
+    "size-icon": {
+      "s": {
+        "value": "{sem.size.icon.xxl}",
+        "type": "sizing"
+      }
+    },
+    "colors": {
+      "light": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.secondary.default}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{sem.color.bg.secondary.muted}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "subtle": {
+            "value": "{sem.color.border.secondary.minimal}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{sem.color.border.primary.minimal-alt}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{sem.color.border.primary.emphasis}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.primary.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.strong}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{sem.color.fg.primary.minimal-alt}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.fg.primary.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.strong}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{sem.color.fg.primary.minimal-alt}",
+            "type": "color"
+          }
+        }
+      },
+      "dark": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.secondary.dark-default}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{sem.color.bg.secondary.dark-muted-alt}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "subtle": {
+            "value": "{sem.color.border.secondary.dark-minimal}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{sem.color.border.primary.dark-emphasis}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.primary.dark-default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.dark-strong}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{sem.color.fg.secondary.dark-default}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.fg.secondary.dark-default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.dark-strong}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

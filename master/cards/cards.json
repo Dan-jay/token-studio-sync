@@ -52,7 +52,7 @@
         "type": "sizing"
       },
       "l": {
-        "value": "{sem.size.icon.xxl}",
+        "value": "{sem.size.variant.icon.l}",
         "type": "sizing"
       },
       "xl": {
