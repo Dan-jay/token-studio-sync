@@ -48,7 +48,8 @@
       "card/card-impact": "enabled",
       "card/card-media": "enabled",
       "card/card-info": "enabled",
-      "comp/cards": "enabled"
+      "comp/cards": "enabled",
+      "form/date-picker": "enabled"
     },
     "group": "BT"
   },
@@ -92,7 +93,8 @@
       "card/card-impact": "enabled",
       "card/card-media": "enabled",
       "card/card-info": "enabled",
-      "comp/cards": "enabled"
+      "comp/cards": "enabled",
+      "form/date-picker": "enabled"
     },
     "group": "BT"
   },
@@ -136,7 +138,8 @@
       "card/card-impact": "enabled",
       "card/card-media": "enabled",
       "card/card-info": "enabled",
-      "comp/cards": "enabled"
+      "comp/cards": "enabled",
+      "form/date-picker": "enabled"
     },
     "group": "BT"
   }

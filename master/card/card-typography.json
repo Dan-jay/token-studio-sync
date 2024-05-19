@@ -3,12 +3,12 @@
     "colors": {
       "light": {
         "bg": {
-          "default-alt": {
-            "value": "{sem.color.bg.secondary.default}",
-            "type": "color"
-          },
           "default": {
             "value": "{sem.color.bg.primary.default}",
+            "type": "color"
+          },
+          "default-alt": {
+            "value": "{sem.color.bg.secondary.default}",
             "type": "color"
           }
         },
