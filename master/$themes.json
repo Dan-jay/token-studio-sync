@@ -44,11 +44,11 @@
       "navigation/pagination": "enabled",
       "navigation/tabs": "enabled",
       "action/back-to-top": "enabled",
-      "cards/cards": "enabled",
-      "cards/card-impact": "enabled",
-      "cards/card-typography": "enabled",
-      "cards/card-media": "enabled",
-      "cards/card-info": "enabled"
+      "card/card-typography": "enabled",
+      "card/card-impact": "enabled",
+      "card/card-media": "enabled",
+      "card/card-info": "enabled",
+      "comp/cards": "enabled"
     },
     "group": "BT"
   },
@@ -88,11 +88,11 @@
       "navigation/pagination": "enabled",
       "navigation/tabs": "enabled",
       "action/back-to-top": "enabled",
-      "cards/cards": "enabled",
-      "cards/card-impact": "enabled",
-      "cards/card-typography": "enabled",
-      "cards/card-media": "enabled",
-      "cards/card-info": "enabled"
+      "card/card-typography": "enabled",
+      "card/card-impact": "enabled",
+      "card/card-media": "enabled",
+      "card/card-info": "enabled",
+      "comp/cards": "enabled"
     },
     "group": "BT"
   },
@@ -132,11 +132,11 @@
       "navigation/pagination": "enabled",
       "navigation/tabs": "enabled",
       "action/back-to-top": "enabled",
-      "cards/cards": "enabled",
-      "cards/card-impact": "enabled",
-      "cards/card-typography": "enabled",
-      "cards/card-media": "enabled",
-      "cards/card-info": "enabled"
+      "card/card-typography": "enabled",
+      "card/card-impact": "enabled",
+      "card/card-media": "enabled",
+      "card/card-info": "enabled",
+      "comp/cards": "enabled"
     },
     "group": "BT"
   }

@@ -11,24 +11,24 @@
       }
     },
     "gap": {
-      "xl": {
-        "value": "{sem.space.gap.110}",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "{sem.space.gap.100}",
-        "type": "spacing"
-      },
-      "m": {
-        "value": "{sem.space.gap.90}",
+      "xs": {
+        "value": "{sem.space.gap.40}",
         "type": "spacing"
       },
       "s": {
         "value": "{sem.space.gap.70}",
         "type": "spacing"
       },
-      "xs": {
-        "value": "{sem.space.gap.40}",
+      "m": {
+        "value": "{sem.space.gap.90}",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "{sem.space.gap.100}",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "{sem.space.gap.110}",
         "type": "spacing"
       }
     },
