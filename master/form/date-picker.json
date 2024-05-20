@@ -14,60 +14,68 @@
         "type": "sizing"
       },
       "xl": {
+        "value": "{sem.size.height.110}",
+        "type": "sizing"
+      },
+      "xxl": {
         "value": "{sem.size.height.130}",
         "type": "sizing"
       },
-      "xxxxl": {
+      "xxxl": {
         "value": "{sem.size.height.140}",
         "type": "sizing"
       },
-      "xxxxxl": {
+      "xxxxl": {
         "value": "{sem.size.height.160}",
         "type": "sizing"
       }
     },
     "padding": {
-      "xxxs": {
+      "xxs": {
         "value": "{sem.space.padding.10}",
         "type": "spacing"
       },
-      "xxs": {
+      "xs": {
+        "value": "{sem.space.padding.15}",
+        "type": "spacing"
+      },
+      "s": {
         "value": "{sem.space.padding.20}",
         "type": "spacing"
       },
-      "xs": {
+      "m": {
         "value": "{sem.space.padding.40}",
         "type": "spacing"
       },
-      "m": {
+      "l": {
         "value": "{sem.space.padding.60}",
         "type": "spacing"
       },
-      "l": {
+      "xl": {
         "value": "{sem.space.padding.70}",
         "type": "spacing"
       }
     },
     "border-radius": {
-      "xs": {
+      "s": {
         "value": "{sem.border-radius.xs}",
         "type": "borderRadius"
       },
-      "xxl": {
+      "m": {
         "value": "{sem.border-radius.xxl}",
         "type": "borderRadius"
       }
     },
     "border-weight": {
-      "xs": {
+      "s": {
         "value": "{sem.border-width.xs}",
         "type": "borderWidth"
       },
-      "s": {
+      "m": {
         "value": "{sem.border-width.s}",
         "type": "borderWidth"
       },
-      "m": {
+      "l": {
         "value": "{sem.border-width.l}",
         "type": "borderWidth"
       }
@@ -95,16 +103,16 @@
             "value": "{sem.color.bg.secondary.muted}",
             "type": "color"
           },
-          "subtle-alt": {
+          "error": {
+            "value": "{sem.color.bg.status.error}",
+            "type": "color"
+          },
+          "subtle": {
             "value": "{sem.color.bg.primary.subtle-alt}",
             "type": "color"
           },
           "hover-alt": {
             "value": "{sem.color.bg.secondary.muted}",
-            "type": "color"
-          },
-          "error": {
-            "value": "{sem.color.bg.status.error}",
             "type": "color"
           }
         },
@@ -121,7 +129,7 @@
             "value": "{sem.color.border.secondary.subtle}",
             "type": "color"
           },
-          "herror": {
+          "error": {
             "value": "{sem.color.border.status.error}",
             "type": "color"
           },
@@ -189,7 +197,7 @@
         "value": "{sem.space.gap.60}",
         "type": "spacing"
       },
-      "xxxxl": {
+      "l": {
         "value": "{sem.space.gap.140}",
         "type": "spacing"
       }

@@ -163,6 +163,10 @@
         "value": "{sem.size.height.110}",
         "type": "sizing"
       },
+      "xxl-copy": {
+        "value": "{sem.size.height.110}",
+        "type": "sizing"
+      },
       "xxxl": {
         "value": "{sem.size.height.130}",
         "type": "sizing"
