@@ -128,55 +128,55 @@
     },
     "size": {
       "xxxxs": {
-        "value": "{sem.size.height.10}",
+        "value": "{sem.size.all.10}",
         "type": "sizing"
       },
       "xxxs": {
-        "value": "{sem.size.height.40}",
+        "value": "{sem.size.all.40}",
         "type": "sizing"
       },
       "xxs": {
-        "value": "{sem.size.height.50}",
+        "value": "{sem.size.all.50}",
         "type": "sizing"
       },
       "xs": {
-        "value": "{sem.size.height.60}",
+        "value": "{sem.size.all.60}",
         "type": "sizing"
       },
       "s": {
-        "value": "{sem.size.height.70}",
+        "value": "{sem.size.all.70}",
         "type": "sizing"
       },
       "m": {
-        "value": "{sem.size.height.90}",
+        "value": "{sem.size.all.90}",
         "type": "sizing"
       },
       "l": {
-        "value": "{sem.size.height.95}",
+        "value": "{sem.size.all.95}",
         "type": "sizing"
       },
       "xl": {
-        "value": "{sem.size.height.100}",
+        "value": "{sem.size.all.100}",
         "type": "sizing"
       },
       "xxl": {
-        "value": "{sem.size.height.110}",
+        "value": "{sem.size.all.110}",
         "type": "sizing"
       },
       "xxl-copy": {
-        "value": "{sem.size.height.110}",
+        "value": "{sem.size.all.110}",
         "type": "sizing"
       },
       "xxxl": {
-        "value": "{sem.size.height.130}",
+        "value": "{sem.size.all.130}",
         "type": "sizing"
       },
       "xxxxl": {
-        "value": "{sem.size.height.140}",
+        "value": "{sem.size.all.140}",
         "type": "sizing"
       },
       "xxxxxl": {
-        "value": "{sem.size.height.160}",
+        "value": "{sem.size.all.160}",
         "type": "sizing"
       }
     },

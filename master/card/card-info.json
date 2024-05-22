@@ -2,11 +2,11 @@
   "card-info": {
     "size": {
       "m": {
-        "value": "{sem.size.height.165}",
+        "value": "{sem.size.all.165}",
         "type": "sizing"
       },
       "l": {
-        "value": "{sem.size.height.170}",
+        "value": "{sem.size.all.170}",
         "type": "sizing"
       }
     },
@@ -68,27 +68,27 @@
       "light": {
         "bg": {
           "default-alt": {
-            "value": "{sem.color.bg.secondary.default}",
+            "value": "{sem.color.bg.secondary.light.default}",
             "type": "color"
           }
         },
         "border": {
           "hover": {
-            "value": "{sem.color.border.primary.strong}",
+            "value": "{sem.color.border.primary.light.strong}",
             "type": "color"
           },
           "default": {
-            "value": "{sem.color.border.secondary.minimal}",
+            "value": "{sem.color.border.secondary.light.minimal}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           }
         }

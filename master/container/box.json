@@ -26,11 +26,11 @@
       "light": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.secondary.default}",
+            "value": "{sem.color.bg.secondary.light.default}",
             "type": "color"
           },
           "subtle": {
-            "value": "{sem.color.bg.secondary.muted}",
+            "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
           },
           "minimal": {
@@ -38,29 +38,29 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.bg.status.error-subtle}",
+            "value": "{sem.color.bg.status.light.error-subtle}",
             "type": "color"
           }
         },
         "fg": {
           "strong": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           }
         },
         "border": {
           "subtle": {
-            "value": "{sem.color.border.secondary.minimal}",
+            "value": "{sem.color.border.secondary.light.minimal}",
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.border.status.error}",
+            "value": "{sem.color.border.status.light.error}",
             "type": "color"
           }
         },
         "text": {
           "strong": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           }
         }
@@ -68,25 +68,25 @@
       "dark": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.secondary.strong-alt}",
+            "value": "{sem.color.bg.secondary.light.strong-alt}",
             "type": "color"
           },
           "subtle": {
-            "value": "{sem.color.bg.secondary.dark-muted}",
+            "value": "{sem.color.bg.secondary.dark.muted}",
             "type": "color"
           },
           "minimal": {
-            "value": "{sem.color.bg.secondary.alt}",
+            "value": "{sem.color.bg.secondary.light.alt}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.bg.primary.default}",
+            "value": "{sem.color.bg.primary.light.default}",
             "type": "color"
           }
         },
         "border": {
           "subtle": {
-            "value": "{sem.color.border.secondary.dark-minimal}",
+            "value": "{sem.color.border.secondary.dark.minimal}",
             "type": "color"
           }
         }

@@ -2,7 +2,7 @@
   "pagination": {
     "size": {
       "m": {
-        "value": "{sem.size.height.90}",
+        "value": "{sem.size.all.90}",
         "type": "sizing"
       }
     },
@@ -32,45 +32,45 @@
       "light": {
         "bg": {
           "hover": {
-            "value": "{sem.color.bg.primary.strong}",
+            "value": "{sem.color.bg.primary.light.strong}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.bg.primary.minimal-alt}",
+            "value": "{sem.color.bg.primary.light.minimal-alt}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.bg.primary.minimal-alt}",
+            "value": "{sem.color.bg.primary.light.minimal-alt}",
             "type": "color"
           },
           "subtle": {
-            "value": "{sem.color.bg.secondary.minimal}",
+            "value": "{sem.color.bg.secondary.light.minimal}",
             "type": "color"
           }
         },
         "border": {
           "focus": {
-            "value": "{sem.color.border.primary.emphasis}",
+            "value": "{sem.color.border.primary.light.emphasis}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.alt}",
+            "value": "{sem.color.fg.secondary.light.alt}",
             "type": "color"
           },
           "strong": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.default}",
+            "value": "{sem.color.fg.primary.light.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.fg.secondary.alt}",
+            "value": "{sem.color.fg.secondary.light.alt}",
             "type": "color"
           }
         }
@@ -78,41 +78,41 @@
       "dark": {
         "bg": {
           "hover": {
-            "value": "{sem.color.bg.primary.dark-strong}",
+            "value": "{sem.color.bg.primary.dark.strong}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "value": "{sem.color.bg.primary.dark.minimal-alt}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "value": "{sem.color.bg.primary.dark.minimal-alt}",
             "type": "color"
           }
         },
         "border": {
           "focus": {
-            "value": "{sem.color.border.primary.dark-emphasis}",
+            "value": "{sem.color.border.primary.dark.emphasis}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.dark-alt}",
+            "value": "{sem.color.fg.secondary.dark.alt}",
             "type": "color"
           },
           "strong": {
-            "value": "{sem.color.fg.secondary.dark-default}",
+            "value": "{sem.color.fg.secondary.dark.default}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.dark-default}",
+            "value": "{sem.color.fg.primary.dark.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.fg.secondary.dark-alt}",
+            "value": "{sem.color.fg.secondary.dark.alt}",
             "type": "color"
           }
         }

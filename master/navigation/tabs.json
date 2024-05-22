@@ -46,11 +46,11 @@
     },
     "size": {
       "s": {
-        "value": "{sem.size.height.120}",
+        "value": "{sem.size.all.120}",
         "type": "sizing"
       },
       "m": {
-        "value": "{sem.size.height.140}",
+        "value": "{sem.size.all.140}",
         "type": "sizing"
       }
     },
@@ -64,53 +64,53 @@
       "light": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.secondary.default}",
+            "value": "{sem.color.bg.secondary.light.default}",
             "type": "color"
           },
           "subtle": {
-            "value": "{sem.color.bg.secondary.muted}",
+            "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
           }
         },
         "border": {
           "subtle": {
-            "value": "{sem.color.border.secondary.minimal}",
+            "value": "{sem.color.border.secondary.light.minimal}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.border.primary.minimal-alt}",
+            "value": "{sem.color.border.primary.light.minimal-alt}",
             "type": "color"
           },
           "focus": {
-            "value": "{sem.color.border.primary.emphasis}",
+            "value": "{sem.color.border.primary.light.emphasis}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.default}",
+            "value": "{sem.color.fg.primary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.fg.primary.minimal-alt}",
+            "value": "{sem.color.fg.primary.light.minimal}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.primary.default}",
+            "value": "{sem.color.fg.primary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.fg.primary.minimal-alt}",
+            "value": "{sem.color.fg.primary.light.minimal}",
             "type": "color"
           }
         }
@@ -118,57 +118,57 @@
       "dark": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.secondary.dark-default}",
+            "value": "{sem.color.bg.secondary.dark.default}",
             "type": "color"
           },
           "subtle": {
-            "value": "{sem.color.bg.secondary.dark-muted-alt}",
+            "value": "{sem.color.bg.secondary.dark.muted-alt}",
             "type": "color"
           }
         },
         "border": {
           "subtle": {
-            "value": "{sem.color.border.secondary.dark-minimal}",
+            "value": "{sem.color.border.secondary.dark.minimal}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "value": "{sem.color.bg.primary.dark.minimal-alt}",
             "type": "color"
           },
           "focus": {
-            "value": "{sem.color.border.primary.dark-emphasis}",
+            "value": "{sem.color.border.primary.dark.emphasis}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.dark-default}",
+            "value": "{sem.color.fg.primary.dark.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.dark-strong}",
+            "value": "{sem.color.fg.primary.dark.strong}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "value": "{sem.color.bg.primary.dark.minimal-alt}",
             "type": "color"
           },
           "strong": {
-            "value": "{sem.color.fg.secondary.dark-default}",
+            "value": "{sem.color.fg.secondary.dark.default}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.dark-default}",
+            "value": "{sem.color.fg.secondary.dark.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.dark-strong}",
+            "value": "{sem.color.fg.primary.dark.strong}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "value": "{sem.color.bg.primary.dark.minimal-alt}",
             "type": "color"
           }
         }

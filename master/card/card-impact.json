@@ -34,33 +34,33 @@
       "light": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.primary.default}",
+            "value": "{sem.color.bg.primary.light.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.bg.secondary.default}",
+            "value": "{sem.color.bg.secondary.light.default}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.default-alt}",
+            "value": "{sem.color.fg.primary.light.default-alt}",
             "type": "color"
           }
         },
         "border": {
           "hover": {
-            "value": "{sem.color.border.primary.strong}",
+            "value": "{sem.color.border.primary.light.strong}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           },
           "support": {
-            "value": "{sem.color.fg.secondary.strong}",
+            "value": "{sem.color.fg.secondary.light.strong}",
             "type": "color"
           }
         }
@@ -68,33 +68,33 @@
       "dark": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.primary.dark-default}",
+            "value": "{sem.color.bg.primary.dark.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.bg.secondary.dark-default}",
+            "value": "{sem.color.bg.secondary.dark.default}",
             "type": "color"
           }
         },
         "fg": {
           "default-alt": {
-            "value": "{sem.color.fg.secondary.dark-default}",
+            "value": "{sem.color.fg.secondary.dark.default}",
             "type": "color"
           }
         },
         "border": {
           "hover": {
-            "value": "{sem.color.bg.primary.dark-strong}",
+            "value": "{sem.color.bg.primary.dark.strong}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.dark-default}",
+            "value": "{sem.color.fg.secondary.dark.default}",
             "type": "color"
           },
           "support": {
-            "value": "{sem.color.fg.secondary.dark-muted}",
+            "value": "{sem.color.fg.secondary.dark.muted}",
             "type": "color"
           }
         }

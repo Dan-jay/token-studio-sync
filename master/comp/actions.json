@@ -112,27 +112,27 @@
     },
     "size": {
       "xs": {
-        "value": "{sem.size.height.50}",
+        "value": "{sem.size.all.50}",
         "type": "sizing"
       },
       "s": {
-        "value": "{sem.size.height.70}",
+        "value": "{sem.size.all.70}",
         "type": "sizing"
       },
       "m": {
-        "value": "{sem.size.height.90}",
+        "value": "{sem.size.all.90}",
         "type": "sizing"
       },
       "l": {
-        "value": "{sem.size.height.130}",
+        "value": "{sem.size.all.130}",
         "type": "sizing"
       },
       "xl": {
-        "value": "{sem.size.height.140}",
+        "value": "{sem.size.all.140}",
         "type": "sizing"
       },
       "xxl": {
-        "value": "{sem.size.height.160}",
+        "value": "{sem.size.all.160}",
         "type": "sizing"
       }
     },

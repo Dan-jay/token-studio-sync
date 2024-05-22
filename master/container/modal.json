@@ -2,23 +2,23 @@
   "modal": {
     "size": {
       "s": {
-        "value": "{sem.size.height.190}",
+        "value": "{sem.size.all.190}",
         "type": "sizing"
       },
       "m": {
-        "value": "{sem.size.height.210}",
+        "value": "{sem.size.all.210}",
         "type": "sizing"
       },
       "l": {
-        "value": "{sem.size.height.220}",
+        "value": "{sem.size.all.220}",
         "type": "sizing"
       },
       "xl": {
-        "value": "{sem.size.height.230}",
+        "value": "{sem.size.all.230}",
         "type": "sizing"
       },
       "xxl": {
-        "value": "{sem.size.height.240}",
+        "value": "{sem.size.all.240}",
         "type": "sizing"
       }
     },
@@ -54,19 +54,19 @@
       "light": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.secondary.default}",
+            "value": "{sem.color.bg.secondary.light.default}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           }
         }

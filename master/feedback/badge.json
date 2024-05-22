@@ -2,7 +2,7 @@
   "badge": {
     "size": {
       "s": {
-        "value": "{sem.size.height.70}",
+        "value": "{sem.size.all.70}",
         "type": "sizing"
       }
     },
@@ -21,19 +21,19 @@
     "colors": {
       "bg": {
         "default": {
-          "value": "{sem.color.bg.status.general-alt}",
+          "value": "{sem.color.bg.status.light.general-alt}",
           "type": "color"
         },
         "error": {
-          "value": "{sem.color.bg.status.error-alt}",
+          "value": "{sem.color.bg.status.light.error-alt}",
           "type": "color"
         },
         "warning": {
-          "value": "{sem.color.bg.status.warning-alt}",
+          "value": "{sem.color.bg.status.light.warning-alt}",
           "type": "color"
         },
         "success": {
-          "value": "{sem.color.bg.status.success-alt}",
+          "value": "{sem.color.bg.status.light.success-alt}",
           "type": "color"
         }
       },

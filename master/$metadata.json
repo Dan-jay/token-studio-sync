@@ -11,12 +11,12 @@
     "comp/actions",
     "comp/inputs",
     "comp/colors",
+    "form/select",
+    "form/checkbox",
+    "form/radio",
     "form/date-picker",
     "form/switch",
-    "form/radio",
-    "form/checkbox",
     "form/textinput",
-    "form/select",
     "form/textarea",
     "action/back-to-top",
     "action/buttons",
@@ -38,7 +38,6 @@
     "feedback/toast",
     "feedback/tag",
     "feedback/badge",
-    "feedback/alert",
-    "date-picker"
+    "feedback/alert"
   ]
 }

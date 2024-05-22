@@ -30,49 +30,49 @@
       "light": {
         "bg": {
           "default-alt": {
-            "value": "{sem.color.bg.secondary.default}",
+            "value": "{sem.color.bg.secondary.light.default}",
             "type": "color"
           },
           "default": {
-            "value": "{sem.color.bg.primary.default}",
+            "value": "{sem.color.bg.primary.light.default}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.default-alt}",
+            "value": "{sem.color.fg.primary.light.default-alt}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{sem.color.border.secondary.minimal}",
+            "value": "{sem.color.border.secondary.light.minimal}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.border.primary.strong}",
+            "value": "{sem.color.border.primary.light.strong}",
             "type": "color"
           },
           "minimal": {
-            "value": "{sem.color.border.primary.minimal}",
+            "value": "{sem.color.border.primary.light.minimal}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           },
           "support": {
-            "value": "{sem.color.fg.secondary.strong}",
+            "value": "{sem.color.fg.secondary.light.strong}",
             "type": "color"
           }
         }
@@ -80,17 +80,17 @@
       "dark": {
         "fg": {
           "default-alt": {
-            "value": "{sem.color.fg.secondary.dark-default}",
+            "value": "{sem.color.fg.secondary.dark.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.secondary.dark-default}",
+            "value": "{sem.color.fg.secondary.dark.default}",
             "type": "color"
           }
         },
         "border": {
           "minimal": {
-            "value": "{sem.color.border.primary.minimal}",
+            "value": "{sem.color.border.primary.light.minimal}",
             "type": "color"
           }
         }
@@ -114,7 +114,7 @@
     },
     "size": {
       "l": {
-        "value": "{sem.size.height.140}",
+        "value": "{sem.size.all.140}",
         "type": "sizing"
       }
     }

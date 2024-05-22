@@ -26,17 +26,17 @@
       "light": {
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.default}",
+            "value": "{sem.color.fg.primary.light.default}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.primary.default}",
+            "value": "{sem.color.fg.primary.light.default}",
             "type": "color"
           },
           "strong": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           }
         }
@@ -44,17 +44,17 @@
       "dark": {
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.dark-default}",
+            "value": "{sem.color.fg.primary.dark.default}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.primary.dark-default}",
+            "value": "{sem.color.fg.primary.dark.default}",
             "type": "color"
           },
           "strong": {
-            "value": "{sem.color.fg.secondary.dark-default}",
+            "value": "{sem.color.fg.secondary.dark.default}",
             "type": "color"
           }
         }

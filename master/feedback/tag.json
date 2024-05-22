@@ -2,7 +2,7 @@
   "tag": {
     "size": {
       "s": {
-        "value": "{sem.size.height.80}",
+        "value": "{sem.size.all.80}",
         "type": "sizing"
       }
     },
@@ -32,41 +32,41 @@
       "light": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.secondary.default}",
+            "value": "{sem.color.bg.secondary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.bg.secondary.muted-subtle}",
+            "value": "{sem.color.bg.secondary.light.muted-subtle}",
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{sem.color.border.secondary.minimal}",
+            "value": "{sem.color.border.secondary.light.minimal}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.border.primary.minimal}",
+            "value": "{sem.color.border.primary.light.minimal}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           }
         }

@@ -12,7 +12,7 @@
     },
     "size": {
       "s": {
-        "value": "{sem.size.height.40}",
+        "value": "{sem.size.all.40}",
         "type": "sizing"
       }
     },
@@ -26,11 +26,11 @@
       "light": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.primary.default}",
+            "value": "{sem.color.bg.primary.light.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.bg.secondary.muted}",
+            "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
           },
           "error": {
@@ -44,7 +44,7 @@
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.default}",
+            "value": "{sem.color.fg.primary.light.default}",
             "type": "color"
           },
           "error": {
@@ -54,11 +54,11 @@
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.fg.primary.default}",
+            "value": "{sem.color.fg.primary.light.default}",
             "type": "color"
           },
           "error": {
@@ -70,15 +70,15 @@
       "dark": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.primary.dark-default}",
+            "value": "{sem.color.bg.primary.dark.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.bg.secondary.dark-muted-alt}",
+            "value": "{sem.color.bg.secondary.dark.muted-alt}",
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.bg.status.dark-error-strong}",
+            "value": "{sem.color.bg.status.dark.error-strong}",
             "type": "color"
           },
           "success": {
@@ -88,7 +88,7 @@
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.dark-default}",
+            "value": "{sem.color.fg.primary.dark.default}",
             "type": "color"
           },
           "error": {
@@ -98,11 +98,11 @@
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.secondary.dark-default}",
+            "value": "{sem.color.fg.secondary.dark.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.fg.primary.dark-default}",
+            "value": "{sem.color.fg.primary.dark.default}",
             "type": "color"
           },
           "error": {

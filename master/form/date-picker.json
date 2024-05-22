@@ -2,31 +2,31 @@
   "date-picker": {
     "size": {
       "s": {
-        "value": "{sem.size.height.90}",
+        "value": "{sem.size.all.90}",
         "type": "sizing"
       },
       "m": {
-        "value": "{sem.size.height.95}",
+        "value": "{sem.size.all.95}",
         "type": "sizing"
       },
       "l": {
-        "value": "{sem.size.height.100}",
+        "value": "{sem.size.all.100}",
         "type": "sizing"
       },
       "xl": {
-        "value": "{sem.size.height.110}",
+        "value": "{sem.size.all.110}",
         "type": "sizing"
       },
       "xxl": {
-        "value": "{sem.size.height.130}",
+        "value": "{sem.size.all.130}",
         "type": "sizing"
       },
       "xxxl": {
-        "value": "{sem.size.height.140}",
+        "value": "{sem.size.all.140}",
         "type": "sizing"
       },
       "xxxxl": {
-        "value": "{sem.size.height.160}",
+        "value": "{sem.size.all.160}",
         "type": "sizing"
       }
     },
@@ -84,75 +84,75 @@
       "light": {
         "bg": {
           "default-alt": {
-            "value": "{sem.color.bg.secondary.default}",
+            "value": "{sem.color.bg.secondary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.bg.primary.strong}",
+            "value": "{sem.color.bg.primary.light.strong}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.bg.primary.minimal-alt}",
+            "value": "{sem.color.bg.primary.light.minimal-alt}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.bg.primary.minimal-alt}",
+            "value": "{sem.color.bg.primary.light.minimal-alt}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.bg.secondary.muted}",
+            "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.bg.status.error}",
+            "value": "{sem.color.bg.status.light.error}",
             "type": "color"
           },
           "subtle": {
-            "value": "{sem.color.bg.primary.subtle-alt}",
+            "value": "{sem.color.bg.primary.light.subtle-alt}",
             "type": "color"
           },
           "hover-alt": {
-            "value": "{sem.color.bg.secondary.muted}",
+            "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
           }
         },
         "border": {
           "hover": {
-            "value": "{sem.color.border.primary.strong}",
+            "value": "{sem.color.border.primary.light.strong}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.border.primary.minimal-alt}",
+            "value": "{sem.color.border.primary.light.minimal-alt}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.border.secondary.subtle}",
+            "value": "{sem.color.border.secondary.light.subtle}",
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.border.status.error}",
+            "value": "{sem.color.border.status.light.error}",
             "type": "color"
           },
           "strong": {
-            "value": "{sem.color.border.secondary.default-alt}",
+            "value": "{sem.color.border.secondary.light.default-alt}",
             "type": "color"
           }
         },
         "fg": {
           "default-alt": {
-            "value": "{sem.color.fg.secondary.alt}",
+            "value": "{sem.color.fg.secondary.light.alt}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           },
           "strong": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.fg.secondary.strong}",
+            "value": "{sem.color.fg.secondary.light.strong}",
             "type": "color"
           },
           "error": {
@@ -162,19 +162,19 @@
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.primary.default}",
+            "value": "{sem.color.fg.primary.light.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.fg.secondary.alt}",
+            "value": "{sem.color.fg.secondary.light.alt}",
             "type": "color"
           },
           "strong": {
-            "value": "{sem.color.fg.secondary.default}",
+            "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.fg.secondary.strong}",
+            "value": "{sem.color.fg.secondary.light.strong}",
             "type": "color"
           },
           "error": {

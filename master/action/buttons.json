@@ -52,15 +52,15 @@
     },
     "size": {
       "s": {
-        "value": "{sem.size.height.90}",
+        "value": "{sem.size.all.90}",
         "type": "sizing"
       },
       "m": {
-        "value": "{sem.size.height.130}",
+        "value": "{sem.size.all.130}",
         "type": "sizing"
       },
       "l": {
-        "value": "{sem.size.height.160}",
+        "value": "{sem.size.all.160}",
         "type": "sizing"
       }
     },
@@ -92,71 +92,71 @@
       "light": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.primary.default}",
+            "value": "{sem.color.bg.primary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.bg.primary.strong}",
+            "value": "{sem.color.bg.primary.light.strong}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.bg.primary.minimal-alt}",
+            "value": "{sem.color.bg.primary.light.minimal-alt}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.bg.secondary.muted}",
+            "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
           },
           "strong": {
-            "value": "{sem.color.bg.secondary.muted}",
+            "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
           },
           "subtle": {
-            "value": "{sem.color.bg.secondary.muted-alt}",
+            "value": "{sem.color.bg.secondary.light.muted-alt}",
             "type": "color"
           },
           "minimal": {
-            "value": "{sem.color.bg.secondary.minimal-alt}",
+            "value": "{sem.color.bg.secondary.light.minimal-alt}",
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{sem.color.border.primary.default}",
+            "value": "{sem.color.border.primary.light.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.border.primary.minimal-alt}",
+            "value": "{sem.color.border.primary.light.minimal-alt}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.border.secondary.subtle}",
+            "value": "{sem.color.border.secondary.light.subtle}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.default-alt}",
+            "value": "{sem.color.fg.primary.light.default-alt}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.fg.secondary.alt}",
+            "value": "{sem.color.fg.secondary.light.alt}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.fg.primary.minimal-alt}",
+            "value": "{sem.color.fg.primary.light.minimal}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.fg.secondary.strong}",
+            "value": "{sem.color.fg.secondary.light.strong}",
             "type": "color"
           },
           "strong-subtle": {
-            "value": "{sem.color.fg.secondary.subtle-alt}",
+            "value": "{sem.color.fg.secondary.light.subtle-alt}",
             "type": "color"
           }
         },
@@ -166,26 +166,26 @@
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.fg.secondary.alt}",
+            "value": "{sem.color.fg.secondary.light.alt}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.fg.secondary.strong}",
+            "value": "{sem.color.fg.secondary.light.strong}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.fg.primary.minimal-alt}",
+            "value": "{sem.color.fg.primary.light.minimal}",
             "type": "color"
           }
         },
         "status": {
           "text": {
             "default": {
-              "value": "{sem.color.fg.secondary.alt}",
+              "value": "{sem.color.fg.secondary.light.alt}",
               "type": "color"
             }
           },
@@ -236,88 +236,88 @@
       "dark": {
         "bg": {
           "default": {
-            "value": "{sem.color.bg.primary.dark-default}",
+            "value": "{sem.color.bg.primary.dark.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.bg.primary.dark-strong}",
+            "value": "{sem.color.bg.primary.dark.strong}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "value": "{sem.color.bg.primary.dark.minimal-alt}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.bg.secondary.dark-muted}",
+            "value": "{sem.color.bg.secondary.dark.muted}",
             "type": "color"
           },
           "strong": {
-            "value": "{sem.color.bg.secondary.dark-muted}",
+            "value": "{sem.color.bg.secondary.dark.muted}",
             "type": "color"
           },
           "subtle": {
-            "value": "{sem.color.bg.secondary.dark-minimal}",
+            "value": "{sem.color.bg.secondary.dark.minimal}",
             "type": "color"
           },
           "minimal": {
-            "value": "{sem.color.bg.secondary.dark-minimal}",
+            "value": "{sem.color.bg.secondary.dark.minimal}",
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{sem.color.border.primary.dark-default}",
+            "value": "{sem.color.border.primary.dark.default}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "value": "{sem.color.bg.primary.dark.minimal-alt}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.border.secondary.dark-subtle}",
+            "value": "{sem.color.border.secondary.dark.subtle}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.dark-default}",
+            "value": "{sem.color.fg.primary.dark.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.fg.secondary.dark-alt}",
+            "value": "{sem.color.fg.secondary.dark.alt}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.dark-strong}",
+            "value": "{sem.color.fg.primary.dark.strong}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "value": "{sem.color.bg.primary.dark.minimal-alt}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.fg.secondary.dark-strong}",
+            "value": "{sem.color.fg.secondary.dark.strong}",
             "type": "color"
           },
-          "strong-FIND-ME": {
-            "value": "{sem.color.fg.secondary.dark-strong}",
+          "strong": {
+            "value": "{sem.color.fg.secondary.dark.strong}",
             "type": "color"
           },
           "strong-subtle": {
-            "value": "{sem.color.fg.secondary.dark-subtle-alt}",
+            "value": "{sem.color.fg.secondary.dark.subtle-alt}",
             "type": "color"
           }
         },
         "status": {
           "fg": {
             "default": {
-              "value": "{sem.color.fg.secondary.alt}",
+              "value": "{sem.color.fg.secondary.light.alt}",
               "type": "color"
             }
           },
           "text": {
             "default": {
-              "value": "{sem.color.fg.secondary.alt}",
+              "value": "{sem.color.fg.secondary.light.alt}",
               "type": "color"
             }
           },
@@ -338,23 +338,23 @@
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.primary.dark-default}",
+            "value": "{sem.color.fg.primary.dark.default}",
             "type": "color"
           },
           "default-alt": {
-            "value": "{sem.color.fg.secondary.dark-alt}",
+            "value": "{sem.color.fg.secondary.dark.alt}",
             "type": "color"
           },
           "disabled": {
-            "value": "{sem.color.fg.secondary.dark-strong}",
+            "value": "{sem.color.fg.secondary.dark.strong}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.dark-strong}",
+            "value": "{sem.color.fg.primary.dark.strong}",
             "type": "color"
           },
           "pressed": {
-            "value": "{sem.color.bg.primary.dark-minimal-alt}",
+            "value": "{sem.color.bg.primary.dark.minimal-alt}",
             "type": "color"
           }
         },

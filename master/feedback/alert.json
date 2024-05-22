@@ -26,7 +26,7 @@
         "type": "borderWidth"
       },
       "m": {
-        "value": "{sem.variant.border-width.s}",
+        "value": "{sem.border-width.variant.s}",
         "type": "borderWidth"
       }
     },
@@ -54,49 +54,49 @@
         "light": {
           "bg": {
             "subtle-default": {
-              "value": "{sem.color.bg.status.general}",
+              "value": "{sem.color.bg.status.light.general}",
               "type": "color"
             },
             "subtle-error": {
-              "value": "{sem.color.bg.status.error}",
+              "value": "{sem.color.bg.status.light.error}",
               "type": "color"
             },
             "subtle-warning": {
-              "value": "{sem.color.bg.status.warning}",
+              "value": "{sem.color.bg.status.light.warning}",
               "type": "color"
             },
             "subtle-success": {
-              "value": "{sem.color.bg.status.success}",
+              "value": "{sem.color.bg.status.light.success}",
               "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{sem.color.border.status.general}",
+              "value": "{sem.color.border.status.light.general}",
               "type": "color"
             },
             "error": {
-              "value": "{sem.color.border.status.error}",
+              "value": "{sem.color.border.status.light.error}",
               "type": "color"
             },
             "warning": {
-              "value": "{sem.color.border.status.warning}",
+              "value": "{sem.color.border.status.light.warning}",
               "type": "color"
             },
             "success": {
-              "value": "{sem.color.border.status.success}",
+              "value": "{sem.color.border.status.light.success}",
               "type": "color"
             }
           },
           "fg": {
             "default": {
-              "value": "{sem.color.fg.secondary.default}",
+              "value": "{sem.color.fg.secondary.light.default}",
               "type": "color"
             }
           },
           "text": {
             "default-copy": {
-              "value": "{sem.color.fg.secondary.default}",
+              "value": "{sem.color.fg.secondary.light.default}",
               "type": "color"
             }
           }
@@ -104,37 +104,37 @@
         "dark": {
           "bg": {
             "subtle-default": {
-              "value": "{sem.color.bg.status.dark-general}",
+              "value": "{sem.color.bg.status.dark.general}",
               "type": "color"
             },
             "subtle-error": {
-              "value": "{sem.color.bg.status.dark-error}",
+              "value": "{sem.color.bg.status.dark.error}",
               "type": "color"
             },
             "subtle-warning": {
-              "value": "{sem.color.bg.status.dark-warning}",
+              "value": "{sem.color.bg.status.dark.warning}",
               "type": "color"
             },
             "subtle-success": {
-              "value": "{sem.color.bg.status.dark-success}",
+              "value": "{sem.color.bg.status.dark.success}",
               "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{sem.color.border.status.dark-general}",
+              "value": "{sem.color.border.status.dark.general}",
               "type": "color"
             },
             "error": {
-              "value": "{sem.color.border.status.dark-error-subtle}",
+              "value": "{sem.color.border.status.dark.error-subtle}",
               "type": "color"
             },
             "warning": {
-              "value": "{sem.color.border.status.dark-warning}",
+              "value": "{sem.color.border.status.dark.warning}",
               "type": "color"
             },
             "success": {
-              "value": "{sem.color.border.status.dark-success}",
+              "value": "{sem.color.border.status.dark.success}",
               "type": "color"
             }
           },

@@ -14,7 +14,7 @@
     },
     "size": {
       "s": {
-        "value": "{sem.size.height.150}",
+        "value": "{sem.size.all.150}",
         "type": "sizing"
       }
     },
@@ -34,33 +34,33 @@
       "light": {
         "bg": {
           "hover": {
-            "value": "{sem.color.bg.secondary.muted}",
+            "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
           }
         },
         "border": {
           "subtle": {
-            "value": "{sem.color.border.secondary.minimal}",
+            "value": "{sem.color.border.secondary.light.minimal}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.default}",
+            "value": "{sem.color.fg.primary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.primary.default}",
+            "value": "{sem.color.fg.primary.light.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.strong}",
+            "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           }
         }
@@ -68,33 +68,33 @@
       "dark": {
         "bg": {
           "hover": {
-            "value": "{sem.color.bg.secondary.dark-muted-alt}",
+            "value": "{sem.color.bg.secondary.dark.muted-alt}",
             "type": "color"
           }
         },
         "border": {
           "subtle": {
-            "value": "{sem.color.border.secondary.dark-minimal}",
+            "value": "{sem.color.border.secondary.dark.minimal}",
             "type": "color"
           }
         },
         "fg": {
           "default": {
-            "value": "{sem.color.fg.primary.dark-default}",
+            "value": "{sem.color.fg.primary.dark.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.dark-strong}",
+            "value": "{sem.color.fg.primary.dark.strong}",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{sem.color.fg.primary.dark-default}",
+            "value": "{sem.color.fg.primary.dark.default}",
             "type": "color"
           },
           "hover": {
-            "value": "{sem.color.fg.primary.dark-strong}",
+            "value": "{sem.color.fg.primary.dark.strong}",
             "type": "color"
           }
         }
