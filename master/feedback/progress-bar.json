@@ -34,11 +34,11 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.variant.bg.error-alt}",
+            "value": "{sem.color.bg.tertiary.status.light.error-alt}",
             "type": "color"
           },
           "success": {
-            "value": "{sem.color.variant.bg.success-alt}",
+            "value": "{sem.color.bg.tertiary.status.light.success-alt}",
             "type": "color"
           }
         },
@@ -48,7 +48,7 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.fg.status.error}",
+            "value": "{sem.color.status.fg.light.error}",
             "type": "color"
           }
         },
@@ -62,7 +62,7 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.fg.status.error}",
+            "value": "{sem.color.status.fg.light.error}",
             "type": "color"
           }
         }
@@ -78,11 +78,11 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.bg.status.dark.error-strong}",
+            "value": "{sem.color.status.bg.dark.error-strong}",
             "type": "color"
           },
           "success": {
-            "value": "{sem.color.fg.status.dark-success}",
+            "value": "{sem.color.status.fg.dark.success}",
             "type": "color"
           }
         },
@@ -92,7 +92,7 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.fg.status.dark-error}",
+            "value": "{sem.color.status.fg.dark.error}",
             "type": "color"
           }
         },
@@ -106,7 +106,7 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.fg.status.dark-error}",
+            "value": "{sem.color.status.fg.dark.error}",
             "type": "color"
           }
         }

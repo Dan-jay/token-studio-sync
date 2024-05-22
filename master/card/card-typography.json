@@ -84,11 +84,11 @@
       "gradient": {
         "bg": {
           "01": {
-            "value": "{sem.color.bg.gradient.01}",
+            "value": "{sem.color.gradient.bg.11}",
             "type": "color"
           },
           "02": {
-            "value": "{sem.color.bg.gradient.07}",
+            "value": "{sem.color.gradient.bg.07}",
             "type": "color"
           }
         }

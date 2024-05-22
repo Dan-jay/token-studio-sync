@@ -60,19 +60,19 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.bg.status.light.error-strong}",
+            "value": "{sem.color.status.bg.light.error-strong}",
             "type": "color"
           },
           "warning": {
-            "value": "{sem.color.bg.status.light.warning-strong}",
+            "value": "{sem.color.status.bg.light.warning-strong}",
             "type": "color"
           },
           "error-subtle": {
-            "value": "{sem.color.bg.status.light.error}",
+            "value": "{sem.color.status.bg.light.error}",
             "type": "color"
           },
           "warning-subtle": {
-            "value": "{sem.color.bg.status.light.warning}",
+            "value": "{sem.color.status.bg.light.warning}",
             "type": "color"
           }
         },
@@ -86,15 +86,15 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.border.status.light.error}",
+            "value": "{sem.color.status.border.light.error}",
             "type": "color"
           },
           "warning": {
-            "value": "{sem.color.fg.status.warning}",
+            "value": "{sem.color.status.fg.light.warning}",
             "type": "color"
           },
           "variant": {
-            "value": "{sem.color.variant.border.default}",
+            "value": "{sem.color.border.tertiary.light.default}",
             "type": "color"
           }
         },
@@ -108,11 +108,11 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.fg.status.error}",
+            "value": "{sem.color.status.fg.light.error}",
             "type": "color"
           },
           "warning": {
-            "value": "{sem.color.fg.status.warning}",
+            "value": "{sem.color.status.fg.light.warning}",
             "type": "color"
           },
           "variant": {
@@ -150,19 +150,19 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.bg.status.dark.error-strong}",
+            "value": "{sem.color.status.bg.dark.error-strong}",
             "type": "color"
           },
           "warning": {
-            "value": "{sem.color.bg.status.dark.warning-strong}",
+            "value": "{sem.color.status.bg.dark.warning-strong}",
             "type": "color"
           },
           "error-subtle": {
-            "value": "{sem.color.bg.status.dark.error}",
+            "value": "{sem.color.status.bg.dark.error}",
             "type": "color"
           },
           "warning-subtle": {
-            "value": "{sem.color.bg.status.dark.warning}",
+            "value": "{sem.color.status.bg.dark.warning}",
             "type": "color"
           }
         },
@@ -180,11 +180,11 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.border.status.dark.error}",
+            "value": "{sem.color.status.border.dark.error}",
             "type": "color"
           },
           "warning": {
-            "value": "{sem.color.border.status.dark.warning}",
+            "value": "{sem.color.status.border.dark.warning}",
             "type": "color"
           },
           "variant": {
@@ -206,11 +206,11 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.fg.status.dark-error}",
+            "value": "{sem.color.status.fg.dark.error}",
             "type": "color"
           },
           "warning": {
-            "value": "{sem.color.fg.status.dark-warning}",
+            "value": "{sem.color.status.fg.dark.warning}",
             "type": "color"
           },
           "variant": {

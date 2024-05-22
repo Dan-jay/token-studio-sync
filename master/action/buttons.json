@@ -162,7 +162,7 @@
         },
         "text": {
           "default": {
-            "value": "{sem.color.text.primary.default}",
+            "value": "{sem.color.text.primary.light.default}",
             "type": "color"
           },
           "default-alt": {

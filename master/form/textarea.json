@@ -62,7 +62,7 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.bg.status.light.error}",
+            "value": "{sem.color.status.bg.light.error}",
             "type": "color"
           }
         },
@@ -80,7 +80,7 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.border.status.light.error}",
+            "value": "{sem.color.status.border.light.error}",
             "type": "color"
           },
           "disabled": {
@@ -120,7 +120,7 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.bg.status.dark.error}",
+            "value": "{sem.color.status.bg.dark.error}",
             "type": "color"
           }
         },
@@ -142,7 +142,7 @@
             "type": "color"
           },
           "error": {
-            "value": "{sem.color.border.status.dark.error}",
+            "value": "{sem.color.status.border.dark.error}",
             "type": "color"
           }
         },

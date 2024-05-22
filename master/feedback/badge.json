@@ -21,37 +21,37 @@
     "colors": {
       "bg": {
         "default": {
-          "value": "{sem.color.bg.status.light.general-alt}",
+          "value": "{sem.color.status.bg.light.general-alt}",
           "type": "color"
         },
         "error": {
-          "value": "{sem.color.bg.status.light.error-alt}",
+          "value": "{sem.color.status.bg.light.error-alt}",
           "type": "color"
         },
         "warning": {
-          "value": "{sem.color.bg.status.light.warning-alt}",
+          "value": "{sem.color.status.bg.light.warning-alt}",
           "type": "color"
         },
         "success": {
-          "value": "{sem.color.bg.status.light.success-alt}",
+          "value": "{sem.color.status.bg.light.success-alt}",
           "type": "color"
         }
       },
       "text": {
         "default": {
-          "value": "{sem.color.fg.status.text.default}",
+          "value": "{sem.color.text.status.light.default}",
           "type": "color"
         },
         "error": {
-          "value": "{sem.color.fg.status.text.error}",
+          "value": "{sem.color.text.status.light.error}",
           "type": "color"
         },
         "success": {
-          "value": "{sem.color.fg.status.text.warning}",
+          "value": "{sem.color.text.status.light.warning}",
           "type": "color"
         },
         "warning": {
-          "value": "{sem.color.fg.status.text.success}",
+          "value": "{sem.color.text.status.light.success}",
           "type": "color"
         }
       }

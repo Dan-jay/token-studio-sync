@@ -26,7 +26,7 @@
         "type": "borderWidth"
       },
       "m": {
-        "value": "{sem.border-width.variant.s}",
+        "value": "{sem.border-width.xxs}",
         "type": "borderWidth"
       }
     },
@@ -54,37 +54,37 @@
         "light": {
           "bg": {
             "subtle-default": {
-              "value": "{sem.color.bg.status.light.general}",
+              "value": "{sem.color.status.bg.light.general}",
               "type": "color"
             },
             "subtle-error": {
-              "value": "{sem.color.bg.status.light.error}",
+              "value": "{sem.color.status.bg.light.error}",
               "type": "color"
             },
             "subtle-warning": {
-              "value": "{sem.color.bg.status.light.warning}",
+              "value": "{sem.color.status.bg.light.warning}",
               "type": "color"
             },
             "subtle-success": {
-              "value": "{sem.color.bg.status.light.success}",
+              "value": "{sem.color.status.bg.light.success}",
               "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{sem.color.border.status.light.general}",
+              "value": "{sem.color.status.border.light.general}",
               "type": "color"
             },
             "error": {
-              "value": "{sem.color.border.status.light.error}",
+              "value": "{sem.color.status.border.light.error}",
               "type": "color"
             },
             "warning": {
-              "value": "{sem.color.border.status.light.warning}",
+              "value": "{sem.color.status.border.light.warning}",
               "type": "color"
             },
             "success": {
-              "value": "{sem.color.border.status.light.success}",
+              "value": "{sem.color.status.border.light.success}",
               "type": "color"
             }
           },
@@ -104,49 +104,49 @@
         "dark": {
           "bg": {
             "subtle-default": {
-              "value": "{sem.color.bg.status.dark.general}",
+              "value": "{sem.color.status.bg.dark.general}",
               "type": "color"
             },
             "subtle-error": {
-              "value": "{sem.color.bg.status.dark.error}",
+              "value": "{sem.color.status.bg.dark.error}",
               "type": "color"
             },
             "subtle-warning": {
-              "value": "{sem.color.bg.status.dark.warning}",
+              "value": "{sem.color.status.bg.dark.warning}",
               "type": "color"
             },
             "subtle-success": {
-              "value": "{sem.color.bg.status.dark.success}",
+              "value": "{sem.color.status.bg.dark.success}",
               "type": "color"
             }
           },
           "border": {
             "default": {
-              "value": "{sem.color.border.status.dark.general}",
+              "value": "{sem.color.status.border.dark.general}",
               "type": "color"
             },
             "error": {
-              "value": "{sem.color.border.status.dark.error-subtle}",
+              "value": "{sem.color.status.border.dark.error-subtle}",
               "type": "color"
             },
             "warning": {
-              "value": "{sem.color.border.status.dark.warning}",
+              "value": "{sem.color.status.border.dark.warning}",
               "type": "color"
             },
             "success": {
-              "value": "{sem.color.border.status.dark.success}",
+              "value": "{sem.color.status.border.dark.success}",
               "type": "color"
             }
           },
           "fg": {
             "default": {
-              "value": "{sem.color.fg.status.dark-general}",
+              "value": "{sem.color.status.fg.dark.general}",
               "type": "color"
             }
           },
           "text": {
             "default": {
-              "value": "{sem.color.fg.status.dark-general}",
+              "value": "{sem.color.status.fg.dark.general}",
               "type": "color"
             }
           }
