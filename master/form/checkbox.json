@@ -6,7 +6,7 @@
         "type": "sizing"
       },
       "l": {
-        "value": "{sem.size.variant.all.100}",
+        "value": "{sem.size.all.115}",
         "type": "sizing"
       }
     },
@@ -48,7 +48,7 @@
         "type": "sizing"
       },
       "m": {
-        "value": "{sem.size.variant.icon.xl}",
+        "value": "{sem.size.icon.xxxxs}",
         "type": "sizing"
       }
     },

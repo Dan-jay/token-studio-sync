@@ -128,7 +128,7 @@
     },
     "size-icon": {
       "l": {
-        "value": "{sem.size.variant.icon.l}",
+        "value": "{sem.size.icon.ml}",
         "type": "sizing"
       }
     }

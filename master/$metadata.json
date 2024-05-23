@@ -5,11 +5,11 @@
     "theme/bt-business",
     "theme/ee",
     "form/select",
+    "form/textinput",
     "form/checkbox",
     "form/radio",
     "form/date-picker",
     "form/switch",
-    "form/textinput",
     "form/textarea",
     "action/back-to-top",
     "action/buttons",
@@ -39,6 +39,6 @@
     "comp/actions",
     "comp/inputs",
     "comp/colors",
-    "comp/date-picker"
+    "date-picker"
   ]
 }

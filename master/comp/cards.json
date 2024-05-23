@@ -52,7 +52,7 @@
         "type": "sizing"
       },
       "l": {
-        "value": "{sem.size.variant.icon.l}",
+        "value": "{sem.size.icon.ml}",
         "type": "sizing"
       },
       "xl": {
@@ -267,7 +267,8 @@
     "border-radius": {
       "s": {
         "value": "{sem.border-radius.s}",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "Latest token-master update"
       },
       "m": {
         "value": "{sem.border-radius.l}",

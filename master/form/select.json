@@ -44,6 +44,10 @@
       "l": {
         "value": "{sem.border-radius.xs}",
         "type": "borderRadius"
+      },
+      "xl-test": {
+        "value": "{sem.border-radius.xs} * {sem.scale.modifier-1}",
+        "type": "borderRadius"
       }
     },
     "border-weight": {
