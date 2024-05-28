@@ -25,7 +25,7 @@
           "type": "color"
         },
         "error": {
-          "value": "{sem.color.status.bg.light.error-alt}",
+          "value": "{sem.color.status.bg.light.error-emphasis}",
           "type": "color"
         },
         "warning": {
@@ -46,11 +46,11 @@
           "value": "{sem.color.text.status.light.error}",
           "type": "color"
         },
-        "success": {
+        "warning": {
           "value": "{sem.color.text.status.light.warning}",
           "type": "color"
         },
-        "warning": {
+        "success": {
           "value": "{sem.color.text.status.light.success}",
           "type": "color"
         }

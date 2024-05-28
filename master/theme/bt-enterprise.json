@@ -1772,6 +1772,10 @@
             "error-subtle": {
               "value": "{core.colour.bt.red.100}",
               "type": "color"
+            },
+            "error-emphasis": {
+              "value": "{core.colour.bt-bus.red.700}",
+              "type": "color"
             }
           },
           "dark": {
