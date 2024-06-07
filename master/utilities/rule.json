@@ -1,0 +1,28 @@
+{
+  "rule": {
+    "colors": {
+      "light": {
+        "border": {
+          "subtle": {
+            "value": "{sem.color.border.secondary.light.minimal}",
+            "type": "color"
+          }
+        }
+      },
+      "dark": {
+        "border": {
+          "subtle": {
+            "value": "{sem.color.border.secondary.dark.minimal}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "border-weight": {
+      "s": {
+        "value": "{sem.border-width.xs}",
+        "type": "borderWidth"
+      }
+    }
+  }
+}

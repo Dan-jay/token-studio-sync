@@ -88,6 +88,10 @@
           "value": "{sem.color.fg.secondary.light.default}",
           "type": "color"
         },
+        "strong-copy": {
+          "value": "{sem.color.fg.secondary.light.default}",
+          "type": "color"
+        },
         "subtle": {
           "value": "{sem.color.fg.secondary.light.strong}",
           "type": "color"

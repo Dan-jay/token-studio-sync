@@ -46,6 +46,10 @@
       "s": {
         "value": "{sem.space.gap.20}",
         "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.gap.60}",
+        "type": "spacing"
       }
     },
     "border-weight": {
@@ -58,7 +62,7 @@
         "type": "borderWidth"
       },
       "l": {
-        "value": "{sem.border-width.l}",
+        "value": "{sem.border-width.xl}",
         "type": "borderWidth"
       }
     },
@@ -111,12 +115,26 @@
           }
         },
         "text": {
-          "strong": {
+          "default": {
             "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           },
           "disabled": {
             "value": "{sem.color.fg.secondary.light.strong}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.fg.light.error}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.secondary.light.default}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.fg.light.error}",
             "type": "color"
           }
         }
@@ -163,12 +181,26 @@
           }
         },
         "text": {
-          "strong": {
+          "default": {
             "value": "{sem.color.fg.secondary.dark.default}",
             "type": "color"
           },
           "disabled": {
             "value": "{sem.color.fg.secondary.dark.strong}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.fg.dark.error}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.secondary.dark.default}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.fg.dark.error}",
             "type": "color"
           }
         }

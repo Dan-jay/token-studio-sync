@@ -35,6 +35,10 @@
             "value": "{sem.color.bg.secondary.light.default}",
             "type": "color"
           },
+          "default-alt": {
+            "value": "{sem.color.bg.secondary.light.minimal-alt}",
+            "type": "color"
+          },
           "hover": {
             "value": "{sem.color.bg.secondary.light.muted-subtle}",
             "type": "color"
@@ -45,8 +49,12 @@
             "value": "{sem.color.border.secondary.light.minimal}",
             "type": "color"
           },
+          "default-alt": {
+            "value": "{sem.color.border.secondary.light.muted}",
+            "type": "color"
+          },
           "hover": {
-            "value": "{sem.color.border.primary.light.minimal}",
+            "value": "{sem.color.border.secondary.light.muted}",
             "type": "color"
           }
         },

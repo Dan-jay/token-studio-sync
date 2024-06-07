@@ -66,12 +66,20 @@
       }
     },
     "border-width": {
+      "5": {
+        "value": "0.5",
+        "type": "borderWidth"
+      },
       "10": {
         "value": "1",
         "type": "borderWidth"
       },
       "20": {
         "value": "2",
+        "type": "borderWidth"
+      },
+      "25": {
+        "value": "2.5",
         "type": "borderWidth"
       },
       "30": {
@@ -1659,7 +1667,7 @@
         },
         "amber": {
           "50": {
-            "value": "#FFF9EA",
+            "value": "#fef6de",
             "type": "color"
           },
           "100": {

@@ -58,10 +58,18 @@
     },
     "border-radius": {
       "s": {
-        "value": "{sem.border-radius.xs}",
+        "value": "{sem.border-radius.xxxs}",
         "type": "borderRadius"
       },
       "m": {
+        "value": "{sem.border-radius.xxs}",
+        "type": "borderRadius"
+      },
+      "l": {
+        "value": "{sem.border-radius.xs}",
+        "type": "borderRadius"
+      },
+      "xl": {
         "value": "{sem.border-radius.xxl}",
         "type": "borderRadius"
       }
@@ -76,7 +84,7 @@
         "type": "borderWidth"
       },
       "l": {
-        "value": "{sem.border-width.l}",
+        "value": "{sem.border-width.xl}",
         "type": "borderWidth"
       }
     },
@@ -179,6 +187,10 @@
           },
           "error": {
             "value": "{sem.color.status.fg.light.error}",
+            "type": "color"
+          },
+          "hint": {
+            "value": "{sem.color.fg.secondary.light.strong}",
             "type": "color"
           }
         }

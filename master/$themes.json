@@ -42,7 +42,12 @@
       "feedback/toast": "enabled",
       "feedback/tag": "enabled",
       "feedback/badge": "enabled",
-      "feedback/alert": "enabled"
+      "feedback/alert": "enabled",
+      "navigation/segmented": "enabled",
+      "utilities/rule": "enabled",
+      "utilities/logos": "enabled",
+      "utilities/vertical-space": "enabled",
+      "navigation/header-site": "enabled"
     },
     "group": "BT"
   },
@@ -80,7 +85,12 @@
       "feedback/toast": "enabled",
       "feedback/tag": "enabled",
       "feedback/badge": "enabled",
-      "feedback/alert": "enabled"
+      "feedback/alert": "enabled",
+      "navigation/segmented": "enabled",
+      "utilities/rule": "enabled",
+      "utilities/logos": "enabled",
+      "utilities/vertical-space": "enabled",
+      "navigation/header-site": "enabled"
     },
     "group": "BT"
   },
@@ -118,7 +128,12 @@
       "feedback/toast": "enabled",
       "feedback/tag": "enabled",
       "feedback/badge": "enabled",
-      "feedback/alert": "enabled"
+      "feedback/alert": "enabled",
+      "navigation/segmented": "enabled",
+      "utilities/rule": "enabled",
+      "utilities/logos": "enabled",
+      "utilities/vertical-space": "enabled",
+      "navigation/header-site": "enabled"
     },
     "group": "BT"
   }

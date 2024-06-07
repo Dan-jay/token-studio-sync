@@ -6,7 +6,7 @@
         "type": "spacing"
       },
       "s": {
-        "value": "{sem.space.padding.40}",
+        "value": "{sem.space.padding.45}",
         "type": "spacing"
       },
       "m": {
@@ -28,19 +28,6 @@
       "m": {
         "value": "{sem.border-width.xxs}",
         "type": "borderWidth"
-      }
-    },
-    "interface": {
-      "bold": {
-        "m": {
-          "value": {
-            "fontWeight": "{sem.font-weight.bold}",
-            "fontSize": "{sem.font-size.100}",
-            "lineHeight": "{sem.line-height.base-scale.xs}",
-            "paragraphSpacing": "{sem.paragraph-spacing.body}"
-          },
-          "type": "typography"
-        }
       }
     },
     "box-shadow": {
@@ -95,7 +82,7 @@
             }
           },
           "text": {
-            "default-copy": {
+            "default": {
               "value": "{sem.color.fg.secondary.light.default}",
               "type": "color"
             }

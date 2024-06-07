@@ -1,0 +1,32 @@
+{
+  "logos": {
+    "size": {
+      "m": {
+        "value": "{sem.size.all.110}",
+        "type": "sizing"
+      }
+    },
+    "colors": {
+      "light": {
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.primary.light.default}",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{sem.color.fg.secondary.light.default}",
+            "type": "color"
+          }
+        }
+      },
+      "dark": {
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.primary.dark.default}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

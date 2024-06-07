@@ -1,0 +1,108 @@
+{
+  "segmented-control": {
+    "size-icon": {
+      "s": {
+        "value": "{sem.size.icon.m}",
+        "type": "sizing"
+      }
+    },
+    "size": {
+      "s": {
+        "value": "{sem.size.all.110}",
+        "type": "sizing"
+      }
+    },
+    "padding": {
+      "s": {
+        "value": "{sem.space.padding.40}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.padding.70}",
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "s": {
+        "value": "{sem.space.gap.20}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.gap.40}",
+        "type": "spacing"
+      }
+    },
+    "border-radius": {
+      "m": {
+        "value": "{sem.border-radius.xxl}",
+        "type": "borderRadius"
+      }
+    },
+    "border-weight": {
+      "s": {
+        "value": "{sem.border-width.xs}",
+        "type": "borderWidth"
+      },
+      "m": {
+        "value": "{sem.border-width.s}",
+        "type": "borderWidth"
+      }
+    },
+    "colors": {
+      "light": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.secondary.light.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.light.strong}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{sem.color.fg.primary.light.minimal}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.primary.light.default}",
+            "type": "color"
+          },
+          "default-alt": {
+            "value": "{sem.color.fg.secondary.light.alt}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{sem.color.fg.primary.light.emphasis}",
+            "type": "color"
+          }
+        },
+        "border": {
+          "focus": {
+            "value": "{sem.color.border.primary.light.emphasis}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{sem.color.border.secondary.light.minimal}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.fg.primary.light.default}",
+            "type": "color"
+          },
+          "default-alt": {
+            "value": "{sem.color.fg.secondary.light.alt}",
+            "type": "color"
+          },
+          "focus": {
+            "value": "{sem.color.fg.primary.light.emphasis}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

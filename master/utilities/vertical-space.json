@@ -1,0 +1,58 @@
+{
+  "vertical-space": {
+    "size": {
+      "4": {
+        "value": "{sem.size.vertical.10}",
+        "type": "sizing"
+      },
+      "8": {
+        "value": "{sem.size.vertical.20}",
+        "type": "sizing"
+      },
+      "12": {
+        "value": "{sem.size.vertical.30}",
+        "type": "sizing"
+      },
+      "16": {
+        "value": "{sem.size.vertical.40}",
+        "type": "sizing"
+      },
+      "20": {
+        "value": "{sem.size.vertical.50}",
+        "type": "sizing"
+      },
+      "24": {
+        "value": "{sem.size.vertical.60}",
+        "type": "sizing"
+      },
+      "28": {
+        "value": "{sem.size.vertical.70}",
+        "type": "sizing"
+      },
+      "32": {
+        "value": "{sem.size.vertical.80}",
+        "type": "sizing"
+      },
+      "40": {
+        "value": "{sem.size.vertical.90}",
+        "type": "sizing"
+      },
+      "48": {
+        "value": "{sem.size.vertical.100}",
+        "type": "sizing"
+      },
+      "64": {
+        "value": "{sem.size.vertical.110}",
+        "type": "sizing"
+      },
+      "96": {
+        "value": "{sem.size.vertical.120}",
+        "type": "sizing"
+      },
+      "128": {
+        "value": "{sem.size.vertical.130}",
+        "type": "sizing"
+      }
+    }
+  }
+}

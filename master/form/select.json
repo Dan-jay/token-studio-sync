@@ -44,10 +44,6 @@
       "l": {
         "value": "{sem.border-radius.xs}",
         "type": "borderRadius"
-      },
-      "xl-test": {
-        "value": "{sem.border-radius.xs} * {sem.scale.modifier-1}",
-        "type": "borderRadius"
       }
     },
     "border-weight": {
@@ -60,7 +56,7 @@
         "type": "borderWidth"
       },
       "l": {
-        "value": "{sem.border-width.l}",
+        "value": "{sem.border-width.xl}",
         "type": "borderWidth"
       }
     },
@@ -112,11 +108,11 @@
             "type": "color"
           },
           "hover-alt": {
-            "value": "{sem.color.bg.primary.light.strong}",
+            "value": "{sem.color.bg.secondary.light.minimal-alt}",
             "type": "color"
           },
           "selected": {
-            "value": "{sem.color.bg.primary.light.minimal-alt}",
+            "value": "{sem.color.bg.primary.light.subtle-alt}",
             "type": "color"
           }
         },
@@ -133,12 +129,16 @@
             "value": "{sem.color.border.primary.light.emphasis}",
             "type": "color"
           },
+          "disabled": {
+            "value": "{sem.color.border.secondary.light.subtle}",
+            "type": "color"
+          },
           "error": {
             "value": "{sem.color.status.border.light.error}",
             "type": "color"
           },
-          "disabled": {
-            "value": "{sem.color.border.secondary.light.subtle}",
+          "subtle": {
+            "value": "{sem.color.border.secondary.light.minimal}",
             "type": "color"
           }
         },
@@ -154,6 +154,10 @@
           "subtle": {
             "value": "{sem.color.border.secondary.light.minimal}",
             "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.fg.light.error}",
+            "type": "color"
           }
         },
         "text": {
@@ -161,8 +165,16 @@
             "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
           },
+          "default-alt": {
+            "value": "{sem.color.text.primary.light.default-alt}",
+            "type": "color"
+          },
           "disabled": {
             "value": "{sem.color.fg.secondary.light.strong}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.fg.light.error}",
             "type": "color"
           }
         }
@@ -214,6 +226,10 @@
           "error": {
             "value": "{sem.color.status.border.dark.error}",
             "type": "color"
+          },
+          "subtle": {
+            "value": "{sem.color.border.secondary.dark.minimal}",
+            "type": "color"
           }
         },
         "text": {
@@ -223,6 +239,10 @@
           },
           "disabled": {
             "value": "{sem.color.fg.secondary.dark.strong}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.text.status.dark.error}",
             "type": "color"
           }
         },
@@ -238,8 +258,26 @@
           "subtle": {
             "value": "{sem.color.border.secondary.dark.minimal}",
             "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.fg.dark.error}",
+            "type": "color"
           }
         }
+      }
+    },
+    "border-radius-test": {
+      "s": {
+        "value": "{sem.border-radius.xxxxs} * {sem.scale.modifier-1}",
+        "type": "borderRadius"
+      },
+      "m": {
+        "value": "{sem.border-radius.xxxxs} * {sem.scale.modifier-2}",
+        "type": "borderRadius"
+      },
+      "l": {
+        "value": "{sem.border-radius.xxxxs} * {sem.scale.modifier-3}",
+        "type": "borderRadius"
       }
     }
   }

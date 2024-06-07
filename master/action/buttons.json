@@ -1,6 +1,14 @@
 {
   "buttons": {
     "padding": {
+      "xxxs": {
+        "value": "{sem.space.padding.15}",
+        "type": "spacing"
+      },
+      "xxs": {
+        "value": "{sem.space.padding.20}",
+        "type": "spacing"
+      },
       "xs": {
         "value": "{sem.space.padding.40}",
         "type": "spacing"
@@ -55,6 +63,10 @@
         "value": "{sem.size.all.90}",
         "type": "sizing"
       },
+      "s-copy": {
+        "value": "{sem.size.all.90}",
+        "type": "sizing"
+      },
       "m": {
         "value": "{sem.size.all.130}",
         "type": "sizing"
@@ -83,8 +95,17 @@
       }
     },
     "border-weight": {
+      "xs": {
+        "value": "{sem.border-width.xxxs}",
+        "type": "borderWidth",
+        "description": "0.5 border-weight needed, core, semantic token will need to be created"
+      },
       "s": {
         "value": "{sem.border-width.s}",
+        "type": "borderWidth"
+      },
+      "m": {
+        "value": "{sem.border-width.m}",
         "type": "borderWidth"
       }
     },
@@ -143,6 +164,10 @@
             "value": "{sem.color.fg.secondary.light.alt}",
             "type": "color"
           },
+          "default-strong": {
+            "value": "{sem.color.fg.primary.light.default}",
+            "type": "color"
+          },
           "hover": {
             "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
@@ -169,16 +194,16 @@
             "value": "{sem.color.fg.secondary.light.alt}",
             "type": "color"
           },
-          "disabled": {
-            "value": "{sem.color.fg.secondary.light.strong}",
-            "type": "color"
-          },
           "hover": {
             "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
           },
           "pressed": {
             "value": "{sem.color.fg.primary.light.minimal}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.fg.secondary.light.strong}",
             "type": "color"
           }
         },
@@ -255,6 +280,10 @@
             "value": "{sem.color.bg.secondary.dark.muted}",
             "type": "color"
           },
+          "hover-alt": {
+            "value": "{sem.color.bg.secondary.dark.muted-alt}",
+            "type": "color"
+          },
           "subtle": {
             "value": "{sem.color.bg.secondary.dark.minimal}",
             "type": "color"
@@ -275,6 +304,10 @@
           },
           "disabled": {
             "value": "{sem.color.border.secondary.dark.subtle}",
+            "type": "color"
+          },
+          "subtle": {
+            "value": "{sem.color.border.secondary.dark.muted}",
             "type": "color"
           }
         },

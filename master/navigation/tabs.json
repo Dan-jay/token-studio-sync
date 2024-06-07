@@ -2,7 +2,7 @@
   "tabs": {
     "border-weight": {
       "s": {
-        "value": "{sem.border-width.none}",
+        "value": "{sem.border-width.xxxxs}",
         "type": "borderWidth"
       },
       "m": {
@@ -16,7 +16,7 @@
     },
     "border-radius": {
       "s": {
-        "value": "{sem.border-radius.s}",
+        "value": "{sem.border-radius.xxxxxs}",
         "type": "borderRadius"
       }
     },
