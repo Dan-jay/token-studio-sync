@@ -4,7 +4,8 @@
     "name": "core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "core": "enabled"
+      "core": "enabled",
+      "action/buttons-ent": "disabled"
     },
     "group": "Global"
   },
@@ -47,7 +48,10 @@
       "utilities/rule": "enabled",
       "utilities/logos": "enabled",
       "utilities/vertical-space": "enabled",
-      "navigation/header-site": "enabled"
+      "figma/bt-curve": "enabled",
+      "navigation/header-menu": "enabled",
+      "navigation/header": "enabled",
+      "action/buttons-ent": "disabled"
     },
     "group": "BT"
   },
@@ -90,7 +94,10 @@
       "utilities/rule": "enabled",
       "utilities/logos": "enabled",
       "utilities/vertical-space": "enabled",
-      "navigation/header-site": "enabled"
+      "figma/bt-curve": "enabled",
+      "navigation/header-menu": "enabled",
+      "navigation/header": "enabled",
+      "action/buttons-ent": "disabled"
     },
     "group": "BT"
   },
@@ -133,7 +140,9 @@
       "utilities/rule": "enabled",
       "utilities/logos": "enabled",
       "utilities/vertical-space": "enabled",
-      "navigation/header-site": "enabled"
+      "navigation/header-menu": "enabled",
+      "navigation/header": "enabled",
+      "action/buttons-ent": "disabled"
     },
     "group": "BT"
   }

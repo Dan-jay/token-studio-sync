@@ -1,6 +1,10 @@
 {
   "alert": {
     "padding": {
+      "xxs": {
+        "value": "{sem.space.padding.10}",
+        "type": "spacing"
+      },
       "xs": {
         "value": "{sem.space.padding.30}",
         "type": "spacing"

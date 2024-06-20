@@ -58,7 +58,7 @@
     },
     "border-radius": {
       "s": {
-        "value": "{sem.border-radius.xxxs}",
+        "value": "{sem.border-radius.xxxl}",
         "type": "borderRadius"
       },
       "m": {

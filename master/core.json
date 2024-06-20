@@ -8,6 +8,10 @@
       }
     },
     "border-radius": {
+      "10": {
+        "value": "{core.border-radius.base} * 12.5",
+        "type": "borderRadius"
+      },
       "25": {
         "value": "{core.border-radius.base} * 25",
         "type": "borderRadius"
@@ -366,6 +370,10 @@
         "value": "{core.dimension.base} * 300",
         "type": "dimension"
       },
+      "325": {
+        "value": "{core.dimension.base} * 325",
+        "type": "dimension"
+      },
       "350": {
         "value": "{core.dimension.base} * 350",
         "type": "dimension"
@@ -390,8 +398,16 @@
         "value": "{core.dimension.base} * 500",
         "type": "dimension"
       },
+      "550": {
+        "value": "{core.dimension.base} * 575",
+        "type": "dimension"
+      },
       "600": {
         "value": "{core.dimension.base} * 600",
+        "type": "dimension"
+      },
+      "625": {
+        "value": "{core.dimension.base} * 662.5",
         "type": "dimension"
       },
       "700": {

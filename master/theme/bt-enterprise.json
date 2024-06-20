@@ -20,7 +20,7 @@
         "type": "fontWeights"
       },
       "semi": {
-        "value": "Headline",
+        "value": "500",
         "type": "fontWeights"
       },
       "bold": {
@@ -1132,55 +1132,49 @@
         }
       },
       "all": {
+        "5": {
+          "value": "{core.dimension.12}",
+          "type": "sizing"
+        },
         "10": {
           "value": "{core.dimension.6}",
-          "type": "sizing",
-          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+          "type": "sizing"
         },
         "20": {
           "value": "{core.dimension.25}",
-          "type": "sizing",
-          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+          "type": "sizing"
         },
         "30": {
           "value": "{core.dimension.50}",
-          "type": "sizing",
-          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+          "type": "sizing"
         },
         "40": {
           "value": "{core.dimension.75}",
-          "type": "sizing",
-          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+          "type": "sizing"
         },
         "45": {
           "value": "{core.dimension.87}",
-          "type": "sizing",
-          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+          "type": "sizing"
         },
         "50": {
           "value": "{core.dimension.100}",
-          "type": "sizing",
-          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+          "type": "sizing"
         },
         "60": {
           "value": "{core.dimension.125}",
-          "type": "sizing",
-          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+          "type": "sizing"
         },
         "70": {
           "value": "{core.dimension.150}",
-          "type": "sizing",
-          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+          "type": "sizing"
         },
         "80": {
           "value": "{core.dimension.175}",
-          "type": "sizing",
-          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+          "type": "sizing"
         },
         "85": {
           "value": "{core.dimension.175}",
-          "type": "sizing",
-          "description": "This can be reserved for commonly used components: buttons, dropdowns, inputs etc"
+          "type": "sizing"
         },
         "90": {
           "value": "{core.dimension.200}",
@@ -1214,6 +1208,10 @@
           "value": "{core.dimension.300}",
           "type": "sizing"
         },
+        "142": {
+          "value": "{core.dimension.325}",
+          "type": "sizing"
+        },
         "145": {
           "value": "{core.dimension.350}",
           "type": "sizing"
@@ -1238,8 +1236,20 @@
           "value": "{core.dimension.600}",
           "type": "sizing"
         },
+        "175": {
+          "value": "{core.dimension.600}",
+          "type": "sizing"
+        },
+        "178": {
+          "value": "{core.dimension.450}",
+          "type": "sizing"
+        },
         "180": {
           "value": "{core.dimension.800}",
+          "type": "sizing"
+        },
+        "182": {
+          "value": "{core.dimension.625}",
           "type": "sizing"
         },
         "185": {
@@ -1429,6 +1439,10 @@
           "type": "spacing"
         },
         "140": {
+          "value": "{core.dimension.250}",
+          "type": "spacing"
+        },
+        "145": {
           "value": "{core.dimension.250}",
           "type": "spacing"
         },
@@ -1667,6 +1681,10 @@
       }
     },
     "border-radius": {
+      "xxxxxxs": {
+        "value": "{core.border-radius.10}",
+        "type": "borderRadius"
+      },
       "xxxxxs": {
         "value": "{core.border-radius.50}",
         "type": "borderRadius"
@@ -1707,6 +1725,10 @@
         "value": "{core.border-radius.pill}",
         "type": "borderRadius"
       },
+      "xxxl": {
+        "value": "{core.border-radius.25}",
+        "type": "borderRadius"
+      },
       "variant": {
         "s": {
           "value": "{core.border-radius.25}",
@@ -1714,6 +1736,10 @@
         },
         "m": {
           "value": "{core.border-radius.25}",
+          "type": "borderRadius"
+        },
+        "l": {
+          "value": "{core.border-radius.50}",
           "type": "borderRadius"
         }
       }

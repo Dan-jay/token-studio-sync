@@ -16,6 +16,10 @@
           "strong": {
             "value": "{sem.color.fg.secondary.light.default}",
             "type": "color"
+          },
+          "variant": {
+            "value": "{sem.color.gradient.bg.11}",
+            "type": "color"
           }
         }
       },
