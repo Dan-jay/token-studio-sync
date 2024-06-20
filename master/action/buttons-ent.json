@@ -1,5 +1,5 @@
 {
-  "buttons": {
+  "buttons-ent": {
     "padding": {
       "xxxs": {
         "value": "{sem.space.padding.15}",
@@ -88,21 +88,6 @@
       "xl": {
         "value": "{sem.size.icon.xxxxl}",
         "type": "sizing"
-      }
-    },
-    "border-weight": {
-      "xs": {
-        "value": "{sem.border-width.xxxs}",
-        "type": "borderWidth",
-        "description": "0.5 border-weight needed, core, semantic token will need to be created"
-      },
-      "s": {
-        "value": "{sem.border-width.s}",
-        "type": "borderWidth"
-      },
-      "m": {
-        "value": "{sem.border-width.m}",
-        "type": "borderWidth"
       }
     },
     "colors": {
@@ -419,6 +404,23 @@
             "type": "color"
           }
         }
+      }
+    }
+  },
+  "buttons": {
+    "border-weight": {
+      "xs": {
+        "value": "{sem.border-width.xxxs}",
+        "type": "borderWidth",
+        "description": "0.5 border-weight needed, core, semantic token will need to be created"
+      },
+      "s": {
+        "value": "{sem.border-width.s}",
+        "type": "borderWidth"
+      },
+      "m": {
+        "value": "{sem.border-width.m}",
+        "type": "borderWidth"
       }
     }
   }
