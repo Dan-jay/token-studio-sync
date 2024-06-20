@@ -49,7 +49,8 @@
       "utilities/vertical-space": "enabled",
       "figma/bt-curve": "enabled",
       "navigation/header-menu": "enabled",
-      "navigation/header": "enabled"
+      "navigation/header": "enabled",
+      "action/buttons-ent": "enabled"
     },
     "group": "BT"
   },
@@ -94,7 +95,8 @@
       "utilities/vertical-space": "enabled",
       "figma/bt-curve": "enabled",
       "navigation/header-menu": "enabled",
-      "navigation/header": "enabled"
+      "navigation/header": "enabled",
+      "action/buttons-ent": "enabled"
     },
     "group": "BT"
   },
@@ -138,7 +140,8 @@
       "utilities/logos": "enabled",
       "utilities/vertical-space": "enabled",
       "navigation/header-menu": "enabled",
-      "navigation/header": "enabled"
+      "navigation/header": "enabled",
+      "action/buttons-ent": "enabled"
     },
     "group": "BT"
   }
