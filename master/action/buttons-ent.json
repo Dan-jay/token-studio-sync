@@ -1,32 +1,12 @@
 {
   "buttons-ent": {
     "padding": {
-      "xxs": {
-        "value": "{sem.space.padding.20}",
-        "type": "spacing"
-      },
-      "xs": {
-        "value": "{sem.space.padding.40}",
-        "type": "spacing"
-      },
       "s": {
         "value": "{sem.space.padding.50}",
         "type": "spacing"
       },
       "m": {
         "value": "{sem.space.padding.60}",
-        "type": "spacing"
-      },
-      "l": {
-        "value": "{sem.space.padding.70}",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "{sem.space.padding.80}",
-        "type": "spacing"
-      },
-      "xxl": {
-        "value": "{sem.space.padding.110}",
         "type": "spacing"
       }
     },
@@ -51,30 +31,46 @@
       }
     },
     "size": {
+      "xxs": {
+        "value": "{sem.size.all.60}",
+        "type": "sizing"
+      },
+      "xs": {
+        "value": "{sem.size.all.70}",
+        "type": "sizing"
+      },
       "s": {
-        "value": "{sem.size.all.90}",
+        "value": "{sem.size.all.80}",
         "type": "sizing"
       },
       "m": {
-        "value": "{sem.size.all.130}",
+        "value": "{sem.size.all.90}",
         "type": "sizing"
       },
       "l": {
-        "value": "{sem.size.all.140}",
+        "value": "{sem.size.all.130}",
         "type": "sizing"
       },
       "xl": {
+        "value": "{sem.size.all.140}",
+        "type": "sizing"
+      },
+      "xxl": {
         "value": "{sem.size.all.155}",
         "type": "sizing"
       }
     },
     "size-icon": {
-      "m": {
-        "value": "{sem.size.icon.s}",
+      "xs": {
+        "value": "{sem.size.icon.xxxs}",
         "type": "sizing"
       },
       "s": {
         "value": "{sem.size.icon.xs}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{sem.size.icon.s}",
         "type": "sizing"
       },
       "l": {
