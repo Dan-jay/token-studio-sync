@@ -51,6 +51,16 @@
           }
         }
       }
+    },
+    "gap": {
+      "xs": {
+        "value": "{sem.space.gap.30}",
+        "type": "spacing"
+      },
+      "s": {
+        "value": "{sem.space.gap.40}",
+        "type": "spacing"
+      }
     }
   }
 }
