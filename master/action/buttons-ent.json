@@ -8,6 +8,10 @@
       "m": {
         "value": "{sem.space.padding.60}",
         "type": "spacing"
+      },
+      "l": {
+        "value": "{sem.space.padding.70}",
+        "type": "spacing"
       }
     },
     "gap": {
