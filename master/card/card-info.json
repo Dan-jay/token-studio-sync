@@ -93,6 +93,16 @@
           }
         }
       }
+    },
+    "size-copy": {
+      "m": {
+        "value": "{sem.size.all.165}",
+        "type": "sizing"
+      },
+      "l": {
+        "value": "{sem.size.all.170}",
+        "type": "sizing"
+      }
     }
   }
 }

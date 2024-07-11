@@ -131,9 +131,17 @@
         "value": "{sem.border-radius.xxl}",
         "type": "borderRadius"
       }
-    }
-  },
-  "inputs": {
+    },
+    "box-shadow": {
+      "01": {
+        "value": "{core.box-shadow.drop-shadow.05}",
+        "type": "boxShadow"
+      },
+      "02": {
+        "value": "{core.box-shadow.drop-shadow.06}",
+        "type": "boxShadow"
+      }
+    },
     "gap": {
       "s": {
         "value": "{sem.space.gap.40}",

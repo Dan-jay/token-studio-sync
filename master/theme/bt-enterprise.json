@@ -1074,6 +1074,18 @@
     },
     "size": {
       "icon": {
+        "xxxxxxs": {
+          "value": "{core.dimension.62}",
+          "type": "sizing"
+        },
+        "xxxxxl": {
+          "value": "{core.dimension.500}",
+          "type": "sizing"
+        },
+        "xxxxs": {
+          "value": "{core.dimension.200}",
+          "type": "sizing"
+        },
         "xxxs": {
           "value": "{core.dimension.75}",
           "type": "sizing"
@@ -1118,16 +1130,8 @@
           "value": "{core.dimension.400}",
           "type": "sizing"
         },
-        "xxxxxl": {
-          "value": "{core.dimension.500}",
-          "type": "sizing"
-        },
         "xxxxxxl": {
           "value": "{core.dimension.600}",
-          "type": "sizing"
-        },
-        "xxxxs": {
-          "value": "{core.dimension.200}",
           "type": "sizing"
         }
       },
@@ -1166,6 +1170,10 @@
         },
         "70": {
           "value": "{core.dimension.150}",
+          "type": "sizing"
+        },
+        "75": {
+          "value": "{core.dimension.155}",
           "type": "sizing"
         },
         "80": {
@@ -1227,6 +1235,11 @@
         "160": {
           "value": "{core.dimension.400}",
           "type": "sizing"
+        },
+        "162": {
+          "value": "{core.dimension.525}",
+          "type": "sizing",
+          "description": "SiteHeader (ENT)"
         },
         "165": {
           "value": "{core.dimension.500}",
@@ -1461,6 +1474,10 @@
         "180": {
           "value": "{core.dimension.400}",
           "type": "spacing"
+        },
+        "190": {
+          "value": "{core.dimension.800}",
+          "type": "spacing"
         }
       },
       "gap": {
@@ -1534,6 +1551,10 @@
         },
         "180": {
           "value": "{core.dimension.400}",
+          "type": "spacing"
+        },
+        "190": {
+          "value": "{core.dimension.800}",
           "type": "spacing"
         }
       },
@@ -1835,6 +1856,22 @@
             "type": "color",
             "description": "turquoise-gradient"
           }
+        },
+        "tertiary": {
+          "light": {
+            "emphasis": {
+              "value": "{core.colour.bt.gradient.1}",
+              "type": "color",
+              "description": "turquoise-gradient"
+            }
+          },
+          "dark": {
+            "emphasis": {
+              "value": "{core.colour.bt.gradient.13}",
+              "type": "color",
+              "description": "turquoise-gradient"
+            }
+          }
         }
       },
       "status": {
@@ -2063,6 +2100,11 @@
               "type": "color",
               "description": "Brand indigo"
             },
+            "emphasis-subtle": {
+              "value": "{core.colour.bt.indigo.400}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
             "minimal": {
               "value": "{core.colour.bt.indigo.200}",
               "type": "color"
@@ -2122,7 +2164,7 @@
               "type": "color"
             },
             "muted": {
-              "value": "{core.colour.bt-bus.neutral.400}",
+              "value": "{core.colour.bt.neutral.400}",
               "type": "color"
             }
           },
@@ -2148,7 +2190,7 @@
               "type": "color"
             },
             "muted": {
-              "value": "{core.colour.bt-bus.neutral.700}",
+              "value": "{core.colour.bt.neutral.700}",
               "type": "color"
             }
           }
@@ -2156,7 +2198,7 @@
         "tertiary": {
           "light": {
             "default": {
-              "value": "{sem.color.border.primary.light.default}",
+              "value": "{core.colour.bt.indigo.800}",
               "type": "color",
               "description": "Used: Progress-stepper / "
             }
@@ -2173,6 +2215,11 @@
             },
             "default-alt": {
               "value": "{core.colour.bt.indigo.800}",
+              "type": "color",
+              "description": "Brand indigo"
+            },
+            "default-strong": {
+              "value": "{core.colour.bt-bus.indigo.800}",
               "type": "color",
               "description": "Brand indigo"
             },
@@ -2394,6 +2441,10 @@
             "default-alt": {
               "value": "{core.colour.bt.indigo.800}",
               "type": "color"
+            },
+            "subtle-alt": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
             }
           },
           "dark": {
@@ -2460,6 +2511,14 @@
             },
             "strong-alt": {
               "value": "{core.colour.bt.neutral.900}",
+              "type": "color"
+            },
+            "muted-alt": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            },
+            "strong-subtle": {
+              "value": "{core.colour.bt.neutral.50}",
               "type": "color"
             }
           },
@@ -2543,6 +2602,18 @@
             "default-strong": {
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
+            },
+            "emphasis": {
+              "value": "{core.colour.bt.pink.300}",
+              "type": "color"
+            },
+            "subtle": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            },
+            "strong": {
+              "value": "{core.colour.bt-bus.neutral.800}",
+              "type": "color"
             }
           },
           "dark": {
@@ -2620,7 +2691,7 @@
         "type": "sizing"
       },
       "modifier-2": {
-        "value": "3",
+        "value": "0",
         "type": "sizing"
       },
       "modifier-3": {

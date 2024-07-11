@@ -1,0 +1,74 @@
+{
+  "universalHeader": {
+    "size": {
+      "s": {
+        "value": "{sem.size.all.90}",
+        "type": "sizing"
+      }
+    },
+    "padding": {
+      "s": {
+        "value": "{sem.space.padding.50}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.padding.70}",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "{sem.space.padding.110}",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "{sem.space.padding.130}",
+        "type": "spacing"
+      }
+    },
+    "gap": {
+      "s": {
+        "value": "{sem.space.gap.30}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.gap.60}",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "{sem.space.gap.130}",
+        "type": "spacing"
+      }
+    },
+    "size-icon": {
+      "s": {
+        "value": "{sem.size.icon.xxxxxxs}",
+        "type": "sizing"
+      }
+    },
+    "colors": {
+      "light": {
+        "bg": {
+          "default": {
+            "value": "{sem.color.bg.secondary.light.muted}",
+            "type": "color"
+          }
+        },
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.secondary.light.default}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.text.primary.light.strong}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.light.strong}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

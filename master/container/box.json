@@ -33,6 +33,10 @@
             "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
           },
+          "error-subtle": {
+            "value": "{sem.color.status.bg.light.error-alt}",
+            "type": "color"
+          },
           "minimal": {
             "value": "{core.colour.bt.neutral.100}",
             "type": "color"

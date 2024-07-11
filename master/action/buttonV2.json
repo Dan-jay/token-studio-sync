@@ -1,5 +1,5 @@
 {
-  "buttons": {
+  "buttonV2": {
     "padding": {
       "xxxs": {
         "value": "{sem.space.padding.15}",
@@ -374,16 +374,16 @@
             "value": "{sem.color.fg.secondary.dark.alt}",
             "type": "color"
           },
-          "disabled": {
-            "value": "{sem.color.fg.secondary.dark.strong}",
-            "type": "color"
-          },
           "hover": {
             "value": "{sem.color.fg.primary.dark.strong}",
             "type": "color"
           },
           "pressed": {
             "value": "{sem.color.bg.primary.dark.minimal-alt}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.fg.secondary.dark.strong}",
             "type": "color"
           }
         },

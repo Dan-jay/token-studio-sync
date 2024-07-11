@@ -1,0 +1,51 @@
+{
+  "styles": {
+    "colors": {
+      "surface": {
+        "light": {
+          "default": {
+            "value": "{sem.color.bg.secondary.light.default}",
+            "type": "color"
+          }
+        },
+        "dark": {
+          "default-alt": {
+            "value": "{sem.color.bg.secondary.light.strong-alt}",
+            "type": "color"
+          }
+        },
+        "default-primary": {
+          "value": "{sem.color.bg.primary.light.default}",
+          "type": "color"
+        },
+        "lighter": {
+          "value": "{core.colour.bt.neutral.100}",
+          "type": "color"
+        },
+        "darker": {
+          "value": "{sem.color.bg.secondary.light.alt}",
+          "type": "color"
+        },
+        "bg-light-01": {
+          "value": "{sem.color.gradient.bg.11}",
+          "type": "color",
+          "description": "Brand gradient (light)"
+        },
+        "bg-light-02": {
+          "value": "{sem.color.gradient.bg.08}",
+          "type": "color",
+          "description": "coral-gradient"
+        },
+        "bg-light-03": {
+          "value": "{sem.color.gradient.bg.05}",
+          "type": "color",
+          "description": "turquoise-gradient"
+        },
+        "default-alt": {
+          "value": "{sem.color.bg.secondary.light.strong-alt}",
+          "type": "color"
+        }
+      }
+    }
+  }
+}

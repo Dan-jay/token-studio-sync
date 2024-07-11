@@ -1,0 +1,34 @@
+{
+  "focus": {
+    "colors": {
+      "light": {
+        "border": {
+          "subtle": {
+            "value": "{sem.color.border.primary.light.emphasis}",
+            "type": "color"
+          }
+        }
+      },
+      "dark": {
+        "border": {
+          "subtle": {
+            "value": "{sem.color.border.primary.dark.emphasis}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "border-weight": {
+      "s": {
+        "value": "{sem.border-width.s}",
+        "type": "borderWidth"
+      }
+    },
+    "border-radius": {
+      "s": {
+        "value": "{sem.border-radius.s}",
+        "type": "borderRadius"
+      }
+    }
+  }
+}

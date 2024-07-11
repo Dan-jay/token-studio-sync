@@ -1,5 +1,5 @@
 {
-  "buttons-ent": {
+  "button": {
     "padding": {
       "s": {
         "value": "{sem.space.padding.50}",
@@ -12,9 +12,25 @@
       "l": {
         "value": "{sem.space.padding.70}",
         "type": "spacing"
+      },
+      "xl": {
+        "value": "{sem.space.padding.80}",
+        "type": "spacing"
+      },
+      "xxl": {
+        "value": "{sem.space.padding.90}",
+        "type": "spacing"
+      },
+      "xxxl": {
+        "value": "{sem.space.padding.110}",
+        "type": "spacing"
       }
     },
     "gap": {
+      "xs": {
+        "value": "{sem.space.gap.10}",
+        "type": "spacing"
+      },
       "s": {
         "value": "{sem.space.gap.20}",
         "type": "spacing"
@@ -104,18 +120,6 @@
           "disabled": {
             "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
-          },
-          "strong": {
-            "value": "{sem.color.bg.secondary.light.muted}",
-            "type": "color"
-          },
-          "subtle": {
-            "value": "{sem.color.bg.secondary.light.muted-alt}",
-            "type": "color"
-          },
-          "minimal": {
-            "value": "{sem.color.bg.secondary.light.minimal-alt}",
-            "type": "color"
           }
         },
         "border": {
@@ -141,10 +145,6 @@
             "value": "{sem.color.fg.secondary.light.alt}",
             "type": "color"
           },
-          "default-strong": {
-            "value": "{sem.color.fg.primary.light.default}",
-            "type": "color"
-          },
           "hover": {
             "value": "{sem.color.fg.primary.light.strong}",
             "type": "color"
@@ -155,10 +155,6 @@
           },
           "disabled": {
             "value": "{sem.color.fg.secondary.light.strong}",
-            "type": "color"
-          },
-          "strong-subtle": {
-            "value": "{sem.color.fg.secondary.light.subtle-alt}",
             "type": "color"
           }
         },
@@ -202,22 +198,6 @@
           "disabled": {
             "value": "{sem.color.bg.secondary.dark.muted}",
             "type": "color"
-          },
-          "strong": {
-            "value": "{sem.color.bg.secondary.dark.muted}",
-            "type": "color"
-          },
-          "hover-alt": {
-            "value": "{sem.color.bg.secondary.dark.muted-alt}",
-            "type": "color"
-          },
-          "subtle": {
-            "value": "{sem.color.bg.secondary.dark.minimal}",
-            "type": "color"
-          },
-          "minimal": {
-            "value": "{sem.color.bg.secondary.dark.minimal}",
-            "type": "color"
           }
         },
         "border": {
@@ -231,10 +211,6 @@
           },
           "disabled": {
             "value": "{sem.color.border.secondary.dark.subtle}",
-            "type": "color"
-          },
-          "subtle": {
-            "value": "{sem.color.border.secondary.dark.muted}",
             "type": "color"
           }
         },
@@ -258,14 +234,6 @@
           "disabled": {
             "value": "{sem.color.fg.secondary.dark.strong}",
             "type": "color"
-          },
-          "strong": {
-            "value": "{sem.color.fg.secondary.dark.strong}",
-            "type": "color"
-          },
-          "strong-subtle": {
-            "value": "{sem.color.fg.secondary.dark.subtle-alt}",
-            "type": "color"
           }
         },
         "text": {
@@ -277,16 +245,16 @@
             "value": "{sem.color.fg.secondary.dark.alt}",
             "type": "color"
           },
-          "disabled": {
-            "value": "{sem.color.fg.secondary.dark.strong}",
-            "type": "color"
-          },
           "hover": {
             "value": "{sem.color.fg.primary.dark.strong}",
             "type": "color"
           },
           "pressed": {
             "value": "{sem.color.bg.primary.dark.minimal-alt}",
+            "type": "color"
+          },
+          "disabled": {
+            "value": "{sem.color.fg.secondary.dark.strong}",
             "type": "color"
           }
         }

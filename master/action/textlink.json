@@ -1,0 +1,102 @@
+{
+  "textlink": {
+    "size": {
+      "s": {
+        "value": "{sem.size.all.60}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{sem.size.all.70}",
+        "type": "sizing"
+      },
+      "l": {
+        "value": "{sem.size.all.75}",
+        "type": "sizing"
+      }
+    },
+    "size-icon": {
+      "s": {
+        "value": "{sem.size.icon.s}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{sem.size.icon.m}",
+        "type": "sizing"
+      }
+    },
+    "padding": {
+      "s": {
+        "value": "{sem.space.padding.10}",
+        "type": "spacing"
+      }
+    },
+    "colors": {
+      "light": {
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.primary.light.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.light.strong}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{sem.color.border.primary.light.emphasis}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.fg.primary.light.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.light.strong}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{sem.color.border.primary.light.emphasis}",
+            "type": "color"
+          }
+        }
+      },
+      "dark": {
+        "fg": {
+          "default": {
+            "value": "{sem.color.fg.primary.dark.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.dark.strong}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{sem.color.fg.primary.dark.emphasis}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.fg.primary.dark.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.dark.strong}",
+            "type": "color"
+          },
+          "visited": {
+            "value": "{sem.color.fg.primary.dark.emphasis}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "gap": {
+      "s": {
+        "value": "{sem.space.gap.20}",
+        "type": "spacing"
+      }
+    }
+  }
+}

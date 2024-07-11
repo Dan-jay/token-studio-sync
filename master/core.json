@@ -334,6 +334,10 @@
         "value": "{core.dimension.base} * 150",
         "type": "dimension"
       },
+      "155": {
+        "value": "{core.dimension.base} * 162.5",
+        "type": "dimension"
+      },
       "175": {
         "value": "{core.dimension.base} * 175",
         "type": "dimension"
@@ -396,6 +400,10 @@
       },
       "500": {
         "value": "{core.dimension.base} * 500",
+        "type": "dimension"
+      },
+      "525": {
+        "value": "{core.dimension.base} * 525",
         "type": "dimension"
       },
       "550": {

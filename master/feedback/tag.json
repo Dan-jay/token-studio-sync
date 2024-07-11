@@ -7,6 +7,10 @@
       }
     },
     "padding": {
+      "xxs": {
+        "value": "{sem.space.padding.20}",
+        "type": "spacing"
+      },
       "xs": {
         "value": "{sem.space.padding.30}",
         "type": "spacing"

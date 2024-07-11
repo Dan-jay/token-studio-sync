@@ -1,5 +1,5 @@
 {
-  "card-typography": {
+  "card": {
     "colors": {
       "light": {
         "bg": {
@@ -10,6 +10,10 @@
           "default-alt": {
             "value": "{sem.color.bg.secondary.light.default}",
             "type": "color"
+          },
+          "emphasis": {
+            "value": "{sem.color.gradient.bg.07}",
+            "type": "color"
           }
         },
         "fg": {
@@ -19,12 +23,12 @@
           }
         },
         "border": {
-          "hover": {
-            "value": "{sem.color.border.primary.light.strong}",
-            "type": "color"
-          },
           "default": {
             "value": "{sem.color.border.secondary.light.minimal}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.border.primary.light.strong}",
             "type": "color"
           }
         },
@@ -51,6 +55,10 @@
           },
           "default-alt": {
             "value": "{sem.color.bg.secondary.dark.default}",
+            "type": "color"
+          },
+          "emphasis": {
+            "value": "{sem.color.gradient.bg.11}",
             "type": "color"
           }
         },
@@ -80,26 +88,14 @@
             "type": "color"
           }
         }
-      },
-      "gradient": {
-        "bg": {
-          "01": {
-            "value": "{sem.color.gradient.bg.11}",
-            "type": "color"
-          },
-          "02": {
-            "value": "{sem.color.gradient.bg.07}",
-            "type": "color"
-          }
-        }
       }
     },
     "padding": {
-      "m": {
+      "s": {
         "value": "{sem.space.padding.110}",
         "type": "spacing"
       },
-      "l": {
+      "m": {
         "value": "{sem.space.padding.130}",
         "type": "spacing"
       }
@@ -121,14 +117,48 @@
       }
     },
     "gap": {
-      "m": {
+      "xs": {
+        "value": "{sem.space.gap.40}",
+        "type": "spacing"
+      },
+      "s": {
         "value": "{sem.space.gap.70}",
+        "type": "spacing"
+      },
+      "m": {
+        "value": "{sem.space.gap.90}",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "{sem.space.gap.100}",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "{sem.space.gap.110}",
         "type": "spacing"
       }
     },
-    "size-icon": {
+    "size": {
+      "s": {
+        "value": "{sem.size.all.140}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{sem.size.all.165}",
+        "type": "sizing"
+      },
       "l": {
+        "value": "{sem.size.all.170}",
+        "type": "sizing"
+      }
+    },
+    "size-icon": {
+      "s": {
         "value": "{sem.size.icon.ml}",
+        "type": "sizing"
+      },
+      "m": {
+        "value": "{sem.size.icon.xxxxxl}",
         "type": "sizing"
       }
     }
