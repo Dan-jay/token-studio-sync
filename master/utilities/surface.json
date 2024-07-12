@@ -1,0 +1,18 @@
+{
+  "surface": {
+    "colors": {
+      "light": {
+        "bg": {
+          "brand": {
+            "value": "{sem.color.gradient.bg.11}",
+            "type": "color"
+          },
+          "brand-flat": {
+            "value": "{sem.color.bg.primary.light.default}",
+            "type": "color"
+          }
+        }
+      }
+    }
+  }
+}

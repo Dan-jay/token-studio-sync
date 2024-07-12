@@ -23,8 +23,6 @@
       "form/textinput": "enabled",
       "form/textarea": "enabled",
       "action/back-to-top": "enabled",
-      "card/card-impact": "enabled",
-      "card/card-info": "enabled",
       "navigation/tabs": "enabled",
       "navigation/pagination": "enabled",
       "navigation/breadcrumb": "enabled",
@@ -54,7 +52,9 @@
       "action/button": "enabled",
       "utilities/focus": "enabled",
       "navigation/universalHeader": "enabled",
-      "cards/card": "enabled"
+      "cards/card": "enabled",
+      "utilities/surface": "enabled",
+      "navigation/filter": "enabled"
     },
     "group": "BT"
   },
@@ -73,8 +73,6 @@
       "form/textinput": "enabled",
       "form/textarea": "enabled",
       "action/back-to-top": "enabled",
-      "card/card-impact": "enabled",
-      "card/card-info": "enabled",
       "navigation/tabs": "enabled",
       "navigation/pagination": "enabled",
       "navigation/breadcrumb": "enabled",
@@ -104,7 +102,9 @@
       "action/button": "enabled",
       "utilities/focus": "enabled",
       "navigation/universalHeader": "enabled",
-      "cards/card": "enabled"
+      "cards/card": "enabled",
+      "utilities/surface": "enabled",
+      "navigation/filter": "enabled"
     },
     "group": "BT"
   },
@@ -123,8 +123,6 @@
       "form/textinput": "enabled",
       "form/textarea": "enabled",
       "action/back-to-top": "enabled",
-      "card/card-impact": "enabled",
-      "card/card-info": "enabled",
       "navigation/tabs": "enabled",
       "navigation/pagination": "enabled",
       "navigation/breadcrumb": "enabled",
@@ -153,7 +151,9 @@
       "action/button": "enabled",
       "utilities/focus": "enabled",
       "navigation/universalHeader": "enabled",
-      "cards/card": "enabled"
+      "cards/card": "enabled",
+      "utilities/surface": "enabled",
+      "navigation/filter": "enabled"
     },
     "group": "BT"
   }

@@ -26,11 +26,15 @@
         "type": "spacing"
       },
       "m": {
-        "value": "{sem.space.gap.60}",
+        "value": "{sem.space.padding.60}",
         "type": "spacing"
       },
       "l": {
-        "value": "{sem.space.gap.70}",
+        "value": "{sem.space.padding.70}",
+        "type": "spacing"
+      },
+      "xl": {
+        "value": "{sem.space.padding.110}",
         "type": "spacing"
       }
     },
@@ -41,6 +45,10 @@
       },
       "m": {
         "value": "{sem.space.gap.30}",
+        "type": "spacing"
+      },
+      "l": {
+        "value": "{sem.space.gap.60}",
         "type": "spacing"
       }
     },
@@ -70,6 +78,10 @@
           "subtle": {
             "value": "{sem.color.bg.secondary.light.muted}",
             "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.bg.light.error-alt}",
+            "type": "color"
           }
         },
         "border": {
@@ -83,6 +95,10 @@
           },
           "focus": {
             "value": "{sem.color.border.primary.light.emphasis}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.border.light.error}",
             "type": "color"
           }
         },
@@ -112,6 +128,10 @@
           "selected": {
             "value": "{sem.color.fg.primary.light.minimal}",
             "type": "color"
+          },
+          "strong": {
+            "value": "{sem.color.text.primary.light.strong}",
+            "type": "color"
           }
         }
       },
@@ -123,6 +143,10 @@
           },
           "subtle": {
             "value": "{sem.color.bg.secondary.dark.muted-alt}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.bg.dark.error-subtle}",
             "type": "color"
           }
         },
@@ -137,6 +161,10 @@
           },
           "focus": {
             "value": "{sem.color.border.primary.dark.emphasis}",
+            "type": "color"
+          },
+          "error": {
+            "value": "{sem.color.status.border.dark.error-minimal}",
             "type": "color"
           }
         },
@@ -169,6 +197,10 @@
           },
           "selected": {
             "value": "{sem.color.bg.primary.dark.minimal-alt}",
+            "type": "color"
+          },
+          "strong": {
+            "value": "{sem.color.text.primary.dark.strong}",
             "type": "color"
           }
         }

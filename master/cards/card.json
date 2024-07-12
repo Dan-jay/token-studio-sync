@@ -20,6 +20,14 @@
           "default": {
             "value": "{sem.color.fg.primary.light.default-alt}",
             "type": "color"
+          },
+          "default-alt": {
+            "value": "{sem.color.bg.secondary.light.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.fg.primary.light.subtle}",
+            "type": "color"
           }
         },
         "border": {
@@ -29,6 +37,10 @@
           },
           "hover": {
             "value": "{sem.color.border.primary.light.strong}",
+            "type": "color"
+          },
+          "minimal": {
+            "value": "{sem.color.border.primary.light.minimal}",
             "type": "color"
           }
         },

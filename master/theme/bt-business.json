@@ -2013,6 +2013,10 @@
             "default": {
               "value": "{core.colour.bt-bus.neutral.50}",
               "type": "color"
+            },
+            "error-subtle": {
+              "value": "{core.colour.bt.red.1000}",
+              "type": "color"
             }
           }
         },
@@ -2618,6 +2622,10 @@
           "dark": {
             "default": {
               "value": "{core.colour.bt-bus.neutral.50}",
+              "type": "color"
+            },
+            "strong": {
+              "value": "{core.colour.bt.neutral.50}",
               "type": "color"
             }
           }
