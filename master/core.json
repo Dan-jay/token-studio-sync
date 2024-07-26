@@ -1347,6 +1347,10 @@
           "12": {
             "value": "linear-gradient(135deg, #f8efff 0%, #fadde8 100%)",
             "type": "color"
+          },
+          "13": {
+            "value": "linear-gradient(135deg, #009BA5 0%, #ebf304 100%)",
+            "type": "color"
           }
         },
         "white": {

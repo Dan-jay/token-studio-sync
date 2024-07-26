@@ -1951,6 +1951,10 @@
               "value": "{core.colour.bt.green.50}",
               "type": "color"
             },
+            "success-copy": {
+              "value": "{core.colour.bt.green.50}",
+              "type": "color"
+            },
             "general": {
               "value": "{core.colour.bt.neutral.100}",
               "type": "color"
@@ -2206,6 +2210,12 @@
               "type": "color",
               "description": "Used: Progress-stepper / "
             }
+          },
+          "dark": {
+            "default": {
+              "value": "{core.colour.bt-bus.indigo.400}",
+              "type": "color"
+            }
           }
         }
       },
@@ -2288,6 +2298,10 @@
           "light": {
             "default": {
               "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "default-alt": {
+              "value": "{core.colour.bt.neutral.100}",
               "type": "color"
             },
             "subtle": {
@@ -2599,6 +2613,10 @@
               "value": "{core.colour.bt-bus.indigo.800}",
               "type": "color"
             },
+            "hover": {
+              "value": "{core.colour.bt-bus.indigo.1000}",
+              "type": "color"
+            },
             "default-alt": {
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
@@ -2625,8 +2643,66 @@
               "value": "{core.colour.bt.neutral.50}",
               "type": "color"
             },
+            "default-alt": {
+              "value": "{core.colour.bt.indigo.100}",
+              "type": "color"
+            },
             "strong": {
               "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "strong-alt": {
+              "value": "{core.colour.bt.pink.100}",
+              "type": "color"
+            }
+          }
+        },
+        "secondary": {
+          "light": {
+            "default": {
+              "value": "{core.colour.bt-bus.indigo.800}",
+              "type": "color"
+            },
+            "hover": {
+              "value": "{core.colour.bt-bus.indigo.1000}",
+              "type": "color"
+            },
+            "default-alt": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "default-strong": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "emphasis": {
+              "value": "{core.colour.bt.pink.300}",
+              "type": "color"
+            },
+            "subtle": {
+              "value": "{core.colour.bt.neutral.700}",
+              "type": "color"
+            },
+            "strong": {
+              "value": "{core.colour.bt-bus.neutral.800}",
+              "type": "color"
+            }
+          },
+          "dark": {
+            "default": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "default-alt": {
+              "value": "{core.colour.bt.indigo.100}",
+              "type": "color"
+            },
+            "strong": {
+              "value": "{core.colour.bt.neutral.50}",
+              "type": "color"
+            },
+            "strong-alt": {
+              "value": "{core.colour.bt.pink.100}",
               "type": "color"
             }
           }

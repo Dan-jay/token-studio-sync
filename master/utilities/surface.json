@@ -1,16 +1,46 @@
 {
   "surface": {
     "colors": {
-      "light": {
-        "bg": {
-          "brand": {
-            "value": "{sem.color.gradient.bg.11}",
-            "type": "color"
-          },
-          "brand-flat": {
-            "value": "{sem.color.bg.primary.light.default}",
-            "type": "color"
-          }
+      "bg": {
+        "dark-brand-02": {
+          "value": "{sem.color.gradient.bg.11}",
+          "type": "color"
+        },
+        "dark-brand-01": {
+          "value": "{sem.color.bg.primary.light.default}",
+          "type": "color"
+        },
+        "dark-neutral-01": {
+          "value": "{sem.color.bg.secondary.dark.muted}",
+          "type": "color"
+        },
+        "dark-neutral-02": {
+          "value": "{sem.color.bg.secondary.light.alt}",
+          "type": "color"
+        },
+        "light-white": {
+          "value": "{sem.color.bg.secondary.dark.strong-alt}",
+          "type": "color"
+        },
+        "light-neutral-01": {
+          "value": "{sem.color.bg.secondary.light.default-alt}",
+          "type": "color"
+        },
+        "light-neutral-02": {
+          "value": "{sem.color.bg.secondary.light.muted}",
+          "type": "color"
+        },
+        "light-brand-01": {
+          "value": "{sem.color.gradient.bg.08}",
+          "type": "color"
+        },
+        "light-brand-02": {
+          "value": "{sem.color.gradient.bg.05}",
+          "type": "color"
+        },
+        "dark-black": {
+          "value": "{sem.color.bg.secondary.light.strong-alt}",
+          "type": "color"
         }
       }
     }

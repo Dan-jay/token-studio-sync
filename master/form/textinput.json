@@ -54,7 +54,7 @@
     },
     "border-weight": {
       "s": {
-        "value": "{sem.border-width.s}",
+        "value": "{sem.border-width.xs}",
         "type": "borderWidth"
       },
       "m": {

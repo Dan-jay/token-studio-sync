@@ -129,6 +129,10 @@
             "value": "{sem.color.border.primary.light.strong}",
             "type": "color"
           },
+          "focus": {
+            "value": "{sem.color.border.primary.light.emphasis}",
+            "type": "color"
+          },
           "selected": {
             "value": "{sem.color.border.primary.light.minimal-alt}",
             "type": "color"

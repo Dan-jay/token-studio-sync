@@ -26,6 +26,10 @@
       "s": {
         "value": "{sem.border-width.xs}",
         "type": "borderWidth"
+      },
+      "m": {
+        "value": "{sem.border-width.m}",
+        "type": "borderWidth"
       }
     },
     "colors": {
@@ -34,11 +38,19 @@
           "default": {
             "value": "{sem.color.border.primary.light.minimal}",
             "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.border.primary.light.strong}",
+            "type": "color"
           }
         },
         "bg": {
           "default": {
             "value": "{sem.color.bg.secondary.light.default}",
+            "type": "color"
+          },
+          "selected": {
+            "value": "{sem.color.bg.primary.light.default}",
             "type": "color"
           }
         },
@@ -46,8 +58,68 @@
           "default": {
             "value": "{sem.color.text.primary.light.default}",
             "type": "color"
+          },
+          "default-alt": {
+            "value": "{sem.color.text.secondary.light.default-alt}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.text.primary.light.hover}",
+            "type": "color"
           }
         }
+      },
+      "dark": {
+        "border": {
+          "default": {
+            "value": "{sem.color.border.tertiary.dark.default}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.border.primary.light.strong}",
+            "type": "color"
+          }
+        },
+        "bg": {
+          "selected": {
+            "value": "{sem.color.bg.secondary.light.default}",
+            "type": "color"
+          },
+          "default": {
+            "value": "{sem.color.bg.secondary.dark.default}",
+            "type": "color"
+          }
+        },
+        "text": {
+          "default": {
+            "value": "{sem.color.text.primary.light.default}",
+            "type": "color"
+          },
+          "default-alt": {
+            "value": "{sem.color.text.primary.dark.default-alt}",
+            "type": "color"
+          },
+          "hover": {
+            "value": "{sem.color.text.primary.dark.strong-alt}",
+            "type": "color"
+          },
+          "seleced": {
+            "value": "{sem.color.text.primary.light.hover}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "gap": {
+      "l": {
+        "value": "{sem.space.gap.70}",
+        "type": "spacing"
+      }
+    },
+    "margin": {
+      "m": {
+        "value": "{sem.space.gap.70}",
+        "type": "spacing"
       }
     }
   }
